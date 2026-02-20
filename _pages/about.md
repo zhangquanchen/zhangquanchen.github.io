@@ -51,7 +51,7 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">ICCV</div>
-      <img src='images/visrl.png' alt="VisRL">
+      <img src='images/visrl.png' alt="VisRL" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
@@ -72,7 +72,7 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">CVPR</div>
-      <img src='images/dv-matcher.png' alt="DV-Matcher">
+      <img src='images/dv-matcher.png' alt="DV-Matcher" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
@@ -93,7 +93,7 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">AAAI</div>
-      <img src='images/sifthinker.png' alt="SIFThinker">
+      <img src='images/sifthinker.png' alt="SIFThinker" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
@@ -114,7 +114,7 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">arXiv</div>
-      <img src='images/3dthinker.png' alt="3DThinker">
+      <img src='images/3dthinker.png' alt="3DThinker" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
@@ -137,7 +137,7 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">arXiv</div>
-      <img src='images/omnivideo-r1.png' alt="OmniVideo-R1">
+      <img src='images/omnivideo-r1.png' alt="OmniVideo-R1" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
@@ -154,7 +154,7 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">ICANN</div>
-      <img src='images/threephase.png' alt="Three-Phases-LORA">
+      <img src='images/threephase.png' alt="Three-Phases-LORA" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
@@ -171,7 +171,7 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">arXiv</div>
-      <img src='images/a-grae.png' alt="A-GRAE">
+      <img src='images/a-grae.png' alt="A-GRAE" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
@@ -192,7 +192,7 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">arXiv</div>
-      <img src='images/nfr.gif' alt="NFR">
+      <img src='images/nfr.gif' alt="NFR" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
@@ -209,7 +209,7 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">ICLR</div>
-      <img src='images/vif.png' alt="ViF">
+      <img src='images/vif.png' alt="ViF" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
@@ -228,7 +228,7 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">arXiv</div>
-      <img src='images/calmars.png' alt="CALMARS">
+      <img src='images/calmars.png' alt="CALMARS" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
@@ -245,7 +245,7 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">arXiv</div>
-      <img src='images/visualdoc.png' alt="MACT">
+      <img src='images/visualdoc.png' alt="MACT" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
@@ -262,7 +262,7 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">arXiv</div>
-      <img src='images/reasonvla.png' alt="Reasoning-VLA">
+      <img src='images/reasonvla.png' alt="Reasoning-VLA" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
@@ -279,7 +279,7 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">arXiv</div>
-      <img src='images/dualagent.png' alt="L²-VMAS">
+      <img src='images/dualagent.png' alt="L²-VMAS" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
@@ -298,7 +298,7 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">arXiv</div>
-      <img src='images/vismem.png' alt="VisMem">
+      <img src='images/vismem.png' alt="VisMem" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
@@ -317,7 +317,7 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">arXiv</div>
-      <img src='images/topology.png' alt="OmniZoo">
+      <img src='images/topology.png' alt="OmniZoo" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
@@ -334,7 +334,7 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">arXiv</div>
-      <img src='images/evofsm.png' alt="EvoFSM">
+      <img src='images/evofsm.png' alt="EvoFSM" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
