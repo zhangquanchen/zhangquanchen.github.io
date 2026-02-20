@@ -45,10 +45,20 @@
     flex-direction: row !important;
     flex-wrap: nowrap !important;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     gap: 1.2em;
     border-bottom: 1px #efefef solid;
     padding: 1.5em 0;
+
+    @media screen and (max-width: 600px) {
+        flex-direction: column !important;
+        align-items: center;
+
+        .paper-box-image {
+            width: auto;
+            min-width: unset;
+        }
+    }
 
     .paper-box-image {
         flex-shrink: 0 !important;
