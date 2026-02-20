@@ -41,17 +41,20 @@
 @import "print";
 
 .paper-box {
-    display: flex;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-direction: row;
-    flex-wrap: nowrap;
     gap: 1.2em;
     border-bottom: 1px #efefef solid;
     padding: 1.5em 0;
 
     .paper-box-image {
-        flex-shrink: 0;
+        flex-shrink: 0 !important;
+        flex-grow: 0;
+        width: 160px;
+        min-width: 160px;
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
