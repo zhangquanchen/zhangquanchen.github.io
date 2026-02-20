@@ -44,8 +44,9 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-direction: column;
-    gap: 1em;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1.2em;
     border-bottom: 1px #efefef solid;
     padding: 1.5em 0;
 
