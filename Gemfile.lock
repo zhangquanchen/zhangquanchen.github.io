@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/kindrowboat/pathutil.git
+  revision: 3451a10c362fc867b20c7e471a551b31c40a0246
+  branch: fix-issue-4
+  specs:
+    pathutil (0.16.2)
+      forwardable-extended (~> 2.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -231,8 +239,6 @@ GEM
     octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
-    pathutil (0.16.2)
-      forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
     racc (1.6.0)
     rb-fsevent (0.11.0)
@@ -266,6 +272,7 @@ GEM
       unf_ext
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
+    webrick (1.9.2)
     zeitwerk (2.4.2)
 
 PLATFORMS
@@ -277,6 +284,8 @@ DEPENDENCIES
   hawkins
   jekyll-feed
   jekyll-sitemap
+  pathutil!
+  webrick
 
 BUNDLED WITH
    2.2.19

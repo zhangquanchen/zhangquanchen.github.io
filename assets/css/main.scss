@@ -42,49 +42,80 @@
 
 .paper-box {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 1.2em;
     border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    padding: 1.5em 0;
 
-    .paper-box-image{
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 2;
-        img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
-        }
-    }
-    
-    .paper-box-text{
-        max-width: 100%;
+    .paper-box-image {
+        flex-shrink: 0;
         order: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .paper-image-wrap {
+            position: relative;
+        }
+        img, video {
+            width: 160px;
+            height: auto;
+            max-height: 200px;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+        }
     }
-    
+
+    .paper-box-text {
+        flex: 1;
+        min-width: 0;
+        order: 2;
+    }
+
+    .paper-title {
+        font-weight: 700;
+        font-size: 1.15em;
+        line-height: 1.4;
+        margin-bottom: 0.35em;
+    }
+
+    .paper-authors {
+        font-size: 1.05em;
+        color: #555;
+        margin-bottom: 0.3em;
+        strong {
+            color: #000;
+            font-weight: 800;
+        }
+    }
+
+    .paper-venue {
+        font-size: 1em;
+        font-weight: 700;
+        font-style: italic;
+        color: #A31515;
+        margin-bottom: 0.4em;
+    }
+
+    .paper-links {
+        font-size: 1em;
+        a {
+            color: #007ACC;
+            margin-right: 0.3em;
+        }
+        a:hover { text-decoration: underline; }
+        .link-sep { color: #999; margin: 0 0.4em; }
+        i { margin-right: 0.25em; }
+    }
+
     @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
+        .paper-box-text {
+            padding-left: 0;
         }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
-            order: 2;
-        }
-
     }
-
-
 }
 
 $scroll_offset : 2em;
@@ -106,4 +137,9 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+    border-radius: 4px;
+}
+
+.badge-red {
+    background-color: #A31515;
 }

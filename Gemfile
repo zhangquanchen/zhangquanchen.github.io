@@ -1,5 +1,11 @@
 source "https://rubygems.org"
 
+# pathutil 0.16.2 与 Ruby 3.x 不兼容，使用修复版本覆盖
+gem "pathutil", git: "https://github.com/kindrowboat/pathutil.git", branch: "fix-issue-4"
+
+# Ruby 3.0+ 将 webrick 移出标准库，jekyll serve 需要显式添加
+gem "webrick"
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
