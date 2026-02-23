@@ -18,17 +18,19 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 👋 About Me
-
-I am currently a PhD student at [Tsinghua University](https://www.tsinghua.edu.cn/), working on reinforced reasoning of multimodal large language models. Prior to this, I earned my B.S. in Electronic Engineering from [Sun Yat-sen University](https://www.sysu.edu.cn/).
+I am currently a PhD student at [Tsinghua University](https://www.tsinghua.edu.cn/), devoted to advancing AGI by enhancing the understanding capabilities of multimodal large language models. My main focus is on reinforced reasoning, including latent reasoning, spatial reasoning, etc.. Prior to this, I earned my B.S. in Electronic Engineering from [Sun Yat-sen University](https://www.sysu.edu.cn/).
 
 From 2026, I work as a Research Intern (青云人才计划) at [Hunyuan Group](https://hunyuan.tencent.com/), Tencent, Inc. At the end of 2025, I was at LongCat Foundation Group, [Meituan](https://www.meituan.com/), Inc., working with [Manyuan Zhang](https://scholar.google.com.hk/citations?user=ZYmcm0EAAAAJ&hl=en). Before that, I worked as a Research Intern (筋斗云人才计划) at [ByteDance](https://www.bytedance.com/zh/), working with [Yangyang Kang](https://scholar.google.com/citations?user=EuJk27UAAAAJ&hl=zh-CN) and [Ruihui Zhao](https://scholar.google.com/citations?user=0okAFQMAAAAJ&hl=en). From 2024 to 2025, I worked as a Research Intern at AI/ML Group of [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia-zh-cn/), working with [Xufang Luo](https://www.microsoft.com/en-us/research/people/xufluo/) and [Dongsheng Li](https://scholar.google.com/citations?hl=zh-CN&user=VNg5rA8AAAAJ&view_op=list_works&sortby=pubdate). I also interned at QQ Foundation Group, [Tencent](https://www.tencent.com/en-us/), Inc. in 2024, working with [Dian Li](https://scholar.google.com/citations?user=rF7HU94AAAAJ&hl=zh-CN).
 
 Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](https://shizhe.chat/), an AI education startup that has completed Series A funding.
 
+I am currently seeking suitable collaboration or job opportunities. Feel free to reach out! ([czq23@mails.tsinghua.edu.cn](mailto:czq23@mails.tsinghua.edu.cn)).
+
 
 <span class='anchor' id='news'></span>
 
 # 🔥 News
+- *2026.02*: &nbsp;🎉 Three papers accepted by CVPR 2026.
 - *2026.01*: &nbsp;🎉 One paper accepted by ICLR 2026.
 - *2025.11*: &nbsp;🎉 Two papers accepted by AAAI 2026, one as <span style="color:red">Oral</span> (top 3.5%).
 - *2025.06*: &nbsp;🎉 One paper accepted by ICCV 2025.
@@ -113,14 +115,14 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
+      <div class="badge">CVPR</div>
       <img src='images/3dthinker.png' alt="3DThinker" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'>Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views</div>
     <div class='paper-authors'><strong>Zhangquan Chen</strong>, Manyuan Zhang, Xinlei Yu, Xufang Luo, Mingze Sun, Zihao Pan, Yan Feng, Peng Pei, Xunliang Cai, Ruqi Huang</div>
-    <div class='paper-venue'>arXiv 2025</div>
+    <div class='paper-venue'>CVPR 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2510.18632"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
@@ -244,14 +246,14 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
+      <div class="badge">CVPR</div>
       <img src='images/visualdoc.png' alt="MACT" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'>Visual Document Understanding and Reasoning: A Multi-Agent Collaboration Framework with Agent-Wise Adaptive Test-Time Scaling</div>
     <div class='paper-authors'>Xinlei Yu, Chengming Xu, <strong>Zhangquan Chen</strong>, Yudong Zhang, Shilin Lu, Cheng Yang, Jiangning Zhang, Shuicheng Yan, Xiaobin Hu</div>
-    <div class='paper-venue'>arXiv 2025</div>
+    <div class='paper-venue'>CVPR 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2508.03404"><i class="fas fa-file-pdf"></i> Paper</a>
     </div>
@@ -297,14 +299,14 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
+      <div class="badge">CVPR</div>
       <img src='images/vismem.png' alt="VisMem" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'>VisMem: Latent Vision Memory Unlocks Potential of Vision-Language Models</div>
     <div class='paper-authors'>Xinlei Yu, Chengming Xu, Guibin Zhang, <strong>Zhangquan Chen</strong>, Yudong Zhang, Yongbo He, Peng-Tao Jiang, Jiangning Zhang, Xiaobin Hu, Shuicheng Yan</div>
-    <div class='paper-venue'>arXiv 2025</div>
+    <div class='paper-venue'>CVPR 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2511.11007"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
@@ -404,8 +406,18 @@ Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](h
 # 💬 Services
 **Reviewer:** ICML, ICLR, AAAI, and other top-tier conferences/journals in computer vision and machine learning.
 
-<!-- {% if site.clustrmaps_id %}
+<span class='anchor' id='visitor-stats'></span>
+
 # 📊 Visitor Statistics
 
-{% include visitor-map.html %}
-{% endif %} -->
+<div class="visitor-stats" style="margin: 2em 0; padding: 1.5em; background: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; text-align: center;">
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <span id="busuanzi_container_site_uv" style="margin-right: 1.5em;">
+    <i class="fas fa-user" style="margin-right: 0.3em;"></i>
+    Total visitors: <span id="busuanzi_value_site_uv"></span>
+  </span>
+  <span id="busuanzi_container_page_pv">
+    <i class="fas fa-file-alt" style="margin-right: 0.3em;"></i>
+    Page views: <span id="busuanzi_value_page_pv"></span>
+  </span>
+</div>
