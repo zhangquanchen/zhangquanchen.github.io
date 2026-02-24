@@ -41,7 +41,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='education'></span>
 
 # 📖 Education
-- **Sep. 2026 - Jun. 2028:** **Ph.D**., Data Science and Information Technology, **Tsinghua University**, Beijing, China.
+- **Sep. 2026 - Dec. 2027:** **Ph.D**., Data Science and Information Technology, **Tsinghua University**, Beijing, China.
 - **Sep. 2023 - Jun. 2026:** M.Sc.(change to Ph.D.), Data Science and Information Technology, **Tsinghua University**, Beijing, China.
 - **Sep. 2019 - Jun. 2023:** B.Sc., Electronic Information Science and Technology, Sun Yat-sen University, Guangzhou, China. (**Rank 2/123**)
 
