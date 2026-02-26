@@ -48,7 +48,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='publications'></span>
 
 # 📝 Publications 
-
+<!-- <p style="font-size: 0.9em; color: #666; margin-bottom: 1em;">† Equal contribution</p> -->
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
@@ -59,7 +59,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-text'>
     <div class='paper-title'>VisRL: Intention-Driven Visual Perception via Reinforced Reasoning</div>
     <div class='paper-authors'><strong>Zhangquan Chen</strong>, Xufang Luo, Dongsheng Li</div>
-    <div class='paper-venue'>ICCV 2025 (CVPRW Highlight)</div>
+    <div class='paper-venue'>International Conference on Computer Vision (<strong>ICCV</strong>) & CVPRW <strong>Highlight</strong>, 2025</div>
     <div class='paper-links'>
       <a href="https://tsinghua88.github.io/visrl.github.io/"><i class="fas fa-home"></i> Project page</a>
       <span class="link-sep">|</span>
@@ -80,7 +80,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-text'>
     <div class='paper-title'>DV-Matcher: Deformation-based Non-Rigid Point Cloud Matching Guided by Pre-trained Visual Features</div>
     <div class='paper-authors'><strong>Zhangquan Chen</strong>, Puhua Jiang, Ruqi Huang</div>
-    <div class='paper-venue'>CVPR 2025</div>
+    <div class='paper-venue'>Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2025</div>
     <div class='paper-links'>
       <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_DV-Matcher_Deformation-based_Non-rigid_Point_Cloud_Matching_Guided_by_Pre-trained_Visual_CVPR_2025_paper.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
@@ -101,7 +101,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-text'>
     <div class='paper-title'>SIFThinker: Spatially-Aware Image Focus for Visual Reasoning</div>
     <div class='paper-authors'><strong>Zhangquan Chen</strong>, Ruihui Zhao, Chuwei Luo, Mingze Sun, Xinlei Yu, Yangyang Kang, Ruqi Huang</div>
-    <div class='paper-venue'>AAAI 2026</div>
+    <div class='paper-venue'><strong>AAAI</strong> Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2508.06259"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
@@ -122,7 +122,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-text'>
     <div class='paper-title'>Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views</div>
     <div class='paper-authors'><strong>Zhangquan Chen</strong>, Manyuan Zhang, Xinlei Yu, Xufang Luo, Mingze Sun, Zihao Pan, Yan Feng, Peng Pei, Xunliang Cai, Ruqi Huang</div>
-    <div class='paper-venue'>CVPR 2026</div>
+    <div class='paper-venue'>Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2510.18632"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
@@ -162,7 +162,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-text'>
     <div class='paper-title'>A Three-Phases-LORA Finetuned Hybrid LLM Integrated with Strong Prior Module in the Education Context</div>
     <div class='paper-authors'><strong>Zhangquan Chen</strong>, Chunjiang Liu, Haobin Duan</div>
-    <div class='paper-venue'>ICANN 2024</div>
+    <div class='paper-venue'>International Conference on Artificial Neural Networks, 2024</div>
     <div class='paper-links'>
       <a href="https://link.springer.com/chapter/10.1007/978-3-031-72344-5_16"><i class="fas fa-file-pdf"></i> Paper</a>
     </div>
@@ -179,7 +179,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-text'>
     <div class='paper-title'>Unveiling Implicit Advantage Symmetry: Why GRPO Struggles with Exploration and Difficulty Adaptation</div>
     <div class='paper-authors'>Zhiqi Yu†, <strong>Zhangquan Chen</strong>†, Mengting Liu, Heye Zhang, Liangqiong Qu</div>
-    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-venue'>(† equal contribution) arXiv 2026</div>
     <div class='paper-links'>
       <a href="https://yu7-code.github.io/A-GRAE-web/"><i class="fas fa-home"></i> Project page</a>
       <span class="link-sep">|</span>
@@ -200,7 +200,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-text'>
     <div class='paper-title'>NFR: Neural Feature-Guided Non-Rigid Shape Registration</div>
     <div class='paper-authors'>Puhua Jiang†, <strong>Zhangquan Chen</strong>†, Mingze Sun†, Ruqi Huang</div>
-    <div class='paper-venue'>arXiv 2025</div>
+    <div class='paper-venue'>(† equal contribution) arXiv 2025</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2505.22445"><i class="fas fa-file-pdf"></i> Paper</a>
     </div>
@@ -217,7 +217,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-text'>
     <div class='paper-title'>Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow</div>
     <div class='paper-authors'>Xinlei Yu, Chengming Xu, Guibin Zhang, Yongbo He, <strong>Zhangquan Chen</strong>, Zhucun Xue, Jiangning Zhang, Yue Liao, Xiaobin Hu, Yu-Gang Jiang, Shuicheng Yan</div>
-    <div class='paper-venue'>ICLR 2026</div>
+    <div class='paper-venue'>International Conference on Learning Representations (<strong>ICLR</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2509.21789"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
@@ -253,7 +253,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-text'>
     <div class='paper-title'>Visual Document Understanding and Reasoning: A Multi-Agent Collaboration Framework with Agent-Wise Adaptive Test-Time Scaling</div>
     <div class='paper-authors'>Xinlei Yu, Chengming Xu, <strong>Zhangquan Chen</strong>, Yudong Zhang, Shilin Lu, Cheng Yang, Jiangning Zhang, Shuicheng Yan, Xiaobin Hu</div>
-    <div class='paper-venue'>CVPR 2026</div>
+    <div class='paper-venue'>Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2508.03404"><i class="fas fa-file-pdf"></i> Paper</a>
     </div>
@@ -306,7 +306,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-text'>
     <div class='paper-title'>VisMem: Latent Vision Memory Unlocks Potential of Vision-Language Models</div>
     <div class='paper-authors'>Xinlei Yu, Chengming Xu, Guibin Zhang, <strong>Zhangquan Chen</strong>, Yudong Zhang, Yongbo He, Peng-Tao Jiang, Jiangning Zhang, Xiaobin Hu, Shuicheng Yan</div>
-    <div class='paper-venue'>CVPR 2026</div>
+    <div class='paper-venue'>Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2511.11007"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
