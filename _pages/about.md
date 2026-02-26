@@ -101,7 +101,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-text'>
     <div class='paper-title'>SIFThinker: Spatially-Aware Image Focus for Visual Reasoning</div>
     <div class='paper-authors'><strong>Zhangquan Chen</strong>, Ruihui Zhao, Chuwei Luo, Mingze Sun, Xinlei Yu, Yangyang Kang, Ruqi Huang</div>
-    <div class='paper-venue'><strong>AAAI</strong> Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026</div>
+    <div class='paper-venue'>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2508.06259"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
