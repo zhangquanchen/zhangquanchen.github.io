@@ -210,6 +210,25 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/gtasr.png' alt="GTASR" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Joint Geometric and Trajectory Consistency Learning for One-Step Real-World Super-Resolution</div>
+    <div class='paper-authors'>Chengyan Deng, <strong>Zhangquan Chen</strong>, Li Yu, Kai Zhang, Xue Zhou, Wang Zhang</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2602.24240"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/Blazedengcy/GTASR"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
       <div class="badge">ICLR</div>
       <img src='images/vif.png' alt="ViF" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
