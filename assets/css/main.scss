@@ -140,24 +140,28 @@ h1:before, .anchor:before {
 
 /* Education section with school logos */
 .education-item {
-    display: flex;
-    align-items: center;
+    display: flex !important;
+    align-items: center !important;
     gap: 1em;
     margin-bottom: 1em;
     padding: 0.5em 0;
     border-bottom: none;
 }
 .education-logo {
-    flex-shrink: 0;
-    width: 48px;
-    height: 48px;
+    flex-shrink: 0 !important;
+    width: 48px !important;
+    height: 48px !important;
     display: flex;
     align-items: center;
     justify-content: center;
     img {
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
+        width: 48px !important;
+        height: 48px !important;
+        max-width: 48px !important;
+        max-height: 48px !important;
+        object-fit: contain !important;
+        border-radius: 0 !important;
+        margin-bottom: 0 !important;
     }
 }
 .education-text {
@@ -167,15 +171,18 @@ h1:before, .anchor:before {
 }
 
 .internship-logos {
-    display: flex;
-    align-items: center;
+    display: flex !important;
+    align-items: center !important;
     gap: 2em;
     margin: 1em 0 1.5em;
     flex-wrap: wrap;
     img {
-        height: 40px;
-        width: auto;
-        object-fit: contain;
+        height: 40px !important;
+        width: auto !important;
+        max-width: 200px !important;
+        object-fit: contain !important;
+        border-radius: 0 !important;
+        margin-bottom: 0 !important;
     }
 }
 

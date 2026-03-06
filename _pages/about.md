@@ -388,10 +388,12 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 <div class="internship-logos">
   <img src="images/msra.png" alt="Microsoft Research Asia">
-  <img src="images/bytedance.png" alt="ByteDance" style="height: 35px;">
+  <img src="images/tencent.png" alt="Tencent">
+  <img src="images/bytedance.png" alt="ByteDance">
   <img src="images/hunyuan.png" alt="Tencent Hunyuan">
+  <img src="images/meituan.png" alt="Meituan">
   <img src="images/longcat.png" alt="Meituan LongCat">
-  <img src="images/qq.png" alt="QQ" style="height: 35px;">
+  <img src="images/qq.png" alt="QQ">
 </div>
 
 - **Dec 2025 – Present:** [Tencent](https://www.tencent.com/en-us/) · Research Intern (青云人才计划) · [Hunyuan](https://hunyuan.tencent.com/) Multimodal LLM Group
