@@ -388,10 +388,8 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 <div class="internship-logos">
   <img src="images/msra.png" alt="Microsoft Research Asia">
-  <img src="images/tencent.png" alt="Tencent">
   <img src="images/bytedance.png" alt="ByteDance">
   <img src="images/hunyuan.png" alt="Tencent Hunyuan">
-  <img src="images/meituan.png" alt="Meituan">
   <img src="images/longcat.png" alt="Meituan LongCat">
   <img src="images/qq.png" alt="QQ">
 </div>
