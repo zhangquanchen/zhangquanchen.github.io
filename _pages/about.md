@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 👋 About Me
-I am currently a PhD student at [Tsinghua University](https://www.tsinghua.edu.cn/), devoted to advancing AGI by enhancing the understanding capabilities of multimodal large language models. My main focus is on reinforced reasoning, including latent reasoning, spatial reasoning, etc.. Prior to this, I earned my B.S. in Electronic Engineering from [Sun Yat-sen University](https://www.sysu.edu.cn/).
+I am currently a PhD student at [Tsinghua University](https://www.tsinghua.edu.cn/), devoted to advancing AGI by enhancing the understanding capabilities of multimodal large language models. My main focus is on reinforced reasoning, including latent reasoning, spatial reasoning, etc.. Prior to this, I conducted research at [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/) and earned my B.S. in Electronic Engineering from [Sun Yat-sen University](https://www.sysu.edu.cn/).
 
 From 2026, I work as a Research Intern (青云人才计划) at [Hunyuan Group](https://hunyuan.tencent.com/), Tencent, Inc. At the end of 2025, I was at LongCat Foundation Group, [Meituan](https://www.meituan.com/), Inc., working with [Manyuan Zhang](https://scholar.google.com.hk/citations?user=ZYmcm0EAAAAJ&hl=en). Before that, I worked as a Research Intern (筋斗云人才计划) at [ByteDance](https://www.bytedance.com/zh/), working with [Ruihui Zhao](https://scholar.google.com/citations?user=0okAFQMAAAAJ&hl=en) and [Yangyang Kang](https://scholar.google.com/citations?user=EuJk27UAAAAJ&hl=zh-CN). From 2024 to 2025, I worked as a Research Intern at AI/ML Group of [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia-zh-cn/), working with [Xufang Luo](https://www.microsoft.com/en-us/research/people/xufluo/) and [Dongsheng Li](https://scholar.google.com/citations?hl=zh-CN&user=VNg5rA8AAAAJ&view_op=list_works&sortby=pubdate). I also interned at QQ Foundation Group, [Tencent](https://www.tencent.com/en-us/), Inc. in 2024, working with [Dian Li](https://scholar.google.com/citations?user=rF7HU94AAAAJ&hl=zh-CN).
 
@@ -41,9 +41,23 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='education'></span>
 
 # 📖 Education
-- **Sep. 2026 - Dec. 2027:** **Ph.D**., Data Science and Information Technology, **Tsinghua University**, Beijing, China.
-- **Sep. 2023 - Jun. 2026:** M.Sc.(change to Ph.D.), Data Science and Information Technology, **Tsinghua University**, Beijing, China.
-- **Sep. 2019 - Jun. 2023:** B.Sc., Electronic Information Science and Technology, Sun Yat-sen University, Guangzhou, China. (**Rank 2/123**)
+
+<div class="education-item">
+  <div class="education-logo"><img src="images/tsinghua.png" alt="Tsinghua University"></div>
+  <div class="education-text"><strong>Sep. 2026 – Dec. 2027:</strong> <strong>Ph.D.</strong>, Data Science and Information Technology, <a href="https://www.tsinghua.edu.cn/"><strong style="color:#A31515">Tsinghua University (THU)</strong></a>, Beijing, China.</div>
+</div>
+<div class="education-item">
+  <div class="education-logo"><img src="images/mit.png" alt="MIT"></div>
+  <div class="education-text"><strong>Dec. 2024 – Jul. 2025:</strong> Research Intern, Multisensory Intelligence Group, <a href="https://www.mit.edu/"><strong style="color:#A31515">Massachusetts Institute of Technology (MIT)</strong></a>, Remote.</div>
+</div>
+<div class="education-item">
+  <div class="education-logo"><img src="images/tsinghua.png" alt="Tsinghua University"></div>
+  <div class="education-text"><strong>Sep. 2023 – Jun. 2026:</strong> M.Sc. (change to Ph.D.), Data Science and Information Technology, <a href="https://www.tsinghua.edu.cn/"><strong style="color:#A31515">Tsinghua University (THU)</strong></a>, Beijing, China.</div>
+</div>
+<div class="education-item">
+  <div class="education-logo"><img src="images/sysu.png" alt="Sun Yat-sen University"></div>
+  <div class="education-text"><strong>Sep. 2019 – Jun. 2023:</strong> B.Sc., Electronic Information Science and Technology, <a href="https://www.sysu.edu.cn/">Sun Yat-sen University</a>, Guangzhou, China. (<strong>Rank 2/123</strong>)</div>
+</div>
 
 <span class='anchor' id='publications'></span>
 
@@ -371,6 +385,15 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='internships'></span>
 
 # 💼 Internships
+
+<div class="internship-logos">
+  <img src="images/msra.png" alt="Microsoft Research Asia">
+  <img src="images/bytedance.png" alt="ByteDance" style="height: 35px;">
+  <img src="images/hunyuan.png" alt="Tencent Hunyuan">
+  <img src="images/longcat.png" alt="Meituan LongCat">
+  <img src="images/qq.png" alt="QQ" style="height: 35px;">
+</div>
+
 - **Dec 2025 – Present:** [Tencent](https://www.tencent.com/en-us/) · Research Intern (青云人才计划) · [Hunyuan](https://hunyuan.tencent.com/) Multimodal LLM Group
 - **Aug 2025 – Dec 2025:** [Meituan](https://www.meituan.com/) · Research Intern · M17 LongCat Foundation Model Group
 - **Apr 2025 – Aug 2025:** [ByteDance](https://www.bytedance.com/zh/) · Research Intern (筋斗云人才计划) · Multimodal LLM Content Understanding Group
