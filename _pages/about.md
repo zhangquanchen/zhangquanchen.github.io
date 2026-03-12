@@ -162,6 +162,10 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
     <div class='paper-venue'>arXiv 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2602.05847"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/zhangquanchen/OmniVideo-R1"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/jankin123/OmniVideo-R1"><i class="fas fa-database"></i> Dataset</a>
     </div>
   </div>
 </div>
