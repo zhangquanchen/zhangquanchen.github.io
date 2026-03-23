@@ -228,6 +228,25 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
+      <div class="badge">AAAI</div>
+      <img src='images/childbench.png' alt="ChildBench" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Easy for Children, Hard for AI: The Limits of Multimodal LLMs in Early Childhood Learning</div>
+    <div class='paper-authors'>Jingping Liu, Xueyan Wu, Hanxuan Chen, Ziyan Liu, <strong>Zhangquan Chen</strong>, Ronghao Chen, Huacan Wang</div>
+    <div class='paper-venue'>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026 (<span style="color:red"><strong>Oral</strong></span>)</div>
+    <div class='paper-links'>
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/download/40479/44440"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/Jderder/ChildBench"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
       <div class="badge">arXiv</div>
       <img src='images/gtasr.png' alt="GTASR" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
