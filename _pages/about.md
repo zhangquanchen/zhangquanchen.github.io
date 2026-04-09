@@ -30,7 +30,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='news'></span>
 
 # 🔥 News
-- *2026.02*: &nbsp;🎉 Three papers accepted by CVPR 2026.
+- *2026.02*: &nbsp;🎉 Three papers accepted by CVPR 2026, one as <span style="color:red">Highlight</span>.
 - *2026.01*: &nbsp;🎉 One paper accepted by ICLR 2026.
 - *2025.11*: &nbsp;🎉 Two papers accepted by AAAI 2026, one as <span style="color:red">Oral</span> (top 3.5%).
 - *2025.06*: &nbsp;🎉 One paper accepted by ICCV 2025.
@@ -330,7 +330,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-text'>
     <div class='paper-title'>Visual Document Understanding and Reasoning: A Multi-Agent Collaboration Framework with Agent-Wise Adaptive Test-Time Scaling</div>
     <div class='paper-authors'>Xinlei Yu, Chengming Xu, <strong>Zhangquan Chen</strong>, Yudong Zhang, Shilin Lu, Cheng Yang, Jiangning Zhang, Shuicheng Yan, Xiaobin Hu</div>
-    <div class='paper-venue'>Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2026</div>
+    <div class='paper-venue'>Computer Vision and Pattern Recognition (<strong>CVPR Highlight</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2508.03404"><i class="fas fa-file-pdf"></i> Paper</a>
     </div>
