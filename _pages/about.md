@@ -228,6 +228,27 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/latentsurvey.png' alt="The Latent Space survey" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook</div>
+    <div class='paper-authors'>Xinlei Yu†, <strong>Zhangquan Chen</strong>†, Yongbo He†, Tianyu Fu†, Cheng Yang†, Chengming Xu†, Yue Ma†, Xiaobin Hu†, Zhe Cao, Jie Xu, Guibin Zhang, Jiale Tao, Jiayi Zhang, Siyuan Ma, Kaituo Feng, Haojie Huang, Youxing Li, Ronghao Chen, Huacan Wang, Chenglin Wu, Zikun Su, Xiaogang Xu, Kelu Yao, Kun Wang, Chen Gao, Yue Liao, Ruqi Huang, Tao Jin, Zhucun Xue, Cheng Tan, Jiangning Zhang, Wenqi Ren, Yanwei Fu, Yong Liu, Yu Wang, Xiangyu Yue, Yu-Gang Jiang, Shuicheng Yan</div>
+    <div class='paper-venue'>(† equal contribution) arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2604.02029"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/YU-deep/Awesome-Latent-Space"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/papers/2604.02029"><i class="fas fa-newspaper"></i> Hugging Face</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
       <div class="badge">AAAI</div>
       <img src='images/childbench.png' alt="ChildBench" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
