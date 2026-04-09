@@ -490,7 +490,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='services'></span>
 
 # 💬 Services
-**Reviewer:** ICML, ICLR, AAAI, and other top-tier conferences/journals in computer vision and machine learning.
+**Reviewer:** ICML, NeurIPS, AAAI, ECCV and other top-tier conferences/journals in computer vision and machine learning.
 
 <span class='anchor' id='visitor-stats'></span>
 
