@@ -59,6 +59,27 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class="education-text"><strong>Sep. 2019 – Jun. 2023:</strong> B.Sc., Electronic Information Science and Technology, <a href="https://www.sysu.edu.cn/">Sun Yat-sen University</a>, Guangzhou, China. (<strong>Rank 2/123</strong>)</div>
 </div>
 
+<span class='anchor' id='technical-report'></span>
+
+# 📑 Technical Report
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">Report</div>
+      <img src='images/mtss.png' alt="Script-a-Video" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Script-a-Video: Deep Structured Audio-visual Captions via Factorized Streams and Relational Grounding</div>
+    <div class='paper-authors'>Tencent Hunyuan Team · <strong>Zhangquan Chen</strong> (Core Contributor)</div>
+    <div class='paper-venue'>Technical report, 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2604.11244"><i class="fas fa-file-pdf"></i> Paper</a>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='publications'></span>
 
 # 📝 Publications 
