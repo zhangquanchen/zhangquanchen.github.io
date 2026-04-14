@@ -165,7 +165,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
       <span class="link-sep">|</span>
       <a href="https://github.com/zhangquanchen/3DThinker"><i class="fab fa-github"></i> Code</a>
       <span class="link-sep">|</span>
-      <a href="https://mp.weixin.qq.com/s/wMJ2KGBnEbDze0hoS4hCaQ"><i class="fab fa-weixin"></i> 机器之心</a>
+      <a href="https://mp.weixin.qq.com/s/wMJ2KGBnEbDze0hoS4hCaQ"><i class="fab fa-weixin"></i> Media</a>
       <span class="link-sep">|</span>
       <a href="https://huggingface.co/datasets/jankin123/3DThinker-10K"><i class="fas fa-database"></i> Dataset</a>
       <span class="link-sep">|</span>
@@ -270,7 +270,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
       <span class="link-sep">|</span>
       <a href="https://huggingface.co/papers/2604.02029"><i class="fas fa-newspaper"></i> Hugging Face</a>
       <span class="link-sep">|</span>
-      <a href="https://mp.weixin.qq.com/s/6Fini_pAUyB7B5R6GIdfAQ"><i class="fab fa-weixin"></i> 机器之心</a>
+      <a href="https://mp.weixin.qq.com/s/6Fini_pAUyB7B5R6GIdfAQ"><i class="fab fa-weixin"></i> Media</a>
     </div>
   </div>
 </div>
