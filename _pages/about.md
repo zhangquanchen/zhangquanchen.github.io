@@ -525,15 +525,4 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 # 📊 Visitor Statistics
 
-<div class="visitor-stats" style="margin: 2em 0; padding: 1.5em; background: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; text-align: center;">
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-  <span id="busuanzi_container_site_uv" style="margin-right: 1.5em;">
-    <i class="fas fa-user" style="margin-right: 0.3em;"></i>
-    Total visitors: <span id="busuanzi_value_site_uv"></span>
-  </span>
-  <span id="busuanzi_container_page_pv">
-    <i class="fas fa-file-alt" style="margin-right: 0.3em;"></i>
-    Page views: <span id="busuanzi_value_page_pv"></span>
-  </span>
-  {% include visitor-map.html %}
-</div>
+{% include visitor-stats.html %}
