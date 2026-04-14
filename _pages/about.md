@@ -30,6 +30,8 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='news'></span>
 
 # 🔥 News
+- *2026.04*: &nbsp;🎉 Release technical report <a href="/#technical-report"><em>Script-a-Video</em></a> in Tencent Hunyuan Team.
+- *2026.04*: &nbsp;🎉 Release a comprehensive survey, <a href="/#latent-space"><em>The Latent Space</em></a>.
 - *2026.02*: &nbsp;🎉 Three papers accepted by CVPR 2026, one as <span style="color:red">Highlight</span>.
 - *2026.01*: &nbsp;🎉 One paper accepted by ICLR 2026.
 - *2025.11*: &nbsp;🎉 Two papers accepted by AAAI 2026, one as <span style="color:red">Oral</span> (top 3.5%).
@@ -245,6 +247,8 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
     </div>
   </div>
 </div>
+
+<span class='anchor' id='latent-space'></span>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
