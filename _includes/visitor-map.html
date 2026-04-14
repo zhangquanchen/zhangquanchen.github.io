@@ -26,7 +26,7 @@
     }, 400);
   }
   var obs = new MutationObserver(function () {
-    if (container.querySelector('iframe, canvas')) {
+    if (container.querySelector('iframe, canvas, img')) {
       hideLoading();
       obs.disconnect();
     }
