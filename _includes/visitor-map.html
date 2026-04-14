@@ -1,10 +1,41 @@
 {% if site.mapmyvisitors_id %}
-<div class="visitor-map-section" style="margin-top: 1.25em; padding-top: 1.25em; border-top: 1px solid #dee2e6;">
-  <p style="font-size: 0.9em; color: #555; margin: 0 0 0.75em; line-height: 1.4;">
-    Recent visitors by region (world map). Dots show approximate geographic distribution.
-  </p>
-  <div class="visitor-map-container" style="max-width: 640px; margin: 0 auto; text-align: center; overflow-x: auto; min-height: 360px;">
+<div class="visitor-map-section">
+  <div id="visitor-map-mount" class="visitor-map-container" style="max-width: 640px; margin: 0 auto; text-align: center; overflow-x: auto; min-height: 360px;">
+    <div class="visitor-map-loading" id="visitor-map-loading" aria-busy="true">
+      <div class="visitor-map-loading-inner">
+        <i class="fas fa-globe visitor-map-loading-icon" aria-hidden="true"></i>
+        <span class="visitor-map-loading-text">Loading map…</span>
+        <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+      </div>
+    </div>
     <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d={{ site.mapmyvisitors_id }}&cl=ffffff&w=a"></script>
   </div>
 </div>
+<script>
+(function () {
+  var container = document.getElementById('visitor-map-mount');
+  var loading = document.getElementById('visitor-map-loading');
+  if (!container || !loading) return;
+  function hideLoading() {
+    if (loading.getAttribute('data-done') === '1') return;
+    loading.setAttribute('data-done', '1');
+    loading.setAttribute('aria-busy', 'false');
+    loading.classList.add('visitor-map-loading--done');
+    window.setTimeout(function () {
+      loading.style.display = 'none';
+    }, 400);
+  }
+  var obs = new MutationObserver(function () {
+    if (container.querySelector('iframe, canvas')) {
+      hideLoading();
+      obs.disconnect();
+    }
+  });
+  obs.observe(container, { childList: true, subtree: true });
+  window.setTimeout(function () {
+    hideLoading();
+    obs.disconnect();
+  }, 20000);
+})();
+</script>
 {% endif %}

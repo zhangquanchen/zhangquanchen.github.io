@@ -119,11 +119,61 @@
 
   /* Visitor map embed (geographic distribution) */
   .visitor-map-container {
+    position: relative;
+
     iframe,
     img {
       max-width: 100%;
       height: auto;
     }
+
+    .visitor-map-loading {
+      position: absolute;
+      z-index: 2;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(145deg, #e8edf4 0%, #f5f7fa 55%, #eef1f6 100%);
+      border-radius: 6px;
+      border: 1px solid #dee2e6;
+      transition: opacity 0.4s ease;
+    }
+
+    .visitor-map-loading--done {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .visitor-map-loading-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.65rem;
+      color: #6c757d;
+      font-size: 0.95rem;
+    }
+
+    .visitor-map-loading-icon {
+      font-size: 2.5rem;
+      opacity: 0.45;
+      animation: visitor-map-pulse 2.2s ease-in-out infinite;
+    }
+
+    .visitor-map-loading-text {
+      letter-spacing: 0.02em;
+    }
+  }
+}
+
+@keyframes visitor-map-pulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+
+  50% {
+    opacity: 0.65;
   }
 }
 
