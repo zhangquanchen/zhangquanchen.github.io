@@ -31,7 +31,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 # 🔥 News
 - *2026.04*: &nbsp;🎉 Release technical report <a href="/#technical-report"><em>Script-a-Video</em></a> in Tencent Hunyuan Team.
-- *2026.04*: &nbsp;🎉 Release a comprehensive survey, <a href="/#latent-space"><em>The Latent Space</em></a>.
+- *2026.04*: &nbsp;🎉 Release comprehensive survey <a href="/#latent-space"><em>The Latent Space</em></a>.
 - *2026.02*: &nbsp;🎉 Three papers accepted by CVPR 2026, one as <span style="color:red">Highlight</span>.
 - *2026.01*: &nbsp;🎉 One paper accepted by ICLR 2026.
 - *2025.11*: &nbsp;🎉 Two papers accepted by AAAI 2026, one as <span style="color:red">Oral</span> (top 3.5%).
@@ -165,6 +165,8 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
       <span class="link-sep">|</span>
       <a href="https://github.com/zhangquanchen/3DThinker"><i class="fab fa-github"></i> Code</a>
       <span class="link-sep">|</span>
+      <a href="https://mp.weixin.qq.com/s/wMJ2KGBnEbDze0hoS4hCaQ"><i class="fab fa-weixin"></i> 机器之心</a>
+      <span class="link-sep">|</span>
       <a href="https://huggingface.co/datasets/jankin123/3DThinker-10K"><i class="fas fa-database"></i> Dataset</a>
       <span class="link-sep">|</span>
       <a href="https://huggingface.co/jankin123/3DThinker-Mindcube"><i class="fas fa-cube"></i> Model</a>
@@ -267,6 +269,8 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
       <a href="https://github.com/YU-deep/Awesome-Latent-Space"><i class="fab fa-github"></i> Repository</a>
       <span class="link-sep">|</span>
       <a href="https://huggingface.co/papers/2604.02029"><i class="fas fa-newspaper"></i> Hugging Face</a>
+      <span class="link-sep">|</span>
+      <a href="https://mp.weixin.qq.com/s/6Fini_pAUyB7B5R6GIdfAQ"><i class="fab fa-weixin"></i> 机器之心</a>
     </div>
   </div>
 </div>
