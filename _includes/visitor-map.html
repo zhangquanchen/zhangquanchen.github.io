@@ -1,6 +1,9 @@
 {% if site.mapmyvisitors_id %}
+{% assign mmv_q = "d=" | append: site.mapmyvisitors_id | append: "&cl=ffffff" %}
+{% assign mmv_png = "https://mapmyvisitors.com/map.png?" | append: mmv_q %}
+{% assign mmv_js = "https://mapmyvisitors.com/map.js?" | append: mmv_q | append: "&w=a" %}
 <div class="visitor-map-section">
-  <div id="visitor-map-mount" class="visitor-map-container" style="max-width: 640px; margin: 0 auto; text-align: center; overflow-x: auto; min-height: 360px;">
+  <div id="visitor-map-mount" class="visitor-map-container" style="max-width: 640px; margin: 0 auto; text-align: center;">
     <div class="visitor-map-loading" id="visitor-map-loading" aria-busy="true">
       <div class="visitor-map-loading-inner">
         <i class="fas fa-globe visitor-map-loading-icon" aria-hidden="true"></i>
@@ -8,14 +11,23 @@
         <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
       </div>
     </div>
-    <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d={{ site.mapmyvisitors_id }}&cl=ffffff&w=a"></script>
+    <img id="visitor-map-img"
+         src="{{ mmv_png }}"
+         alt="Visitor map (MapMyVisitors)"
+         width="600"
+         height="360"
+         decoding="async"
+         loading="eager"
+         style="max-width: 100%; height: auto; border-radius: 6px; display: block; margin: 0 auto;">
   </div>
 </div>
 <script>
 (function () {
   var container = document.getElementById('visitor-map-mount');
   var loading = document.getElementById('visitor-map-loading');
+  var img = document.getElementById('visitor-map-img');
   if (!container || !loading) return;
+
   function hideLoading() {
     if (loading.getAttribute('data-done') === '1') return;
     loading.setAttribute('data-done', '1');
@@ -25,17 +37,35 @@
       loading.style.display = 'none';
     }, 400);
   }
-  var obs = new MutationObserver(function () {
-    if (container.querySelector('iframe, canvas, img')) {
+
+  if (!img) return;
+
+  if (img.complete && img.naturalWidth > 0) {
+    hideLoading();
+    return;
+  }
+
+  img.addEventListener('load', hideLoading, { once: true });
+  img.addEventListener('error', function () {
+    img.style.display = 'none';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.id = 'mapmyvisitors';
+    s.src = {{ mmv_js | jsonify }};
+    s.onerror = hideLoading;
+    container.appendChild(s);
+    var obs = new MutationObserver(function () {
+      if (container.querySelector('iframe, canvas, img')) {
+        hideLoading();
+        obs.disconnect();
+      }
+    });
+    obs.observe(container, { childList: true, subtree: true });
+    window.setTimeout(function () {
       hideLoading();
       obs.disconnect();
-    }
-  });
-  obs.observe(container, { childList: true, subtree: true });
-  window.setTimeout(function () {
-    hideLoading();
-    obs.disconnect();
-  }, 20000);
+    }, 20000);
+  }, { once: true });
 })();
 </script>
 {% endif %}
