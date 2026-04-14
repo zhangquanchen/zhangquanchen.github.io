@@ -1,7 +1,10 @@
-<div class="visitor-stats-wrapper">
-  <div class="visitor-stats" style="margin: 2em 0; padding: 1.5em; background: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef;">
-    <div style="text-align: center; min-height: 350px;">
-      <script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=600&t=tt&d={{ site.clustrmaps_id }}&cmo=ff6b6b&cmn=ff6b6b&ct=ffffff"></script>
-    </div>
+{% if site.mapmyvisitors_id %}
+<div class="visitor-map-section" style="margin-top: 1.25em; padding-top: 1.25em; border-top: 1px solid #dee2e6;">
+  <p style="font-size: 0.9em; color: #555; margin: 0 0 0.75em; line-height: 1.4;">
+    Recent visitors by region (world map). Dots show approximate geographic distribution.
+  </p>
+  <div class="visitor-map-container" style="max-width: 640px; margin: 0 auto; text-align: center; overflow-x: auto;">
+    <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d={{ site.mapmyvisitors_id }}&cl=ffffff&w=a"></script>
   </div>
 </div>
+{% endif %}

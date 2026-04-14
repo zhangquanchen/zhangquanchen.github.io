@@ -116,6 +116,15 @@
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
+
+  /* Visitor map embed (geographic distribution) */
+  .visitor-map-container {
+    iframe,
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
 }
 
 .page__hero {

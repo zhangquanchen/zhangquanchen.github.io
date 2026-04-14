@@ -13,8 +13,8 @@ google_scholar_stats_use_cdn : true
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
-# visitor map (Clustrmaps - get your ID from https://clustrmaps.com/add)
-clustrmaps_id            :  # e.g., "abc123XYZ" from your Clustrmaps widget
+# World map (MapMyVisitors). Key from https://mapmyvisitors.com/ — enables the map under Visitor Statistics
+mapmyvisitors_id         : "dpbskTerhYBN2Y_kmTPBqzrQKp4_bgqQY7dhRD4U-NA"
 
 # SEO Related
 google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about

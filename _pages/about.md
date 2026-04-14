@@ -535,4 +535,5 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
     <i class="fas fa-file-alt" style="margin-right: 0.3em;"></i>
     Page views: <span id="busuanzi_value_page_pv"></span>
   </span>
+  {% include visitor-map.html %}
 </div>
