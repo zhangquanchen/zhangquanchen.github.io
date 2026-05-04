@@ -30,12 +30,12 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='news'></span>
 
 # 🔥 News
-- *2026.05*: &nbsp;🎉 Four papers (<a href="/#paper-omnivideo-r1">OmniVideo-R1</a>, <a href="/#paper-gtasr">GTASR</a>, <a href="/#paper-reasoning-vla">Reasoning-VLA</a>, <a href="/#paper-l2-vmas">L2-VMAS</a>) have been accepted by **ICML 2026**.
+- *2026.05*: &nbsp;🎉 Four papers (<a href="/#paper-omnivideo-r1">OmniVideo-R1</a>, <a href="/#paper-gtasr">GTASR</a>, <a href="/#paper-reasoning-vla">Reasoning-VLA</a>, <a href="/#paper-l2-vmas">L²-VMAS</a>) have been accepted by **ICML 2026**.
 - *2026.04*: &nbsp;🎉 Release technical report <a href="/#technical-report"><em>Script-a-Video</em></a> in Tencent Hunyuan Team.
 <!-- - *2026.04*: &nbsp;🎉 Release comprehensive survey <a href="/#latent-space"><em>The Latent Space</em></a>. -->
 - *2026.02*: &nbsp;🎉 Three papers (<a href="/#paper-3dthinker">3DThinker</a>, <a href="/#paper-mact">MACT</a> (<span style="color:red">Highlight</span>), <a href="/#paper-vismem">VisMem</a>) have been accepted by **CVPR 2026**.
 - *2026.01*: &nbsp;🎉 One paper (<a href="/#paper-vif">ViF</a>) has been accepted by **ICLR 2026**.
-- *2025.11*: &nbsp;🎉 Two papers (<a href="/#paper-sifthinker">SIFThinker</a>, <a href="/#paper-childbench">ChildBench</a> (<span style="color:red">Oral</span>, top 3.5%)) have been accepted by **AAAI 2026**.
+- *2025.11*: &nbsp;🎉 Two papers (<a href="/#paper-sifthinker">SIFThinker</a>, <a href="/#paper-childbench">ChildBench</a> (<span style="color:red">Oral</span>)) have been accepted by **AAAI 2026**.
 - *2025.06*: &nbsp;🎉 One paper (<a href="/#paper-visrl">VisRL</a>) has been accepted by **ICCV 2025**.
 - *2025.04*: &nbsp;🎉 One paper has been accepted by **CVPRW 2025** (<span style="color:red">Highlight</span>).
 - *2025.03*: &nbsp;🎉 One paper (<a href="/#paper-dv-matcher">DV-Matcher</a>) has been accepted by **CVPR 2025**.
