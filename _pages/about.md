@@ -87,7 +87,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 <span class='anchor' id='publications'></span>
 
-# 📝 Publications 
+# 📝 Selected Publications 
 <!-- <p style="font-size: 0.9em; color: #666; margin-bottom: 1em;">† Equal contribution</p> -->
 <div class='paper-box'>
   <div class='paper-box-image'>
