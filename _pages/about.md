@@ -30,8 +30,9 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='news'></span>
 
 # 🔥 News
+- *2026.05*: &nbsp;🎉 Four papers accepted by ICML 2026.
 - *2026.04*: &nbsp;🎉 Release technical report <a href="/#technical-report"><em>Script-a-Video</em></a> in Tencent Hunyuan Team.
-- *2026.04*: &nbsp;🎉 Release comprehensive survey <a href="/#latent-space"><em>The Latent Space</em></a>.
+<!-- - *2026.04*: &nbsp;🎉 Release comprehensive survey <a href="/#latent-space"><em>The Latent Space</em></a>. -->
 - *2026.02*: &nbsp;🎉 Three papers accepted by CVPR 2026, one as <span style="color:red">Highlight</span>.
 - *2026.01*: &nbsp;🎉 One paper accepted by ICLR 2026.
 - *2025.11*: &nbsp;🎉 Two papers accepted by AAAI 2026, one as <span style="color:red">Oral</span> (top 3.5%).
@@ -78,6 +79,8 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
     <div class='paper-venue'>Technical report, 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2604.11244"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://mp.weixin.qq.com/s/A6N2-cAo-ddCAGNKo7L7OA"><i class="fab fa-weixin"></i> Media</a>
     </div>
   </div>
 </div>
@@ -177,14 +180,14 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
+      <div class="badge">ICML</div>
       <img src='images/omnivideo-r1.png' alt="OmniVideo-R1" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'>OmniVideo-R1: Reinforcing Audio-visual Reasoning with Query Intention and Modality Attention</div>
     <div class='paper-authors'><strong>Zhangquan Chen</strong>, Jiale Tao, Ruihuang Li, Yihao Hu, Ruitao Chen, Zhantao Yang, Xinlei Yu, Haodong Jing, Manyuan Zhang, Shuai Shao, Biao Wang, Qinglin Lu, Ruqi Huang</div>
-    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-venue'>International Conference on Machine Learning (<strong>ICML</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2602.05847"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
@@ -297,14 +300,14 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
+      <div class="badge">ICML</div>
       <img src='images/gtasr.png' alt="GTASR" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'>Joint Geometric and Trajectory Consistency Learning for One-Step Real-World Super-Resolution</div>
     <div class='paper-authors'>Chengyan Deng, <strong>Zhangquan Chen</strong>, Li Yu, Kai Zhang, Xue Zhou, Wang Zhang</div>
-    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-venue'>International Conference on Machine Learning (<strong>ICML</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2602.24240"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
@@ -369,14 +372,15 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
+      <div class="badge">ICML</div>
       <img src='images/reasonvla.png' alt="Reasoning-VLA" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
-    <div class='paper-title'>Reasoning-VLA: A Fast and General Vision-Language-Action Reasoning Model for Autonomous Driving</div>
+    <div class='paper-title'>Reasoning-VLA: A Fast and General Vision-Language-Action Reasoning 
+    Model for Autonomous Driving</div>
     <div class='paper-authors'>Dapeng Zhang, Zhenlong Yuan, <strong>Zhangquan Chen</strong>, Chih-Ting Liao, Yinda Chen, Fei Shen, Qingguo Zhou, Tat-Seng Chua</div>
-    <div class='paper-venue'>arXiv 2025</div>
+    <div class='paper-venue'>International Conference on Machine Learning (<strong>ICML</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2511.19912"><i class="fas fa-file-pdf"></i> Paper</a>
     </div>
@@ -386,14 +390,14 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
+      <div class="badge">ICML</div>
       <img src='images/dualagent.png' alt="L²-VMAS" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'>Dual Latent Memory for Visual Multi-agent System</div>
     <div class='paper-authors'>Xinlei Yu, Chengming Xu, <strong>Zhangquan Chen</strong>, Bo Yin, Cheng Yang, Yongbo He, Yihao Hu, Jiangning Zhang, Cheng Tan, Xiaobin Hu, Shuicheng Yan</div>
-    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-venue'>International Conference on Machine Learning (<strong>ICML</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2602.00471"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
