@@ -37,7 +37,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 - *2026.01*: &nbsp;🎉 One paper (<a href="/#paper-vif">ViF</a>) has been accepted by **ICLR 2026**.
 - *2025.11*: &nbsp;🎉 Two papers (<a href="/#paper-sifthinker">SIFThinker</a>, <a href="/#paper-childbench">ChildBench</a> (<span style="color:red">Oral</span>)) have been accepted by **AAAI 2026**.
 - *2025.06*: &nbsp;🎉 One paper (<a href="/#paper-visrl">VisRL</a>) has been accepted by **ICCV 2025**.
-- *2025.04*: &nbsp;🎉 One paper has been accepted by **CVPRW 2025** (<span style="color:red">Highlight</span>).
+- *2025.04*: &nbsp;🎉 One paper has been accepted by CVPRW 2025 (<span style="color:red">Highlight</span>).
 - *2025.03*: &nbsp;🎉 One paper (<a href="/#paper-dv-matcher">DV-Matcher</a>) has been accepted by **CVPR 2025**.
 - *2024.04*: &nbsp;🎉 One paper (<a href="/#paper-three-phases-lora">Three-Phases-LoRA</a>) has been accepted by ICANN 2024. 
 
