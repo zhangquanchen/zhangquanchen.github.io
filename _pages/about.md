@@ -89,24 +89,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 # 📝 Selected Publications 
 <!-- <p style="font-size: 0.9em; color: #666; margin-bottom: 1em;">† Equal contribution</p> -->
-<span class='anchor' id='paper-spamem'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/spamem.png' alt="SpaMEM" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception-Memory Integration in Embodied Environments</div>
-    <div class='paper-authors'>Chih-Ting Liao, Xi Xiao, Chunlei Meng, <strong>Zhangquan Chen</strong>, Yitong Qiao, Weilin Zhou, Tianyang Wang, Xu Zheng, Xin Cao</div>
-    <div class='paper-venue'>arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2604.22409"><i class="fas fa-file-pdf"></i> Paper</a>
-    </div>
-  </div>
-</div>
-
 <span class='anchor' id='paper-visrl'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -432,6 +414,24 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
       <a href="https://arxiv.org/pdf/2602.00471"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
       <a href="https://github.com/YU-deep/L2-VMAS"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-spamem'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/spamem.png' alt="SpaMEM" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception-Memory Integration in Embodied Environments</div>
+    <div class='paper-authors'>Chih-Ting Liao, Xi Xiao, Chunlei Meng, <strong>Zhangquan Chen</strong>, Yitong Qiao, Weilin Zhou, Tianyang Wang, Xu Zheng, Xin Cao</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2604.22409"><i class="fas fa-file-pdf"></i> Paper</a>
     </div>
   </div>
 </div>
