@@ -203,6 +203,24 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
+<span class='anchor' id='paper-4dthinker'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/4dthinker.png' alt="4DThinker" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>4DThinker: Thinking with 4D Imagery for Dynamic Spatial Understanding</div>
+    <div class='paper-authors'><strong>Zhangquan Chen</strong>, Manyuan Zhang, Xinlei Yu, Xiang An, Bo Li, Xin Xie, ZiDong Wang, Mingze Sun, Shuang Chen, Hongyu Li, Xiaobin Hu, Ruqi Huang</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2605.05997"><i class="fas fa-file-pdf"></i> Paper</a>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='paper-three-phases-lora'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
