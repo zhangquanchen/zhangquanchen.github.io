@@ -217,6 +217,12 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
     <div class='paper-venue'>arXiv 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2605.05997"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/zhangquanchen/4DThinker"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/jankin123/4DThinker-3B"><i class="fas fa-cube"></i> Model</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/jankin123/4DThinker-Training-Data"><i class="fas fa-database"></i> Dataset</a>
     </div>
   </div>
 </div>
