@@ -22,7 +22,7 @@ I am currently a PhD student at [Tsinghua University](https://www.tsinghua.edu.c
 
 From 2026, I work as a Research Intern (青云人才计划) at [Hunyuan Group](https://hunyuan.tencent.com/), Tencent, Inc. At the end of 2025, I was at LongCat Foundation Group (北斗人才计划), [Meituan](https://www.meituan.com/), Inc., working with [Manyuan Zhang](https://scholar.google.com.hk/citations?user=ZYmcm0EAAAAJ&hl=en). Before that, I worked as a Research Intern (筋斗云人才计划) at [ByteDance](https://www.bytedance.com/zh/), working with [Ruihui Zhao](https://scholar.google.com/citations?user=0okAFQMAAAAJ&hl=en) and [Yangyang Kang](https://scholar.google.com/citations?user=EuJk27UAAAAJ&hl=zh-CN). From 2024 to 2025, I worked as a Research Intern at AI/ML Group of [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia-zh-cn/), working with [Xufang Luo](https://scholar.google.com/citations?user=c5OaSsUAAAAJ&hl=zh-CN) and [Dongsheng Li](https://scholar.google.com/citations?hl=zh-CN&user=VNg5rA8AAAAJ&view_op=list_works&sortby=pubdate). I also interned at QQ Foundation Group, [Tencent](https://www.tencent.com/en-us/), Inc. in 2024, working with [Dian Li](https://scholar.google.com/citations?user=rF7HU94AAAAJ&hl=zh-CN).
 
-Since 2023, I have been CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](https://shizhe.chat/), an AI education startup that has completed Series A funding.
+From 2023 to 2025, I served as CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](https://shizhe.chat/), an AI education startup that completed Series A funding.
 
 I am currently seeking suitable collaboration or job opportunities. Feel free to reach out! ([czq23@mails.tsinghua.edu.cn](mailto:czq23@mails.tsinghua.edu.cn)).
 
