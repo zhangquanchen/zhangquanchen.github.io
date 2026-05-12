@@ -255,7 +255,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-text'>
     <div class='paper-title'>Meow-Omni 1: A Multimodal Large Language Model for Feline Ethology</div>
     <div class='paper-authors'>Jucheng Hu†, <strong>Zhangquan Chen</strong>†, Yulin Chen, Chengjie Hong, Liang Zhou, Tairan Wang, Sifei Li, Giulio Zhu, Feng Zhou, Yiheng Zeng, Suorong Yang, Dongzhan Zhou</div>
-    <div class='paper-venue'>(† co-first authors) arXiv 2026</div>
+    <div class='paper-venue'>(† equal contribution) arXiv 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2605.09152"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
