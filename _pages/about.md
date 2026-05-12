@@ -249,6 +249,31 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
       <div class="badge">arXiv</div>
+      <img src='images/meow-omni.png' alt="Meow-Omni 1" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Meow-Omni 1: A Multimodal Large Language Model for Feline Ethology</div>
+    <div class='paper-authors'>Jucheng Hu†, <strong>Zhangquan Chen</strong>†, Yulin Chen, Chengjie Hong, Liang Zhou, Tairan Wang, Sifei Li, Giulio Zhu, Feng Zhou, Yiheng Zeng, Suorong Yang, Dongzhan Zhou</div>
+    <div class='paper-venue'>(† co-first authors) arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2605.09152"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/smgjch/Meow-Omni-1"><i class="fas fa-cube"></i> Model</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/smgjch/Meow-Omni-1-Base"><i class="fas fa-cube"></i> Base Model</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/smgjch/meow-10k"><i class="fas fa-database"></i> Dataset</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/smgjch/MeowBench"><i class="fas fa-vial"></i> Benchmark</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
       <img src='images/a-grae.png' alt="A-GRAE" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
