@@ -227,6 +227,23 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/nfr.gif' alt="NFR" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>NFR: Neural Feature-Guided Non-Rigid Shape Registration</div>
+    <div class='paper-authors'><strong>Zhangquan Chen</strong>, Puhua Jiang, Mingze Sun, Ruqi Huang</div>
+    <div class='paper-venue'>arXiv 2025</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2505.22445"><i class="fas fa-file-pdf"></i> Paper</a>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='paper-three-phases-lora'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -289,23 +306,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
       <a href="https://arxiv.org/pdf/2602.05548"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
       <a href="https://github.com/HKU-HealthAI/A-GRAE"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/nfr.gif' alt="NFR" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>NFR: Neural Feature-Guided Non-Rigid Shape Registration</div>
-    <div class='paper-authors'>Puhua Jiang†, <strong>Zhangquan Chen</strong>†, Mingze Sun†, Ruqi Huang</div>
-    <div class='paper-venue'>(† equal contribution) arXiv 2025</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2505.22445"><i class="fas fa-file-pdf"></i> Paper</a>
     </div>
   </div>
 </div>
