@@ -240,6 +240,8 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
     <div class='paper-venue'>arXiv 2025</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2505.22445"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/rqhuang88/NFR"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
