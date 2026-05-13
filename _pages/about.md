@@ -259,6 +259,8 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2605.09152"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
+      <a href="https://github.com/smgjch/Meow-Omni-1"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
       <a href="https://huggingface.co/smgjch/Meow-Omni-1"><i class="fas fa-cube"></i> Model</a>
       <span class="link-sep">|</span>
       <a href="https://huggingface.co/smgjch/Meow-Omni-1-Base"><i class="fas fa-cube"></i> Base Model</a>
