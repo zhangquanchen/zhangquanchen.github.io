@@ -49,16 +49,14 @@
 }
 
 .page__content {
-  #about-me{
-    margin-top: -10em;
-      &:before { 
-        content: ''; 
-        display: block; 
-        position: relative; 
-        width: 0; 
-        height: 10em; 
-        margin-top: -10em;
-    }
+  // Modern equivalent of the old negative-margin scroll-offset hack:
+  // when the URL jumps to #about-me, leave 10em of space above the
+  // anchor so the sticky masthead doesn't cover it. Unlike the old
+  // `margin-top: -10em` + `:before` trick, this does NOT shift any
+  // visual layout (which was causing overlap on narrow viewports
+  // where the sidebar stacks above the page content).
+  #about-me {
+    scroll-margin-top: 10em;
   }
   h1 {
     margin-top: 1em;
