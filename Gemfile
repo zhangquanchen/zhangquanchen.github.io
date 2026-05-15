@@ -1,33 +1,25 @@
 source "https://rubygems.org"
 
-# pathutil 0.16.2 与 Ruby 3.x 不兼容，使用修复版本覆盖
-gem "pathutil", git: "https://github.com/kindrowboat/pathutil.git", branch: "fix-issue-4"
+# 本地用 Jekyll 4 直接构建（GitHub Pages 服务器端仍用 github-pages gem 自动构建，
+# 我们的模板在 Jekyll 3.9 / 4.x 渲染结果一致）。
+gem "jekyll", "~> 4.3"
 
 # Ruby 3.0+ 将 webrick 移出标准库，jekyll serve 需要显式添加
 gem "webrick"
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-
-gem "github-pages", group: :jekyll_plugins
-
-# If you want to use Jekyll native, uncomment the line below.
-# To upgrade, run `bundle update`.
-
-# gem "jekyll"
+# Ruby 3.4+ 将以下原标准库移出 default gems
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "logger"
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-# If you have any plugins, put them here!
+# Plugins enabled at build time
 group :jekyll_plugins do
-  # gem "jekyll-archives"
   gem "jekyll-feed"
-  gem 'jekyll-sitemap'
-  gem 'hawkins'
+  gem "jekyll-sitemap"
+  gem "jekyll-gist"
+  gem "jekyll-redirect-from"
+  gem "jekyll-paginate"
 end

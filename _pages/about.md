@@ -20,7 +20,7 @@ redirect_from:
 # 👋 About Me
 I am currently a PhD student at [Tsinghua University](https://www.tsinghua.edu.cn/), devoted to advancing AGI by enhancing the understanding capabilities of multimodal large language models. My main focus is on reinforced reasoning, including latent reasoning, spatial reasoning, etc.. Prior to this, I conducted research at [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/) and earned my B.S. in Electronic Engineering from [Sun Yat-sen University](https://www.sysu.edu.cn/).
 
-From 2026, I work as a Research Intern (青云人才计划) at [Hunyuan Group](https://hunyuan.tencent.com/), Tencent, Inc. At the end of 2025, I was at LongCat Foundation Group (北斗人才计划), [Meituan](https://www.meituan.com/), Inc., working with [Manyuan Zhang](https://scholar.google.com.hk/citations?user=ZYmcm0EAAAAJ&hl=en). Before that, I worked as a Research Intern (筋斗云人才计划) at [ByteDance](https://www.bytedance.com/zh/), working with [Ruihui Zhao](https://scholar.google.com/citations?user=0okAFQMAAAAJ&hl=en) and [Yangyang Kang](https://scholar.google.com/citations?user=EuJk27UAAAAJ&hl=zh-CN). From 2024 to 2025, I worked as a Research Intern at AI/ML Group of [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia-zh-cn/), working with [Xufang Luo](https://scholar.google.com/citations?user=c5OaSsUAAAAJ&hl=zh-CN) and [Dongsheng Li](https://scholar.google.com/citations?hl=zh-CN&user=VNg5rA8AAAAJ&view_op=list_works&sortby=pubdate). I also interned at QQ Foundation Group, [Tencent](https://www.tencent.com/en-us/), Inc. in 2024, working with [Dian Li](https://scholar.google.com/citations?user=rF7HU94AAAAJ&hl=zh-CN).
+From 2026, I worked as a Research Intern (青云人才计划) at [Hunyuan Group](https://hunyuan.tencent.com/), Tencent, Inc., then moved to [YouTu Lab](https://youtu.qq.com/) as a Research Intern (青云人才计划). At the end of 2025, I was at LongCat Foundation Group (北斗人才计划), [Meituan](https://www.meituan.com/), Inc., working with [Manyuan Zhang](https://scholar.google.com.hk/citations?user=ZYmcm0EAAAAJ&hl=en). Before that, I worked as a Research Intern (筋斗云人才计划) at [ByteDance](https://www.bytedance.com/zh/), working with [Ruihui Zhao](https://scholar.google.com/citations?user=0okAFQMAAAAJ&hl=en) and [Yangyang Kang](https://scholar.google.com/citations?user=EuJk27UAAAAJ&hl=zh-CN). From 2024 to 2025, I worked as a Research Intern at AI/ML Group of [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia-zh-cn/), working with [Xufang Luo](https://scholar.google.com/citations?user=c5OaSsUAAAAJ&hl=zh-CN) and [Dongsheng Li](https://scholar.google.com/citations?hl=zh-CN&user=VNg5rA8AAAAJ&view_op=list_works&sortby=pubdate). I also interned at QQ Foundation Group, [Tencent](https://www.tencent.com/en-us/), Inc. in 2024, working with [Dian Li](https://scholar.google.com/citations?user=rF7HU94AAAAJ&hl=zh-CN).
 
 From 2023 to 2025, I served as CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](https://shizhe.chat/), an AI education startup that completed Series A funding.
 
@@ -548,14 +548,17 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 # 💼 Internships
 
 <div class="internship-logos">
-  <img src="images/msra.png" alt="Microsoft Research Asia">
-  <img src="images/bytedance.png" alt="ByteDance">
-  <img src="images/hunyuan.png" alt="Tencent Hunyuan">
-  <img src="images/longcat.png" alt="Meituan LongCat">
-  <img src="images/qq.png" alt="QQ">
+  <!-- 每个 logo 独立调高度：改 inline style 里的两个 px 数字即可（建议 40–72px） -->
+  <img src="images/msra.png"      alt="Microsoft Research Asia" style="height: 35px !important; max-height: 40px !important;">
+  <img src="images/bytedance.png" alt="ByteDance"               style="height: 32px !important; max-height: 40px !important;">
+  <img src="images/hunyuan.png"   alt="Tencent Hunyuan"         style="height: 40px !important; max-height: 40px !important;">
+  <img src="images/longcat.png"   alt="Meituan LongCat"         style="height: 38px !important; max-height: 40px !important;">
+  <img src="images/qq.png"        alt="QQ"                      style="height: 38px !important; max-height: 40px !important;">
+  <img src="images/youtu.webp"    alt="Tencent YouTu Lab"       style="height: 70px !important; max-height: 70px !important;">
 </div>
 
-- **Dec 2025 – Present:** [Tencent](https://www.tencent.com/en-us/) · Research Intern (青云人才计划) · [Hunyuan](https://hunyuan.tencent.com/) Multimodal LLM Group
+- **May 2026 – Present:** [Tencent](https://www.tencent.com/en-us/) · Research Intern (青云人才计划) · [YouTu Lab](https://youtu.qq.com/) · Shennong Research Center
+- **Dec 2025 – Apr 2026:** [Tencent](https://www.tencent.com/en-us/) · Research Intern (青云人才计划) · [Hunyuan](https://hunyuan.tencent.com/) Multimodal LLM Group
 - **Aug 2025 – Dec 2025:** [Meituan](https://www.meituan.com/) · Research Intern (北斗人才计划) · M17 LongCat Foundation Model Group
 - **Apr 2025 – Aug 2025:** [ByteDance](https://www.bytedance.com/zh/) · Research Intern (筋斗云人才计划) · Multimodal LLM Content Understanding Group
 - **Dec 2024 – Mar 2025:** [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia-zh-cn/) · Research Intern (Rising Star Award) · AI/ML Group
@@ -607,7 +610,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='services'></span>
 
 # 💬 Services
-**Reviewer:** ICML, NeurIPS, AAAI, ECCV and other top-tier conferences/journals in computer vision and machine learning.
+**Reviewer:** ICML (silver reviewer), NeurIPS, AAAI, ECCV and other top-tier conferences/journals in computer vision and machine learning.
 
 <span class='anchor' id='visitor-stats'></span>
 

@@ -1,11 +1,160 @@
-<div class="visitor-stats" style="margin: 2em 0; padding: 1.5em; background: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; text-align: center;">
-  <span id="busuanzi_container_site_uv" style="margin-right: 1.5em;">
-    <i class="fas fa-user" style="margin-right: 0.3em;"></i>
-    Total visitors: <span id="busuanzi_value_site_uv"></span>
-  </span>
-  <span id="busuanzi_container_page_pv">
-    <i class="fas fa-file-alt" style="margin-right: 0.3em;"></i>
-    Page views: <span id="busuanzi_value_page_pv"></span>
-  </span>
-  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+{%- assign abacus_ns = site.abacus_namespace | default: "zhangquanchen.github.io" -%}
+{%- assign abacus_pv = site.abacus_pv_key | default: "page_views" -%}
+{%- assign abacus_uv = site.abacus_uv_key | default: "visitors" -%}
+{%- assign cm_widget = site.clustrmaps_widget | default: "globe" -%}
+
+<div class="visitor-stats" style="margin: 2em 0; padding: 1.5em; background: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef;">
+
+  <div style="text-align: center; margin-bottom: 1.2em; font-size: 0.95em;">
+    <span style="margin-right: 1.5em;">
+      <i class="fas fa-user" style="margin-right: 0.3em;"></i>
+      Total visitors: <strong id="abacus-uv-value" style="font-variant-numeric: tabular-nums;">…</strong>
+    </span>
+    <span>
+      <i class="fas fa-file-alt" style="margin-right: 0.3em;"></i>
+      Page views: <strong id="abacus-pv-value" style="font-variant-numeric: tabular-nums;">…</strong>
+    </span>
+    <noscript> <em style="color:#888">(JavaScript required to display live counts)</em></noscript>
+  </div>
+
+  <div class="visitor-widgets" style="display: flex; flex-wrap: wrap; gap: 1.2em; justify-content: center; align-items: flex-start;">
+
+    {% if site.clustrmaps_data %}
+      {% if cm_widget == "globe" %}
+        {%- assign cm_globe_size = site.clustrmaps_globe_size | default: "180" -%}
+        <div class="clustrmaps-globe" style="width: {{ cm_globe_size }}px; max-width: 100%;">
+          <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d={{ site.clustrmaps_data }}"></script>
+        </div>
+      {% else %}
+        {%- assign cm_color = site.clustrmaps_map_color | default: "ffffff" -%}
+        {%- assign cm_width = site.clustrmaps_map_width | default: "a" -%}
+        <div class="clustrmaps-map" style="max-width: 360px;">
+          <!-- ClustrMaps map_v2.js depends on jQuery's $; load it first if the page doesn't already have it. -->
+          <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+          <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d={{ site.clustrmaps_data }}&cl={{ cm_color }}&w={{ cm_width }}"></script>
+        </div>
+      {% endif %}
+    {% else %}
+    <a href="https://clustrmaps.com/" title="Default visitor map — register at clustrmaps.com to switch to real geolocation tracking" target="_blank" rel="noopener"
+       style="position: relative; display: inline-block; line-height: 0; max-width: 360px;">
+      <img src="{{ site.baseurl }}/images/visitor-map-default.svg?v={{ site.time | date: '%s' }}"
+           alt="Visitor map (default placeholder)"
+           style="display: block; width: 100%; height: auto;" />
+      <svg id="visitor-map-dots" viewBox="0 0 4378.13 2434.94" preserveAspectRatio="none"
+           style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none;"
+           aria-hidden="true"></svg>
+    </a>
+    {% endif %}
+
+    {% if site.flagcounter_id %}
+    <a href="https://info.flagcounter.com/{{ site.flagcounter_id }}" target="_blank" rel="noopener">
+      <img src="https://s11.flagcounter.com/count2/{{ site.flagcounter_id }}/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
+           alt="Flag Counter" border="0" style="display: block;" />
+    </a>
+    {% endif %}
+
+  </div>
+
+  {% unless site.clustrmaps_data %}
+  <p style="font-size: 0.78em; color: #888; text-align: center; margin: 0.8em 0 0;">
+    <i class="fas fa-info-circle"></i>
+    Default visitor map — red dots are drawn dynamically based on the live counter, distributed evenly between China and the USA.
+    Register at <a href="https://clustrmaps.com/" target="_blank" rel="noopener">clustrmaps.com</a>
+    and set <code>clustrmaps_data</code> in <code>_config.yml</code> to switch to real visitor geolocation.
+  </p>
+  {% endunless %}
+
 </div>
+
+<script>
+(function () {
+  var NS = {{ abacus_ns | jsonify }};
+  var PV_KEY = {{ abacus_pv | jsonify }};
+  var UV_KEY = {{ abacus_uv | jsonify }};
+  var API = 'https://abacus.jasoncameron.dev';
+  var UV_FLAG = 'visitor-uv:' + NS + ':' + UV_KEY;
+
+  function formatNumber(n) {
+    return (n || 0).toLocaleString('en-US');
+  }
+  function setValue(id, n) {
+    var el = document.getElementById(id);
+    if (el) el.textContent = formatNumber(n);
+  }
+  function setFallback(id) {
+    var el = document.getElementById(id);
+    if (el) el.textContent = '—';
+  }
+
+  // Page views: every load increments the counter
+  fetch(API + '/hit/' + encodeURIComponent(NS) + '/' + encodeURIComponent(PV_KEY))
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      var n = (d && typeof d.value === 'number') ? d.value : 0;
+      setValue('abacus-pv-value', n);
+      renderFallbackDots(n);
+    })
+    .catch(function () {
+      setFallback('abacus-pv-value');
+      renderFallbackDots(10);
+    });
+
+  // Unique visitors: increment only if this browser has never been counted (localStorage flag)
+  var uvCountedBefore = false;
+  try { uvCountedBefore = !!localStorage.getItem(UV_FLAG); } catch (e) {}
+  var uvUrl = API + (uvCountedBefore ? '/get/' : '/hit/') + encodeURIComponent(NS) + '/' + encodeURIComponent(UV_KEY);
+  fetch(uvUrl)
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      try { localStorage.setItem(UV_FLAG, '1'); } catch (e) {}
+      setValue('abacus-uv-value', (d && typeof d.value === 'number') ? d.value : 0);
+    })
+    .catch(function () { setFallback('abacus-uv-value'); });
+
+  // Fallback SVG map: draw red dots driven by the PV count (only present when ClustrMaps is not configured)
+  var USA_ANCHORS = [
+    [-74.0, 40.7], [-87.6, 41.9], [-118.2, 34.0], [-95.4, 29.8], [-122.4, 37.8],
+    [-77.0, 38.9], [-80.2, 25.8], [-71.1, 42.4], [-104.9, 39.7], [-112.1, 33.4],
+    [-90.2, 38.6], [-82.5, 27.9], [-93.3, 44.9], [-83.0, 39.9], [-86.8, 36.2]
+  ];
+  var CHINA_ANCHORS = [
+    [116.4, 39.9], [121.5, 31.2], [113.3, 23.1], [114.1, 22.4], [104.0, 30.7],
+    [108.9, 34.3], [118.8, 32.0], [106.5, 29.6], [120.2, 30.3], [113.6, 34.7],
+    [123.4, 41.8], [117.2, 39.1], [114.3, 30.6], [102.8, 25.0], [87.6, 43.8]
+  ];
+  var W = 4378.13, H = 2434.94;
+  function lonlatToXY(lon, lat) {
+    return [(lon + 180) / 360 * W, (90 - lat) / 180 * H];
+  }
+  function renderFallbackDots(count) {
+    var svg = document.getElementById('visitor-map-dots');
+    if (!svg) return;
+    svg.innerHTML = '';
+    var n = Math.min(Math.max(0, count | 0), 200);
+    var usaN = Math.ceil(n / 2);
+    var chinaN = Math.floor(n / 2);
+    var ns = 'http://www.w3.org/2000/svg';
+
+    function placeDot(lon, lat, jitterLon, jitterLat) {
+      var xy = lonlatToXY(lon + (Math.random() - 0.5) * jitterLon, lat + (Math.random() - 0.5) * jitterLat);
+      var c = document.createElementNS(ns, 'circle');
+      c.setAttribute('cx', xy[0].toFixed(1));
+      c.setAttribute('cy', xy[1].toFixed(1));
+      c.setAttribute('r', '22');
+      c.setAttribute('fill', '#e8252b');
+      c.setAttribute('stroke', '#7a0e12');
+      c.setAttribute('stroke-width', '2');
+      c.setAttribute('opacity', '0.92');
+      svg.appendChild(c);
+    }
+    for (var i = 0; i < usaN; i++) {
+      var a = USA_ANCHORS[i % USA_ANCHORS.length];
+      placeDot(a[0], a[1], 5, 3);
+    }
+    for (var j = 0; j < chinaN; j++) {
+      var b = CHINA_ANCHORS[j % CHINA_ANCHORS.length];
+      placeDot(b[0], b[1], 4, 2.4);
+    }
+  }
+})();
+</script>

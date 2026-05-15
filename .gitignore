@@ -2,3 +2,9 @@ _site/
 push.sh
 .DS_Store
 node_modules/
+
+# Local Jekyll dev only — GitHub Pages builds with its own environment
+vendor/
+.bundle/
+Gemfile.lock.bak
+preview-visitor.html

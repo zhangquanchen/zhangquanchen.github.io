@@ -13,6 +13,23 @@ google_scholar_stats_use_cdn : true
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
+# Visitor counters (abacus.jasoncameron.dev). Two keys:
+#   - pv_key: incremented on every page load (Page views)
+#   - uv_key: incremented only when the browser has no localStorage flag yet (Total visitors)
+abacus_namespace         : "zhangquanchen.github.io"
+abacus_pv_key            : "page_views"
+abacus_uv_key            : "visitors"
+
+# ClustrMaps visitor map (real IP geolocation, persistent server-side).
+# Leave clustrmaps_data blank to fall back to the built-in dynamic SVG map.
+clustrmaps_data          : "c7iBaqgpP1g94KdkrlfMdz1JPY6lvuFe94swsUbVris"
+clustrmaps_widget        : "globe"   # "map" (flat interactive map) | "globe" (3D rotating globe)
+clustrmaps_globe_size    : "180"     # only for "globe" widget — container width in px (try 160–320)
+clustrmaps_map_color     : "ffffff"  # only for "map" widget — land/background color (hex without #)
+clustrmaps_map_width     : "a"       # only for "map" widget — "a" = auto, or a pixel width like "320"
+
+flagcounter_id           :           # e.g. "V588" — register at https://flagcounter.com/ to get an ID
+
 # SEO Related
 google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
 bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about

@@ -77,10 +77,12 @@
     flex-wrap: wrap !important;
     align-items: center !important;
     gap: 2em;
-    margin: 1em 0 1.5em;
+    margin: 1em 0 0.5em;  /* top, side, bottom — bottom 控制 logo 行与下方文字列表的距离 */
 }
 
 .internship-logos img {
+    /* Default height — overridden per-logo by inline style="height: XXpx !important;"
+       in _pages/about.md (see the internship-logos <div> there). */
     height: 40px !important;
     width: auto !important;
     max-width: 200px !important;
