@@ -69,13 +69,21 @@
    Author profile and links
    ========================================================================== */
 .profile_box{
-  @include breakpoint($large) {
-    display: block;
-  }
+  // NOTE: declarations must come BEFORE the @include breakpoint() override.
+  // dart-sass (Jekyll 4 / jekyll-sass-converter 3.x) hoists media queries
+  // to the top of the rule in the compiled output. Since media queries do
+  // not raise specificity, any unconditional declaration listed AFTER the
+  // breakpoint here would otherwise win at $large and clobber `display:
+  // block`, leaving the sidebar in flex mode and letting the social-icon
+  // column overflow into the .page float area.
   display: flex;
   justify-content: flex-start;
   align-content: flex-start;
   align-items: center;
+
+  @include breakpoint($large) {
+    display: block;
+  }
 }
 
 .author__avatar {
@@ -129,11 +137,12 @@
 }
 
 .sidebar .author__name {
+  font-family: $sans-serif;
+  font-size: $type-size-4;
+
   @include breakpoint($medium) {
     font-size: $type-size-3;
   }
-  font-family: $sans-serif;
-  font-size: $type-size-4;
 }
 
 .author__bio {
