@@ -30,7 +30,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='news'></span>
 
 # 🔥 News
-- *2026.05*: &nbsp;🎉 Release technical report <a href="/#report-llava-ov2"><em>LLaVA-OneVision-2.0</em></a> with the LLaVA-OneVision Team.
+- *2026.05*: &nbsp;🎉 Release technical report <a href="/#report-llava-ov2"><em>LLaVA-OneVision-2.0</em></a>.
 - *2026.05*: &nbsp;🎉 Four papers (<a href="/#paper-omnivideo-r1">OmniVideo-R1</a>, <a href="/#paper-gtasr">GTASR</a>, <a href="/#paper-reasoning-vla">Reasoning-VLA</a>, <a href="/#paper-l2-vmas">L²-VMAS</a>) have been accepted by **ICML 2026**.
 - *2026.04*: &nbsp;🎉 Release technical report <a href="/#report-script-a-video"><em>Script-a-Video</em></a> in Tencent Hunyuan Team.
 <!-- - *2026.04*: &nbsp;🎉 Release comprehensive survey <a href="/#latent-space"><em>The Latent Space</em></a>. -->
@@ -77,7 +77,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'>LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence</div>
-    <div class='paper-authors'>LLaVA-OneVision Team · <strong>Zhangquan Chen</strong></div>
+    <div class='paper-authors'>LLaVA-OneVision-2 Team · <strong>Zhangquan Chen</strong></div>
     <div class='paper-venue'>Technical report, 2026</div>
     <div class='paper-links'>
       <a href="https://evolvinglmms-lab.github.io/LLaVA-OneVision-2/"><i class="fas fa-home"></i> Project page</a>
