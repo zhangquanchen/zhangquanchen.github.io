@@ -88,9 +88,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
       <span class="link-sep">|</span>
       <a href="https://huggingface.co/lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct"><i class="fas fa-cube"></i> Model</a>
       <span class="link-sep">|</span>
-      <a href="https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-2-Data/tree/main/mid_training_video"><i class="fas fa-database"></i> VideoCaption</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-2-Data/tree/main/spatial"><i class="fas fa-database"></i> Spatial</a>
+      <a href="https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-2-Data"><i class="fas fa-database"></i> Dataset</a>
       <span class="link-sep">|</span>
       <a href="https://huggingface.co/spaces/FeilongTang/OneVision-Encoder-Codec-View"><i class="fas fa-rocket"></i> Playground</a>
     </div>
