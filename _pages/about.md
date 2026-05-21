@@ -30,8 +30,9 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='news'></span>
 
 # 🔥 News
+- *2026.05*: &nbsp;🎉 Release technical report <a href="/#report-llava-ov2"><em>LLaVA-OneVision-2.0</em></a> with the LLaVA-OneVision Team.
 - *2026.05*: &nbsp;🎉 Four papers (<a href="/#paper-omnivideo-r1">OmniVideo-R1</a>, <a href="/#paper-gtasr">GTASR</a>, <a href="/#paper-reasoning-vla">Reasoning-VLA</a>, <a href="/#paper-l2-vmas">L²-VMAS</a>) have been accepted by **ICML 2026**.
-- *2026.04*: &nbsp;🎉 Release technical report <a href="/#technical-report"><em>Script-a-Video</em></a> in Tencent Hunyuan Team.
+- *2026.04*: &nbsp;🎉 Release technical report <a href="/#report-script-a-video"><em>Script-a-Video</em></a> in Tencent Hunyuan Team.
 <!-- - *2026.04*: &nbsp;🎉 Release comprehensive survey <a href="/#latent-space"><em>The Latent Space</em></a>. -->
 - *2026.02*: &nbsp;🎉 Three papers (<a href="/#paper-3dthinker">3DThinker</a>, <a href="/#paper-mact">MACT</a> (<span style="color:red">Highlight</span>), <a href="/#paper-vismem">VisMem</a>) have been accepted by **CVPR 2026**.
 - *2026.01*: &nbsp;🎉 One paper (<a href="/#paper-vif">ViF</a>) has been accepted by **ICLR 2026**.
@@ -66,6 +67,37 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 # 📑 Technical Report
 
+<span class='anchor' id='report-llava-ov2'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">Report</div>
+      <img src='images/ov2.png' alt="LLaVA-OneVision-2" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence</div>
+    <div class='paper-authors'>LLaVA-OneVision Team · <strong>Zhangquan Chen</strong></div>
+    <div class='paper-venue'>Technical report, 2026</div>
+    <div class='paper-links'>
+      <a href="https://evolvinglmms-lab.github.io/LLaVA-OneVision-2/"><i class="fas fa-home"></i> Project page</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/anxiangsir/ov2_asset/blob/main/LLaVA_OneVision_2.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-2"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct"><i class="fas fa-cube"></i> Model</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-2-Data/tree/main/mid_training_video"><i class="fas fa-database"></i> VideoCaption</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-2-Data/tree/main/spatial"><i class="fas fa-database"></i> Spatial</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/spaces/FeilongTang/OneVision-Encoder-Codec-View"><i class="fas fa-rocket"></i> Playground</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='report-script-a-video'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
