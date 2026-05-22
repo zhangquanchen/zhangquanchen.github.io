@@ -233,6 +233,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
+<!--
 <span class='anchor' id='paper-4dthinker'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -256,6 +257,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
     </div>
   </div>
 </div>
+-->
 
 <div class='paper-box'>
   <div class='paper-box-image'>
