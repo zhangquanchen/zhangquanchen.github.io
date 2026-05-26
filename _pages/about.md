@@ -102,7 +102,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
     <div class='paper-links'>
       <a href="https://evolvinglmms-lab.github.io/LLaVA-OneVision-2/"><i class="fas fa-home"></i> Project page</a>
       <span class="link-sep">|</span>
-      <a href="https://github.com/anxiangsir/ov2_asset/blob/main/LLaVA_OneVision_2.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
+      <a href="https://arxiv.org/pdf/2605.25979"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
       <a href="https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-2"><i class="fab fa-github"></i> Code</a>
       <span class="link-sep">|</span>
@@ -233,7 +233,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
-<!--
 <span class='anchor' id='paper-4dthinker'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -257,7 +256,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
     </div>
   </div>
 </div>
--->
 
 <div class='paper-box'>
   <div class='paper-box-image'>
