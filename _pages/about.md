@@ -603,8 +603,8 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'>Do LLMs Build World Models From Text? A Multilingual Diagnostic of Spatial Reasoning</div>
-    <div class='paper-authors'>Zhikai Pan†, Chih-Ting Liao†, Chunrui Liu, Xi Xiao, Yitong Qiao, Chunlei Meng, <strong>Zhangquan Chen</strong>, Xin Cao</div>
-    <div class='paper-venue'>(† equal contribution) arXiv 2026</div>
+    <div class='paper-authors'>Zhikai Pan, Chih-Ting Liao, Chunrui Liu, Xi Xiao, Yitong Qiao, Chunlei Meng, <strong>Zhangquan Chen</strong>, Xin Cao</div>
+    <div class='paper-venue'>arXiv 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2605.28277"><i class="fas fa-file-pdf"></i> Paper</a>
     </div>
