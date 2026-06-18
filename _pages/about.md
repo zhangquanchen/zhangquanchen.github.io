@@ -506,7 +506,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
-      <div class="badge">ECCV 2026</div>
+      <div class="badge">ECCV</div>
       <img src='images/spamem.png' alt="SpaMEM" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
