@@ -111,6 +111,8 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
       <span class="link-sep">|</span>
       <a href="https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-2-Data"><i class="fas fa-database"></i> Dataset</a>
       <span class="link-sep">|</span>
+      <a href="https://mp.weixin.qq.com/s/dechFptcXCvF30mfmC3dWA"><i class="fab fa-weixin"></i> Media</a>
+      <span class="link-sep">|</span>
       <a href="https://huggingface.co/spaces/FeilongTang/OneVision-Encoder-Codec-View"><i class="fas fa-rocket"></i> Playground</a>
     </div>
   </div>
@@ -516,6 +518,8 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
     <div class='paper-venue'>European Conference on Computer Vision (<strong>ECCV</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2604.22409"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/mill-ct-liao/SpaMEM"><i class="fas fa-database"></i> Dataset</a>
     </div>
   </div>
 </div>
