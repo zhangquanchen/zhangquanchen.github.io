@@ -30,6 +30,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='news'></span>
 
 # 🔥 News
+- *2026.06*: &nbsp;🎉 One paper (<a href="#paper-spamem">SpaMEM</a>) has been accepted by **ECCV 2026**.
 - *2026.05*: &nbsp;🎉 Release technical report <a href="/#report-llava-ov2"><em>LLaVA-OneVision-2.0</em></a>.
 - *2026.05*: &nbsp;🎉 Four papers (<a href="/#paper-omnivideo-r1">OmniVideo-R1</a>, <a href="/#paper-gtasr">GTASR</a>, <a href="/#paper-reasoning-vla">Reasoning-VLA</a>, <a href="/#paper-l2-vmas">L²-VMAS</a>) have been accepted by **ICML 2026**.
 - *2026.04*: &nbsp;🎉 Release technical report <a href="/#report-script-a-video"><em>Script-a-Video</em></a> in Tencent Hunyuan Team.
@@ -505,14 +506,14 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
+      <div class="badge">ECCV 2026</div>
       <img src='images/spamem.png' alt="SpaMEM" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'>SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception-Memory Integration in Embodied Environments</div>
     <div class='paper-authors'>Chih-Ting Liao, Xi Xiao, Chunlei Meng, <strong>Zhangquan Chen</strong>, Yitong Qiao, Weilin Zhou, Tianyang Wang, Xu Zheng, Xin Cao</div>
-    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-venue'>European Conference on Computer Vision (<strong>ECCV</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2604.22409"><i class="fas fa-file-pdf"></i> Paper</a>
     </div>
