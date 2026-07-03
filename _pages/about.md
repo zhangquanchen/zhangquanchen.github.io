@@ -18,11 +18,13 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 👋 About Me
-I am currently a PhD student at [Tsinghua University](https://www.tsinghua.edu.cn/), devoted to advancing AGI by enhancing the understanding capabilities of multimodal large language models. My main focus is on reinforced reasoning, including latent reasoning, spatial reasoning, etc.. Prior to this, I conducted research at [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/) and earned my B.S. in Electronic Engineering from [Sun Yat-sen University](https://www.sysu.edu.cn/).
+I am currently a PhD student at [Tsinghua University](https://www.tsinghua.edu.cn/), devoted to advancing AGI by enhancing the understanding capabilities of multimodal large language models. My main focus is on reinforced reasoning, spatial intelligence, etc.. Prior to this, I conducted research at [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/) and earned my B.S. in Electronic Engineering from [Sun Yat-sen University](https://www.sysu.edu.cn/).
 
-From 2026, I worked as a Research Intern (青云人才计划) at [Hunyuan Group](https://hunyuan.tencent.com/), Tencent, Inc., and subsequently joined [YouTu Lab](https://youtu.qq.com/) in the same role (青云人才计划). At the end of 2025, I was at LongCat Foundation Group (北斗人才计划), [Meituan](https://www.meituan.com/), Inc.. Before that, I worked as a Research Intern (筋斗云人才计划) at [ByteDance](https://www.bytedance.com/zh/). From 2024 to 2025, I worked as a Research Intern at AI/ML Group of [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia-zh-cn/). I also interned at QQ Foundation Group, [Tencent](https://www.tencent.com/en-us/), Inc. in 2024.
+I have been working on large language model development since 2022. I previously served as CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](https://shizhe.chat/), a Series A-funded startup, where I led the development of Hibug (an early SOTA coding LLM) and Shizhe (an education-focused MLLM). Related products were later acquired by Xueda Education (a publicly listed company).
 
-From 2023 to 2025, I served as CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](https://shizhe.chat/), an AI education startup that completed Series A funding. Related products were later acquired by Xueda Education (a publicly listed company).
+Since 2024, I have interned at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), [ByteDance](https://www.bytedance.com/zh/) (筋斗云人才计划), [Tencent Hunyuan](https://hy.tencent.com/) (青云人才计划), and [Meituan LongCat](https://longcat.chat/) (北斗人才计划), mainly working on post-training for large language models, especially reinforcement learning.
+
+To date, I have authored over 30 papers, including nearly 20 publications in CCF-A conferences/journals and over 10 first-author/co-first-author papers, with 1K+ public citations.
 
 I am currently seeking suitable collaboration or job opportunities. Feel free to reach out! ([czq23@mails.tsinghua.edu.cn](mailto:czq23@mails.tsinghua.edu.cn)).
 
@@ -636,7 +638,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 - **Apr 2025 – Aug 2025:** [ByteDance](https://www.bytedance.com/zh/) · Research Intern (筋斗云人才计划) · Multimodal LLM Content Understanding Group
 - **Dec 2024 – Mar 2025:** [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia-zh-cn/) · Research Intern (Rising Star Award) · AI/ML Group
 - **May 2024 – Aug 2024:** [Tencent](https://www.tencent.com/en-us/) · Research Intern · QQ Multimodal LLM Group
-- **Apr 2023 – 2025:** [Beijing OneXOne Tech Co., Ltd.](https://shizhe.chat/) · Chief Technology Officer and Co-founder
+- **2022 – 2024:** [Beijing OneXOne Tech Co., Ltd.](https://shizhe.chat/) · Chief Technology Officer and Co-founder
 
 <span class='anchor' id='honors-and-awards'></span>
 
