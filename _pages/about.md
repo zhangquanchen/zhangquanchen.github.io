@@ -24,7 +24,7 @@ I have been working on large language model development since 2022. I previously
 
 Since 2024, I have interned at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), [ByteDance](https://www.bytedance.com/zh/) (筋斗云人才计划), [Tencent Hunyuan](https://hy.tencent.com/) (青云人才计划), and [Meituan LongCat](https://longcat.chat/) (北斗人才计划), mainly working on post-training for large language models, especially reinforcement learning.
 
-To date, I have authored over 30 papers, including nearly 20 publications in CCF-A conferences/journals and over 10 first-author/co-first-author papers, with 1K+ public citations.
+I have authored 30+ papers, including ~20 publications in CCF-A conferences/journals and 10+ first-author papers.
 
 I am currently seeking suitable collaboration or job opportunities. Feel free to reach out! ([czq23@mails.tsinghua.edu.cn](mailto:czq23@mails.tsinghua.edu.cn)).
 
