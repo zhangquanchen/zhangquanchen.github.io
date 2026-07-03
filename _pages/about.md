@@ -638,7 +638,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 - **Apr 2025 – Aug 2025:** [ByteDance](https://www.bytedance.com/zh/) · Research Intern (筋斗云人才计划) · Multimodal LLM Content Understanding Group
 - **Dec 2024 – Mar 2025:** [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia-zh-cn/) · Research Intern (Rising Star Award) · AI/ML Group
 - **May 2024 – Aug 2024:** [Tencent](https://www.tencent.com/en-us/) · Research Intern · QQ Multimodal LLM Group
-- **2022 – 2024:** [Beijing OneXOne Tech Co., Ltd.](https://shizhe.chat/) · Chief Technology Officer and Co-founder
+- **2022 – 2024:** [Beijing OneXOne Tech Co., Ltd.](https://shizhe.chat/) · Chief Technology Officer (CTO) and Co-founder
 
 <span class='anchor' id='honors-and-awards'></span>
 
