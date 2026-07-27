@@ -677,7 +677,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 - ModelBest "Ahead Four" Top Talent Program (面壁前进四人才计划)
 
 ### 🎓 Other Degrees
-- **Minor in Chemistry (Rank 1)**, Sun Yat-sen University
+- Minor in Chemistry (Rank 1), Sun Yat-sen University
 
 <!-- - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
