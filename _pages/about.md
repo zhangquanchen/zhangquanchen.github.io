@@ -659,7 +659,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 - Sun Yat-sen University Discipline Competition Scholarship
 
 ### 🏆 Academic Competitions
-- **Outstanding Winner (<span style="color:red">1st globally, Top 0.03%</span>), 7th SW International College Mathematical Modeling Competition (2022)**
+- **Outstanding Winner (1st globally, Top 0.03%), 7th SW International College Mathematical Modeling Competition (2022)**
 - **First Prize, National College Mathematical Modeling Competition (2020)**
 - Second Prize, 12th National College Mathematics Competition (2020)
 - Second Prize, Asia-Pacific Mathematical Modeling Competition (2021)
