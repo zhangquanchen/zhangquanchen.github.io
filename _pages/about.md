@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 👋 About Me
-I am currently a PhD student at [Tsinghua University](https://www.tsinghua.edu.cn/), devoted to advancing AGI by enhancing the understanding capabilities of multimodal large language models. My main focus is on reinforced reasoning, spatial intelligence, etc.. Prior to this, I conducted research at [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/) and earned my B.S. in Electronic Engineering from [Sun Yat-sen University](https://www.sysu.edu.cn/).
+I am currently a PhD student at [Tsinghua University](https://www.tsinghua.edu.cn/), devoted to advancing AGI by enhancing the understanding capabilities of multimodal large language models. My main focus is on reinforced reasoning, spatial intelligence, etc.. Prior to this, I conducted research at [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/) and earned my B.S. in Electronic Engineering, with a minor in Chemistry, from [Sun Yat-sen University](https://www.sysu.edu.cn/).
 
 I have been researching large language models since 2022. I previously served as CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](https://shizhe.chat/), a Series A-funded startup, where I led the development of Hibug (an early SOTA coding LLM) and Shizhe (an education-focused MLLM). Related products were later acquired by Xueda Education (a publicly listed company).
 
@@ -55,7 +55,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 </div>
 <div class="education-item">
   <div class="education-logo"><img src="images/mit.png" alt="MIT"></div>
-  <div class="education-text"><strong>Dec. 2024 – Jul. 2025:</strong> Research Intern, Multisensory Intelligence Group, <a href="https://www.mit.edu/"><strong style="color:#A31515">Massachusetts Institute of Technology (MIT)</strong></a>, Remote.</div>
+  <div class="education-text"><strong>Dec. 2024 – Jul. 2025:</strong> Research Intern, <a href="https://www.mit.edu/"><strong style="color:#A31515">Massachusetts Institute of Technology (MIT)</strong></a>, Remote.</div>
 </div>
 <div class="education-item">
   <div class="education-logo"><img src="images/tsinghua.png" alt="Tsinghua University"></div>
@@ -675,6 +675,9 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 - Jingdong Top Young Technical Genius (TGT) Program (京东TGT人才计划)
 - Meituan Beidou Top Talent Program（美团北斗人才计划）
 - ModelBest "Ahead Four" Top Talent Program (面壁前进四人才计划)
+
+### 🎓 Other Degrees
+- **Minor in Chemistry (Rank 1)**, Sun Yat-sen University
 
 <!-- - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
