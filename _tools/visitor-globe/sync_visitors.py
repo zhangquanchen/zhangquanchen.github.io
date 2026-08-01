@@ -32,6 +32,17 @@ API = os.environ.get("ABACUS_BASE", "https://abacus.jasoncameron.dev").rstrip("/
 NAMESPACE = os.environ.get("ABACUS_NAMESPACE", "zhangquanchen.github.io")
 PREFIX = os.environ.get("ABACUS_GEO_PREFIX", "geo_")
 
+# The globe used to accumulate visitors in a getpantry.cloud basket, which has
+# been returning "Pantry is having critical issues" since some point after the
+# 2026-06 launch — taking two months of real locations offline. The data is
+# probably still in there, so keep knocking: the first run that gets a reply
+# imports those dots and commits them, after which they live in git for good.
+LEGACY_PANTRY_ID = os.environ.get("LEGACY_PANTRY_ID",
+                                  "6600f0f7-29ce-49d2-be7c-b635f02c75e7")
+LEGACY_PANTRY_BASKET = os.environ.get("LEGACY_PANTRY_BASKET", "visitor-globe")
+LEGACY_URL = os.environ.get("LEGACY_PANTRY_URL", "")   # overridable for testing
+LEGACY_PREFIX = "legacy:"
+
 MAX_RETRIES = 4
 # Pause once this few requests are left in the current window, rather than
 # guessing a fixed delay: the quota is per IP and may be shared with whatever
@@ -120,6 +131,47 @@ def load_json(path, default):
         return default
 
 
+def import_legacy_cells(carried):
+    """Merge the old Pantry basket into `carried` (keyed "legacy:lat,lon").
+
+    Entries are {"n": count, "l": "City, Country"} keyed by integer-degree
+    lat,lon; very old ones stored a bare count. Counts only ever move up, so a
+    partial read can never shrink the map.
+    """
+    url = LEGACY_URL or (f"https://getpantry.cloud/apiv1/pantry/{LEGACY_PANTRY_ID}"
+                         f"/basket/{LEGACY_PANTRY_BASKET}")
+    if not url:
+        return
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "visitor-globe-sync"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            basket = json.loads(resp.read().decode("utf-8"))
+    except Exception as e:  # noqa: BLE001 — any failure just means "not yet"
+        print(f"legacy pantry unavailable ({e}); keeping {len(carried)} imported cells")
+        return
+
+    added = 0
+    for key, value in (basket.get("cells") or {}).items():
+        try:
+            lat, lon = (float(p) for p in key.split(",", 1))
+        except ValueError:
+            continue
+        if isinstance(value, dict):
+            count, label = int(value.get("n") or 0), (value.get("l") or "")
+        else:
+            count, label = int(value or 0), ""
+        if count <= 0:
+            continue
+        slot = carried.setdefault(LEGACY_PREFIX + key,
+                                  {"n": 0, "lat": lat, "lon": lon, "l": label})
+        if count > slot["n"]:
+            slot["n"] = count
+            added += 1
+        if label:
+            slot["l"] = label
+    print(f"legacy pantry: recovered {len(carried)} cells ({added} updated)")
+
+
 def main():
     countries = load_json(COUNTRIES, {}).get("countries") or {}
     if not countries:
@@ -127,18 +179,21 @@ def main():
 
     previous = load_json(OUT, {})
 
+    # Anything already recovered stays put even if Pantry breaks again.
+    cells = {k: v for k, v in (previous.get("cells") or {}).items()
+             if k.startswith(LEGACY_PREFIX)}
+    import_legacy_cells(cells)
+
     print(f"sweeping {len(countries)} country counters in '{NAMESPACE}'")
-    cells = {}
-    total = 0
     for code, meta in sorted(countries.items()):
         count = counter_value(f"{PREFIX}{code}")
         if count:
             cells[code] = {"n": count, "lat": meta["lat"], "lon": meta["lon"],
                            "l": meta["name"]}
-            total += count
             print(f"  {code} {meta['name']}: {count}")
 
     cells = dict(sorted(cells.items()))
+    total = sum(c["n"] for c in cells.values())
     # Only the dots are worth a commit; "updated" alone would churn the history.
     if cells == previous.get("cells"):
         print(f"snapshot unchanged ({len(cells)} regions, {total} visits)")

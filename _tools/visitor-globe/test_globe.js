@@ -12,7 +12,9 @@ const SCRIPT = path.join(__dirname, "..", "..", "assets", "visitor-globe", "glob
 const SNAPSHOT = {
   cells: {
     CN: { n: 5, lat: 35.862, lon: 104.195, l: "China" },
-    US: { n: 2, lat: 37.09, lon: -95.713, l: "United States" }
+    US: { n: 2, lat: 37.09, lon: -95.713, l: "United States" },
+    // city-level dots recovered from the retired Pantry backend
+    "legacy:39,116": { n: 57, lat: 39, lon: 116, l: "Beijing, China" }
   }
 };
 
@@ -111,12 +113,13 @@ function cellsByLabel(state) {
            country: "Singapore", country_code: "SG" }
   });
   let cells = cellsByLabel(r.state);
-  assert.deepStrictEqual(cells, { China: 5, "United States": 2, Singapore: 1 },
-    "snapshot regions plus the viewer's own");
+  assert.deepStrictEqual(cells,
+    { China: 5, "United States": 2, "Beijing, China": 57, Singapore: 1 },
+    "snapshot regions (incl. recovered city dots) plus the viewer's own");
   assert.deepStrictEqual(r.hits, ["https://abacus.example/hit/site.example/geo_SG"],
     "counts the visit once, under the country key");
-  assert.strictEqual(r.state.maxCount, 5, "largest bucket drives dot scaling");
-  assert.strictEqual(r.caption, "You're visiting from Singapore, Singapore · 3 regions on the map");
+  assert.strictEqual(r.state.maxCount, 57, "largest bucket drives dot scaling");
+  assert.strictEqual(r.caption, "You're visiting from Singapore, Singapore · 4 regions on the map");
   console.log("ok  " + r.name);
 
   r = await run("returning visitor inside the throttle window", {
@@ -125,17 +128,19 @@ function cellsByLabel(state) {
     store: { "vg-counted": String(Date.now()) }
   });
   cells = cellsByLabel(r.state);
-  assert.deepStrictEqual(cells, { China: 5, "United States": 2 },
+  assert.deepStrictEqual(cells,
+    { China: 5, "United States": 2, "Beijing, China": 57 },
     "already-counted browser must not inflate its bucket");
   assert.deepStrictEqual(r.hits, [], "no second increment inside the window");
   console.log("ok  " + r.name);
 
   r = await run("geolocation unavailable", { geo: null });
   cells = cellsByLabel(r.state);
-  assert.deepStrictEqual(cells, { China: 5, "United States": 2 },
+  assert.deepStrictEqual(cells,
+    { China: 5, "United States": 2, "Beijing, China": 57 },
     "past visitors still render without the viewer's own location");
   assert.strictEqual(r.state.you, null);
-  assert.strictEqual(r.caption, "2 regions on the map");
+  assert.strictEqual(r.caption, "3 regions on the map");
   console.log("ok  " + r.name);
 
   console.log("\nall globe data-path checks passed");
