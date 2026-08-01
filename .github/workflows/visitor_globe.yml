@@ -1,8 +1,9 @@
 name: Sync visitor globe
 
-# Rebuilds assets/visitor-globe/visitors.json from the per-country visit
-# counters so the globe can show past visitors without calling a third-party
-# service at page load. Run it by hand to refresh the map immediately.
+# Rebuilds assets/visitor-globe/visitors.json from every recorder that answers,
+# so the globe can show past visitors without calling a third-party service at
+# page load — and so the map keeps existing in git even when a recorder does
+# not. Run it by hand to refresh the map immediately.
 
 on:
   schedule:
@@ -50,3 +51,14 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh workflow run deploy.yml --ref "${GITHUB_REF_NAME}"
+
+      # Purely a second copy off GitHub. Skipped without the secret, and never
+      # allowed to fail the run: git already holds the snapshot.
+      - name: Mirror snapshot off-site
+        if: steps.commit.outputs.changed == 'true' && env.HF_TOKEN != ''
+        continue-on-error: true
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          pip install --quiet 'huggingface_hub==1.8.0'
+          python3 _tools/visitor-globe/mirror_to_hf.py

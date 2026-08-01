@@ -22,13 +22,20 @@ abacus_uv_key            : "visitors"
 
 # Self-hosted visitor globe — a 3D rotating globe drawn locally on a <canvas>,
 # so it always renders (incl. mainland China), unlike ClustrMaps/Cloudflare.
-# Each visitor's location is resolved from their IP and tallied into a per-country
-# counter (abacus, keys "<prefix><ISO-2>"). The "Sync visitor globe" workflow
-# turns those counters into assets/visitor-globe/visitors.json, which is what the
-# globe reads to draw every past visitor — no third-party call at page load.
+#
+# A visitor's location is resolved from their IP and reported to ONE recorder:
+# the project's own endpoint below if it answers, otherwise the public abacus
+# counter (keys "<prefix><ISO-2>"). The "Sync visitor globe" workflow merges
+# both into assets/visitor-globe/visitors.json, and that committed file is what
+# the globe reads — no third-party call at page load, and no third party able
+# to take the map with it when it disappears. Two already have; see
+# _tools/visitor-globe/seed_history.py.
 visitor_globe_size          : 260       # globe diameter in px (try 180–320)
 visitor_globe_geo_prefix    : "geo_"    # must match _tools/visitor-globe/sync_visitors.py
 visitor_globe_count_hours   : 12        # re-count a returning browser at most this often
+# Deployed from _tools/visitor-globe/deno/. Blank is safe: the globe falls back
+# to the abacus counter and only loses city-level precision.
+visitor_globe_recorder      : ""
 
 flagcounter_id           :           # e.g. "V588" — register at https://flagcounter.com/ to get an ID
 

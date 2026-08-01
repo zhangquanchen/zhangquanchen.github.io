@@ -75,6 +75,7 @@
     snapshotUrl: '{{ site.baseurl }}/assets/visitor-globe/visitors.json',
     geo: true,
     countEveryHours: {{ site.visitor_globe_count_hours | default: 12 }},
+    recorder: {{ site.visitor_globe_recorder | default: "" | jsonify }},
     counter: {
       base: {{ site.abacus_base | default: "https://abacus.jasoncameron.dev" | jsonify }},
       namespace: {{ abacus_ns | jsonify }},

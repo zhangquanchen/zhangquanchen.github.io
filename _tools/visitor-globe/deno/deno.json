@@ -1,0 +1,8 @@
+{
+  "unstable": ["kv"],
+  "tasks": {
+    "dev": "deno run --unstable-kv --allow-net --allow-env --allow-read --allow-write main.ts",
+    "check": "deno check main.ts main_test.ts",
+    "test": "rm -f /tmp/vg-test-kv.sqlite3* && VG_KV_PATH=/tmp/vg-test-kv.sqlite3 DEDUP_HOURS=0.0005556 deno test --unstable-kv --allow-net --allow-env --allow-read --allow-write --no-check"
+  }
+}
