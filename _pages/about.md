@@ -632,7 +632,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <img src="images/youtu.webp"    alt="Tencent YouTu Lab"       style="height: 70px !important; max-height: 70px !important;">
 </div>
 
-- **May 2026 – Present:** [Tencent](https://www.tencent.com/en-us/) · Research Intern (青云人才计划) · [YouTu Lab](https://youtu.qq.com/) · Shennong Research Center
+- **May 2026 – Present:** [Tencent](https://www.tencent.com/en-us/) · Research Intern (青云人才计划) · [YouTu Lab](https://youtu.qq.com/) Shennong Research Center
 - **Dec 2025 – Apr 2026:** [Tencent](https://www.tencent.com/en-us/) · Research Intern (青云人才计划) · [Hunyuan](https://hunyuan.tencent.com/) Multimodal LLM Group
 - **Aug 2025 – Dec 2025:** [Meituan](https://www.meituan.com/) · Research Intern (北斗人才计划) · M17 LongCat Foundation Model Group
 - **Apr 2025 – Aug 2025:** [ByteDance](https://www.bytedance.com/zh/) · Research Intern (筋斗云人才计划) · Multimodal LLM Content Understanding Group

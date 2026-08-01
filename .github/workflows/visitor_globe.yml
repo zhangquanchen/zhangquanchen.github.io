@@ -1,0 +1,52 @@
+name: Sync visitor globe
+
+# Rebuilds assets/visitor-globe/visitors.json from the per-country visit
+# counters so the globe can show past visitors without calling a third-party
+# service at page load. Run it by hand to refresh the map immediately.
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: visitor-globe
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Refresh visitor snapshot
+        run: python3 _tools/visitor-globe/sync_visitors.py
+
+      - name: Commit snapshot
+        id: commit
+        run: |
+          if git diff --quiet -- assets/visitor-globe/visitors.json; then
+            echo "no snapshot changes"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/visitor-globe/visitors.json
+          git commit -m "Update visitor globe snapshot"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # A push made with GITHUB_TOKEN does not trigger other workflows, so the
+      # Pages deploy has to be asked for explicitly (workflow_dispatch is one of
+      # the two events exempt from that rule).
+      - name: Publish updated snapshot
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref "${GITHUB_REF_NAME}"

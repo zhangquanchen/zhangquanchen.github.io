@@ -19,6 +19,7 @@
 
   <div class="visitor-globe-wrap">
     <div id="vg-globe" style="width: {{ vg_size }}px; max-width: 100%; margin: 0 auto;"></div>
+    <div id="vg-caption" style="margin-top: 0.2em; font-size: 0.8em; color: #6c757d;"></div>
   </div>
 
   {% if site.flagcounter_id %}
@@ -72,12 +73,15 @@
     mount: 'vg-globe',
     size: {{ vg_size }},
     dataUrl: '{{ site.baseurl }}/assets/visitor-globe/land-dots.json',
-    geo: true{% if site.visitor_globe_pantry_id %},
-    storage: {
-      provider: 'pantry',
-      pantryId: {{ site.visitor_globe_pantry_id | jsonify }},
-      basket: {{ site.visitor_globe_pantry_basket | default: "visitor-globe" | jsonify }}
-    }{% endif %}
+    snapshotUrl: '{{ site.baseurl }}/assets/visitor-globe/visitors.json',
+    captionId: 'vg-caption',
+    geo: true,
+    countEveryHours: {{ site.visitor_globe_count_hours | default: 12 }},
+    counter: {
+      base: {{ site.abacus_base | default: "https://abacus.jasoncameron.dev" | jsonify }},
+      namespace: {{ abacus_ns | jsonify }},
+      prefix: {{ site.visitor_globe_geo_prefix | default: "geo_" | jsonify }}
+    }
   });
 })();
 </script>

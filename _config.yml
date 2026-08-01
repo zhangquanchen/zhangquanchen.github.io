@@ -22,13 +22,13 @@ abacus_uv_key            : "visitors"
 
 # Self-hosted visitor globe — a 3D rotating globe drawn locally on a <canvas>,
 # so it always renders (incl. mainland China), unlike ClustrMaps/Cloudflare.
-# Each visitor's real location is resolved from their IP at page load.
-visitor_globe_size          : 260     # globe diameter in px (try 180–320)
-# Optional persistent map of ALL past visitors (real IP geolocation, server-side):
-#   1) create a free JSON pantry at https://getpantry.cloud → you get a Pantry ID
-#   2) paste that ID below. Leave blank to just pin each visitor's own location.
-visitor_globe_pantry_id     : "6600f0f7-29ce-49d2-be7c-b635f02c75e7"
-visitor_globe_pantry_basket : "visitor-globe"
+# Each visitor's location is resolved from their IP and tallied into a per-country
+# counter (abacus, keys "<prefix><ISO-2>"). The "Sync visitor globe" workflow
+# turns those counters into assets/visitor-globe/visitors.json, which is what the
+# globe reads to draw every past visitor — no third-party call at page load.
+visitor_globe_size          : 260       # globe diameter in px (try 180–320)
+visitor_globe_geo_prefix    : "geo_"    # must match _tools/visitor-globe/sync_visitors.py
+visitor_globe_count_hours   : 12        # re-count a returning browser at most this often
 
 flagcounter_id           :           # e.g. "V588" — register at https://flagcounter.com/ to get an ID
 
