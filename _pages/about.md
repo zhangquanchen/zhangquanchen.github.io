@@ -43,7 +43,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 - *2025.06*: &nbsp;🎉 One paper (<a href="/#paper-visrl">VisRL</a>) has been accepted by **ICCV 2025**.
 - *2025.04*: &nbsp;🎉 One paper has been accepted by CVPRW 2025 (<span style="color:red">Highlight</span>).
 - *2025.03*: &nbsp;🎉 One paper (<a href="/#paper-dv-matcher">DV-Matcher</a>) has been accepted by **CVPR 2025**.
-- *2024.04*: &nbsp;🎉 One paper (<a href="/#paper-three-phases-lora">Three-Phases-LoRA</a>) has been accepted by ICANN 2024. 
+- ...
 
 <span class='anchor' id='education'></span>
 
@@ -563,6 +563,24 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
+<span class='anchor' id='paper-evidence-rl'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/evidence-rl.png' alt="Evidence-RL" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Evidence-RL: Towards Evidence-intensive Visual Reasoning</div>
+    <div class='paper-authors'>Haojie Huang, Xinlei Yu, Chengming Xu, <strong>Zhangquan Chen</strong>, Cheng Yang, Qingdong He, Yu Yang, Jiangning Zhang, Xiaobin Hu</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2608.08021"><i class="fas fa-file-pdf"></i> Paper</a>
+    </div>
+  </div>
+</div>
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
@@ -596,6 +614,28 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
       <a href="https://arxiv.org/pdf/2605.18693"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
       <a href="https://github.com/QuantaAlpha/SkillGenBench"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-histprune-gui'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/guinav.png' alt="HistPrune-GUI" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Where and How to Prune: An Empirical Study of Visual Token Pruning for GUI Agent Navigation</div>
+    <div class='paper-authors'>Daiqiang Li, Zihao Pan, Zeyu Zhang, Xuyang Liu, Shijia Xu, Ronghao Chen, Huacan Wang, Honggang Chen, Linfeng Zhang, <strong>Zhangquan Chen</strong>, Haiyun Jiang</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2603.26041"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/Daiqiang-Li/HistPrune-GUI"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/lidaiqiang/HistPrune-GUI/tree/main"><i class="fas fa-cube"></i> Model</a>
     </div>
   </div>
 </div>
