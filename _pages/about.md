@@ -32,6 +32,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='news'></span>
 
 # 🔥 News
+- *2026.08*: &nbsp;🎉 One paper has been accepted by **EMNLP 2026**.
 - *2026.06*: &nbsp;🎉 One paper (<a href="#paper-spamem">SpaMEM</a>) has been accepted by **ECCV 2026**.
 - *2026.05*: &nbsp;🎉 Release technical report <a href="/#report-llava-ov2"><em>LLaVA-OneVision-2.0</em></a>.
 - *2026.05*: &nbsp;🎉 Four papers (<a href="/#paper-omnivideo-r1">OmniVideo-R1</a>, <a href="/#paper-gtasr">GTASR</a>, <a href="/#paper-reasoning-vla">Reasoning-VLA</a>, <a href="/#paper-l2-vmas">L²-VMAS</a>) have been accepted by **ICML 2026**.
