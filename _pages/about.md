@@ -42,6 +42,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 - *2026.02*: &nbsp;🎉 3 papers (<a href="/#paper-3dthinker">3DThinker</a>, <a href="/#paper-mact">MACT</a> (<span style="color:red">Highlight</span>), <a href="/#paper-vismem">VisMem</a>) have been accepted by **CVPR 2026**.
 - *2026.01*: &nbsp;🎉 1 paper (<a href="/#paper-vif">ViF</a>) has been accepted by **ICLR 2026**.
 - *2025.11*: &nbsp;🎉 2 papers (<a href="/#paper-sifthinker">SIFThinker</a>, <a href="/#paper-childbench">ChildBench</a> (<span style="color:red">Oral</span>)) have been accepted by **AAAI 2026**.
+- *2025.09*: &nbsp;🎉 Release technical report <a href="/#report-llava-ov15"><em>LLaVA-OneVision-1.5</em></a>.
 - *2025.06*: &nbsp;🎉 1 paper (<a href="/#paper-visrl">VisRL</a>) has been accepted by **ICCV 2025**.
 - *2025.04*: &nbsp;🎉 1 paper has been accepted by CVPRW 2025 (<span style="color:red">Highlight</span>).
 - *2025.03*: &nbsp;🎉 1 paper (<a href="/#paper-dv-matcher">DV-Matcher</a>) has been accepted by **CVPR 2025**.
@@ -72,6 +73,60 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 # 📑 Technical Report
 
+<span class='anchor' id='report-llava-ov2'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">Report</div>
+      <img src='images/ov2.png' alt="LLaVA-OneVision-2" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence</div>
+    <div class='paper-authors'>LMMs-Lab · <strong>Zhangquan Chen</strong></div>
+    <div class='paper-venue'>Technical report, 2026</div>
+    <div class='paper-links'>
+      <a href="https://evolvinglmms-lab.github.io/LLaVA-OneVision-2/"><i class="fas fa-home"></i> Project page</a>
+      <span class="link-sep">|</span>
+      <a href="https://arxiv.org/pdf/2605.25979"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-2"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct"><i class="fas fa-cube"></i> Model</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-2-Data"><i class="fas fa-database"></i> Dataset</a>
+      <span class="link-sep">|</span>
+      <a href="https://mp.weixin.qq.com/s/dechFptcXCvF30mfmC3dWA"><i class="fab fa-weixin"></i> Media</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/spaces/FeilongTang/OneVision-Encoder-Codec-View"><i class="fas fa-rocket"></i> Playground</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='report-llava-ov15'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">Report</div>
+      <img src='images/llava1d5.png' alt="LLaVA-OneVision-1.5" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>LLaVA-OneVision-1.5: Fully Open Framework for Democratized Multimodal Training</div>
+    <div class='paper-authors'>LMMs-Lab · <strong>Zhangquan Chen</strong></div>
+    <div class='paper-venue'>Technical report, 2025</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2509.23661"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/lmms-lab/LLaVA-OneVision-1.5-8B-Instruct"><i class="fas fa-cube"></i> Model</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M"><i class="fas fa-database"></i> Dataset</a>
+      <span class="link-sep">|</span>
+      <a href="https://mp.weixin.qq.com/s/t0oflHZOVU_73zzq2PCLSw"><i class="fab fa-weixin"></i> Media</a>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='report-script-a-video'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -88,36 +143,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
       <a href="https://arxiv.org/pdf/2604.11244"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
       <a href="https://mp.weixin.qq.com/s/A6N2-cAo-ddCAGNKo7L7OA"><i class="fab fa-weixin"></i> Media</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='report-llava-ov2'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">Report</div>
-      <img src='images/ov2.png' alt="LLaVA-OneVision-2" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence</div>
-    <div class='paper-authors'>LLaVA-OneVision-2 Team · <strong>Zhangquan Chen</strong></div>
-    <div class='paper-venue'>Technical report, 2026</div>
-    <div class='paper-links'>
-      <a href="https://evolvinglmms-lab.github.io/LLaVA-OneVision-2/"><i class="fas fa-home"></i> Project page</a>
-      <span class="link-sep">|</span>
-      <a href="https://arxiv.org/pdf/2605.25979"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-2"><i class="fab fa-github"></i> Code</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct"><i class="fas fa-cube"></i> Model</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-2-Data"><i class="fas fa-database"></i> Dataset</a>
-      <span class="link-sep">|</span>
-      <a href="https://mp.weixin.qq.com/s/dechFptcXCvF30mfmC3dWA"><i class="fab fa-weixin"></i> Media</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/spaces/FeilongTang/OneVision-Encoder-Codec-View"><i class="fas fa-rocket"></i> Playground</a>
     </div>
   </div>
 </div>
