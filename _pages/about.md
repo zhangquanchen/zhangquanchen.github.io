@@ -550,14 +550,14 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
+      <div class="badge">Chinagraph</div>
       <img src='images/topology.png' alt="OmniZoo" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'>Topology-Agnostic Animal Motion Generation from Text Prompt</div>
     <div class='paper-authors'>Keyi Chen, Mingze Sun, Zhenyu Liu, <strong>Zhangquan Chen</strong>, Ruqi Huang</div>
-    <div class='paper-venue'>arXiv 2025</div>
+    <div class='paper-venue'><strong>Chinagraph</strong>, 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2512.10352"><i class="fas fa-file-pdf"></i> Paper</a>
     </div>
