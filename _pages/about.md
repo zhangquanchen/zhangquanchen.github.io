@@ -735,8 +735,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 - Honorable Mention, American Mathematical Contest in Modeling (2021)
 - Second Prize, National CYC Cup Mathematical Modeling Competition (2022)
 - Third Prize, Programming Competition (2020)
-- Merit Award, National Olympiad in Mathematics (2020)
-- Merit Award, Electronic Design Competition (2020)
 
 ### ⭐ Talent Programs
 - **Tencent Qingyun Top Talent Program (腾讯青云人才计划)**
