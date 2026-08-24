@@ -103,6 +103,26 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
+<span class='anchor' id='report-script-a-video'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">Report</div>
+      <img src='images/mtss.png' alt="Script-a-Video" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Script-a-Video: Deep Structured Audio-visual Captions via Factorized Streams and Relational Grounding</div>
+    <div class='paper-authors'>Tencent Hunyuan Team · <strong>Zhangquan Chen</strong> (Core Contributor)</div>
+    <div class='paper-venue'>Technical report, 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2604.11244"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://mp.weixin.qq.com/s/A6N2-cAo-ddCAGNKo7L7OA"><i class="fab fa-weixin"></i> Media</a>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='report-llava-ov15'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -123,26 +143,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
       <a href="https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M"><i class="fas fa-database"></i> Dataset</a>
       <span class="link-sep">|</span>
       <a href="https://mp.weixin.qq.com/s/t0oflHZOVU_73zzq2PCLSw"><i class="fab fa-weixin"></i> Media</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='report-script-a-video'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">Report</div>
-      <img src='images/mtss.png' alt="Script-a-Video" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Script-a-Video: Deep Structured Audio-visual Captions via Factorized Streams and Relational Grounding</div>
-    <div class='paper-authors'>Tencent Hunyuan Team · <strong>Zhangquan Chen</strong> (Core Contributor)</div>
-    <div class='paper-venue'>Technical report, 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2604.11244"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://mp.weixin.qq.com/s/A6N2-cAo-ddCAGNKo7L7OA"><i class="fab fa-weixin"></i> Media</a>
     </div>
   </div>
 </div>
