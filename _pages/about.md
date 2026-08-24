@@ -33,6 +33,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 # 🔥 News
 - *2026.08*: &nbsp;🎉 One paper has been accepted by **EMNLP 2026**.
+- *2026.08*: &nbsp;🎉 One paper has been accepted by **Computer Graphics Forum**, and one by Chinagraph 2026.
 - *2026.06*: &nbsp;🎉 One paper (<a href="#paper-spamem">SpaMEM</a>) has been accepted by **ECCV 2026**.
 - *2026.05*: &nbsp;🎉 Release technical report <a href="/#report-llava-ov2"><em>LLaVA-OneVision-2.0</em></a>.
 - *2026.05*: &nbsp;🎉 Four papers (<a href="/#paper-omnivideo-r1">OmniVideo-R1</a>, <a href="/#paper-gtasr">GTASR</a>, <a href="/#paper-reasoning-vla">Reasoning-VLA</a>, <a href="/#paper-l2-vmas">L²-VMAS</a>) have been accepted by **ICML 2026**.
@@ -266,14 +267,14 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
+      <div class="badge">CGF</div>
       <img src='images/nfr.gif' alt="NFR" style="width: 160px; max-height: 200px; object-fit: contain;">
     </div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'>NFR: Neural Feature-Guided Non-Rigid Shape Registration</div>
     <div class='paper-authors'><strong>Zhangquan Chen</strong>, Puhua Jiang, Mingze Sun, Ruqi Huang</div>
-    <div class='paper-venue'>arXiv 2025</div>
+    <div class='paper-venue'>Computer Graphics Forum (<strong>CGF</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2505.22445"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
