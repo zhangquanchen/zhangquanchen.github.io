@@ -33,7 +33,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 # 🔥 News
 - *2026.08*: &nbsp;🎉 1 paper has been accepted by **EMNLP 2026**.
-- *2026.08*: &nbsp;🎉 1 paper has been accepted by **Computer Graphics Forum**, and 1 by Chinagraph 2026.
+- *2026.08*: &nbsp;🎉 1 paper (<a href="/#paper-nfr">NFR</a>) has been accepted by **Computer Graphics Forum**, and 1 (<a href="/#paper-omnizoo">OmniZoo</a>) by Chinagraph 2026.
 - *2026.06*: &nbsp;🎉 1 paper (<a href="#paper-spamem">SpaMEM</a>) has been accepted by **ECCV 2026**.
 - *2026.05*: &nbsp;🎉 Release technical report <a href="/#report-llava-ov2"><em>LLaVA-OneVision-2.0</em></a>.
 - *2026.05*: &nbsp;🎉 4 papers (<a href="/#paper-omnivideo-r1">OmniVideo-R1</a>, <a href="/#paper-gtasr">GTASR</a>, <a href="/#paper-reasoning-vla">Reasoning-VLA</a>, <a href="/#paper-l2-vmas">L²-VMAS</a>) have been accepted by **ICML 2026**.
@@ -264,6 +264,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
+<span class='anchor' id='paper-nfr'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
@@ -548,6 +549,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
+<span class='anchor' id='paper-omnizoo'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
