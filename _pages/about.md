@@ -32,7 +32,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='news'></span>
 
 # 🔥 News
-- *2026.08*: &nbsp;🎉 1 paper has been accepted by **EMNLP 2026**.
+- *2026.08*: &nbsp;🎉 1 paper (<a href="/#paper-stable-mm-r1">Stable-MM-R1</a>) has been accepted by **EMNLP 2026**.
 - *2026.08*: &nbsp;🎉 1 paper (<a href="/#paper-nfr">NFR</a>) has been accepted by **Computer Graphics Forum**, and 1 (<a href="/#paper-omnizoo">OmniZoo</a>) by Chinagraph 2026.
 - *2026.06*: &nbsp;🎉 1 paper (<a href="#paper-spamem">SpaMEM</a>) has been accepted by **ECCV 2026**.
 - *2026.05*: &nbsp;🎉 Release technical report <a href="/#report-llava-ov2"><em>LLaVA-OneVision-2.0</em></a>.
@@ -265,30 +265,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
-<span class='anchor' id='paper-4dthinker'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/4dthinker.png' alt="4DThinker" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>4DThinker: Thinking with 4D Imagery for Dynamic Spatial Understanding</div>
-    <div class='paper-authors'><strong>Zhangquan Chen</strong>, Manyuan Zhang, Xinlei Yu, Xiang An, Bo Li, Xin Xie, ZiDong Wang, Mingze Sun, Shuang Chen, Hongyu Li, Xiaobin Hu, Ruqi Huang</div>
-    <div class='paper-venue'>arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2605.05997"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/zhangquanchen/4DThinker"><i class="fab fa-github"></i> Code</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/jankin123/4DThinker-3B"><i class="fas fa-cube"></i> Model</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/datasets/jankin123/4DThinker-Training-Data"><i class="fas fa-database"></i> Dataset</a>
-    </div>
-  </div>
-</div>
-
 <span class='anchor' id='paper-nfr'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -327,99 +303,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/meow-omni.png' alt="Meow-Omni 1" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Meow-Omni 1: A Multimodal Large Language Model for Feline Ethology</div>
-    <div class='paper-authors'>Jucheng Hu†, <strong>Zhangquan Chen</strong>†, Yulin Chen, Chengjie Hong, Liang Zhou, Tairan Wang, Sifei Li, Giulio Zhu, Feng Zhou, Yiheng Zeng, Suorong Yang, Dongzhan Zhou</div>
-    <div class='paper-venue'>(† equal contribution) arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2605.09152"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/smgjch/Meow-Omni-1"><i class="fab fa-github"></i> Code</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/smgjch/Meow-Omni-1"><i class="fas fa-cube"></i> Model</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/smgjch/Meow-Omni-1-Base"><i class="fas fa-cube"></i> Base Model</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/datasets/smgjch/meow-10k"><i class="fas fa-database"></i> Dataset</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/datasets/smgjch/MeowBench"><i class="fas fa-vial"></i> Benchmark</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/a-grae.png' alt="A-GRAE" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Unveiling Implicit Advantage Symmetry: Why GRPO Struggles with Exploration and Difficulty Adaptation</div>
-    <div class='paper-authors'>Zhiqi Yu†, <strong>Zhangquan Chen</strong>†, Mengting Liu, Heye Zhang, Liangqiong Qu</div>
-    <div class='paper-venue'>(† equal contribution) arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://yu7-code.github.io/A-GRAE-web/"><i class="fas fa-home"></i> Project page</a>
-      <span class="link-sep">|</span>
-      <a href="https://arxiv.org/pdf/2602.05548"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/HKU-HealthAI/A-GRAE"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='latent-space'></span>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/latentsurvey.png' alt="The Latent Space survey" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook</div>
-    <div class='paper-authors'>Xinlei Yu†, <strong>Zhangquan Chen</strong>†, Yongbo He†, Tianyu Fu†, Cheng Yang†, Chengming Xu†, Yue Ma†, Xiaobin Hu†, Zhe Cao, Jie Xu, Guibin Zhang, Jiale Tao, Jiayi Zhang, Siyuan Ma, Kaituo Feng, Haojie Huang, Youxing Li, Ronghao Chen, Huacan Wang, Chenglin Wu, Zikun Su, Xiaogang Xu, Kelu Yao, Kun Wang, Chen Gao, Yue Liao, Ruqi Huang, Tao Jin, Zhucun Xue, Cheng Tan, Jiangning Zhang, Wenqi Ren, Yanwei Fu, Yong Liu, Yu Wang, Xiangyu Yue, Yu-Gang Jiang, Shuicheng Yan</div>
-    <div class='paper-venue'>(† equal contribution) arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2604.02029"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/YU-deep/Awesome-Latent-Space"><i class="fab fa-github"></i> Repository</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/papers/2604.02029"><i class="fas fa-newspaper"></i> Hugging Face</a>
-      <span class="link-sep">|</span>
-      <a href="https://mp.weixin.qq.com/s/6Fini_pAUyB7B5R6GIdfAQ"><i class="fab fa-weixin"></i> Media</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-childbench'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">AAAI</div>
-      <img src='images/childbench.png' alt="ChildBench" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Easy for Children, Hard for AI: The Limits of Multimodal LLMs in Early Childhood Learning</div>
-    <div class='paper-authors'>Jingping Liu, Xueyan Wu, Hanxuan Chen, Ziyan Liu, <strong>Zhangquan Chen</strong>, Ronghao Chen, Huacan Wang</div>
-    <div class='paper-venue'>AAAI Conference on Artificial Intelligence (<strong>AAAI Oral</strong>), 2026</div>
-    <div class='paper-links'>
-      <a href="https://ojs.aaai.org/index.php/AAAI/article/download/40479/44440"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/Jderder/ChildBench"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
 <span class='anchor' id='paper-gtasr'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -436,43 +319,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
       <a href="https://arxiv.org/pdf/2602.24240"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
       <a href="https://github.com/Blazedengcy/GTASR"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-vif'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">ICLR</div>
-      <img src='images/vif.png' alt="ViF" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow</div>
-    <div class='paper-authors'>Xinlei Yu, Chengming Xu, Guibin Zhang, Yongbo He, <strong>Zhangquan Chen</strong>, Zhucun Xue, Jiangning Zhang, Yue Liao, Xiaobin Hu, Yu-Gang Jiang, Shuicheng Yan</div>
-    <div class='paper-venue'>International Conference on Learning Representations (<strong>ICLR</strong>), 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2509.21789"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/YU-deep/ViF"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/calmars.png' alt="CALMARS" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Adversarial Robustness for Unified Multi-Modal Encoders via Efficient Calibration</div>
-    <div class='paper-authors'>Chih-Ting Liao, <strong>Zhangquan Chen</strong>, Chunlei Meng, Tzu-Yu Huang, Xin Cao, Xu Zheng</div>
-    <div class='paper-venue'>arXiv 2025</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2505.11895"><i class="fas fa-file-pdf"></i> Paper</a>
     </div>
   </div>
 </div>
@@ -592,6 +438,178 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
+<span class='anchor' id='paper-childbench'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">AAAI</div>
+      <img src='images/childbench.png' alt="ChildBench" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Easy for Children, Hard for AI: The Limits of Multimodal LLMs in Early Childhood Learning</div>
+    <div class='paper-authors'>Jingping Liu, Xueyan Wu, Hanxuan Chen, Ziyan Liu, <strong>Zhangquan Chen</strong>, Ronghao Chen, Huacan Wang</div>
+    <div class='paper-venue'>AAAI Conference on Artificial Intelligence (<strong>AAAI Oral</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/download/40479/44440"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/Jderder/ChildBench"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-vif'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">ICLR</div>
+      <img src='images/vif.png' alt="ViF" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow</div>
+    <div class='paper-authors'>Xinlei Yu, Chengming Xu, Guibin Zhang, Yongbo He, <strong>Zhangquan Chen</strong>, Zhucun Xue, Jiangning Zhang, Yue Liao, Xiaobin Hu, Yu-Gang Jiang, Shuicheng Yan</div>
+    <div class='paper-venue'>International Conference on Learning Representations (<strong>ICLR</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2509.21789"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/YU-deep/ViF"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-stable-mm-r1'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">EMNLP</div>
+      <img src='images/stablemm.png' alt="Stable-MM-R1" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Stable-MM-R1: Anchoring Multimodal Reasoning Dynamics via Entropy-Guided Stratification</div>
+    <div class='paper-authors'>Yimeng Ye, Shawn Chen, Wenxuan Huang, Manyuan Zhang, Kaituo Feng, <strong>Zhangquan Chen</strong>, Jiayu Chen, Yucheng Zhou, Yicheng Xiao, ZhiYuan Feng, Tianyu Shi</div>
+    <div class='paper-venue'>Conference on Empirical Methods in Natural Language Processing (<strong>EMNLP</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2609.07148"><i class="fas fa-file-pdf"></i> Paper</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-4dthinker'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/4dthinker.png' alt="4DThinker" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>4DThinker: Thinking with 4D Imagery for Dynamic Spatial Understanding</div>
+    <div class='paper-authors'><strong>Zhangquan Chen</strong>, Manyuan Zhang, Xinlei Yu, Xiang An, Bo Li, Xin Xie, ZiDong Wang, Mingze Sun, Shuang Chen, Hongyu Li, Xiaobin Hu, Ruqi Huang</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2605.05997"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/zhangquanchen/4DThinker"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/jankin123/4DThinker-3B"><i class="fas fa-cube"></i> Model</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/jankin123/4DThinker-Training-Data"><i class="fas fa-database"></i> Dataset</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/meow-omni.png' alt="Meow-Omni 1" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Meow-Omni 1: A Multimodal Large Language Model for Feline Ethology</div>
+    <div class='paper-authors'>Jucheng Hu†, <strong>Zhangquan Chen</strong>†, Yulin Chen, Chengjie Hong, Liang Zhou, Tairan Wang, Sifei Li, Giulio Zhu, Feng Zhou, Yiheng Zeng, Suorong Yang, Dongzhan Zhou</div>
+    <div class='paper-venue'>(† equal contribution) arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2605.09152"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/smgjch/Meow-Omni-1"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/smgjch/Meow-Omni-1"><i class="fas fa-cube"></i> Model</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/smgjch/Meow-Omni-1-Base"><i class="fas fa-cube"></i> Base Model</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/smgjch/meow-10k"><i class="fas fa-database"></i> Dataset</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/smgjch/MeowBench"><i class="fas fa-vial"></i> Benchmark</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/a-grae.png' alt="A-GRAE" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Unveiling Implicit Advantage Symmetry: Why GRPO Struggles with Exploration and Difficulty Adaptation</div>
+    <div class='paper-authors'>Zhiqi Yu†, <strong>Zhangquan Chen</strong>†, Mengting Liu, Heye Zhang, Liangqiong Qu</div>
+    <div class='paper-venue'>(† equal contribution) arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://yu7-code.github.io/A-GRAE-web/"><i class="fas fa-home"></i> Project page</a>
+      <span class="link-sep">|</span>
+      <a href="https://arxiv.org/pdf/2602.05548"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/HKU-HealthAI/A-GRAE"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='latent-space'></span>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/latentsurvey.png' alt="The Latent Space survey" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook</div>
+    <div class='paper-authors'>Xinlei Yu†, <strong>Zhangquan Chen</strong>†, Yongbo He†, Tianyu Fu†, Cheng Yang†, Chengming Xu†, Yue Ma†, Xiaobin Hu†, Zhe Cao, Jie Xu, Guibin Zhang, Jiale Tao, Jiayi Zhang, Siyuan Ma, Kaituo Feng, Haojie Huang, Youxing Li, Ronghao Chen, Huacan Wang, Chenglin Wu, Zikun Su, Xiaogang Xu, Kelu Yao, Kun Wang, Chen Gao, Yue Liao, Ruqi Huang, Tao Jin, Zhucun Xue, Cheng Tan, Jiangning Zhang, Wenqi Ren, Yanwei Fu, Yong Liu, Yu Wang, Xiangyu Yue, Yu-Gang Jiang, Shuicheng Yan</div>
+    <div class='paper-venue'>(† equal contribution) arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2604.02029"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/YU-deep/Awesome-Latent-Space"><i class="fab fa-github"></i> Repository</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/papers/2604.02029"><i class="fas fa-newspaper"></i> Hugging Face</a>
+      <span class="link-sep">|</span>
+      <a href="https://mp.weixin.qq.com/s/6Fini_pAUyB7B5R6GIdfAQ"><i class="fab fa-weixin"></i> Media</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/calmars.png' alt="CALMARS" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Adversarial Robustness for Unified Multi-Modal Encoders via Efficient Calibration</div>
+    <div class='paper-authors'>Chih-Ting Liao, <strong>Zhangquan Chen</strong>, Chunlei Meng, Tzu-Yu Huang, Xin Cao, Xu Zheng</div>
+    <div class='paper-venue'>arXiv 2025</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2505.11895"><i class="fas fa-file-pdf"></i> Paper</a>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='paper-evidence-rl'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -647,6 +665,24 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
+<span class='anchor' id='paper-worldmodel'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/mentalmap.png' alt="Do LLMs Build World Models From Text?" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Do LLMs Build World Models From Text? A Multilingual Diagnostic of Spatial Reasoning</div>
+    <div class='paper-authors'>Zhikai Pan, Chih-Ting Liao, Chunrui Liu, Xi Xiao, Yitong Qiao, Chunlei Meng, <strong>Zhangquan Chen</strong>, Xin Cao</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2605.28277"><i class="fas fa-file-pdf"></i> Paper</a>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='paper-histprune-gui'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -665,24 +701,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
       <a href="https://github.com/Daiqiang-Li/HistPrune-GUI"><i class="fab fa-github"></i> Code</a>
       <span class="link-sep">|</span>
       <a href="https://huggingface.co/lidaiqiang/HistPrune-GUI/tree/main"><i class="fas fa-cube"></i> Model</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-worldmodel'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/mentalmap.png' alt="Do LLMs Build World Models From Text?" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Do LLMs Build World Models From Text? A Multilingual Diagnostic of Spatial Reasoning</div>
-    <div class='paper-authors'>Zhikai Pan, Chih-Ting Liao, Chunrui Liu, Xi Xiao, Yitong Qiao, Chunlei Meng, <strong>Zhangquan Chen</strong>, Xin Cao</div>
-    <div class='paper-venue'>arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2605.28277"><i class="fas fa-file-pdf"></i> Paper</a>
     </div>
   </div>
 </div>
@@ -738,6 +756,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 ### ⭐ Talent Programs
 - **Tencent Qingyun Top Talent Program (腾讯青云人才计划)**
+- ByteDance Seed Large Model Talent Program (Seed大模型人才计划)
 - ByteDance Jindouyun Top Talent Program (字节筋斗云人才计划)
 - Jingdong Top Young Technical Genius (TGT) Program (京东TGT人才计划)
 - Meituan Beidou Top Talent Program（美团北斗人才计划）
