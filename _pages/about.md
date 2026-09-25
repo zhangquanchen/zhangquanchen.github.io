@@ -32,6 +32,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='news'></span>
 
 # 🔥 News
+- *2026.09*: &nbsp;🎉 4 papers (<a href="/#paper-meow-omni">Meow-Omni 1</a>, <a href="/#paper-a-grae">A-GRAE</a>, <a href="/#paper-evidence-rl">Evidence-RL</a>, <a href="https://openreview.net/forum?id=U8cmaFkAVL">VUM</a>) have been accepted by **NeurIPS 2026**.
 - *2026.08*: &nbsp;🎉 1 paper (<a href="/#paper-stable-mm-r1">Stable-MM-R1</a>) has been accepted by **EMNLP 2026**.
 - *2026.08*: &nbsp;🎉 1 paper (<a href="/#paper-nfr">NFR</a>) has been accepted by **Computer Graphics Forum**, and 1 (<a href="/#paper-omnizoo">OmniZoo</a>) by Chinagraph 2026.
 - *2026.06*: &nbsp;🎉 1 paper (<a href="#paper-spamem">SpaMEM</a>) has been accepted by **ECCV 2026**.
@@ -54,7 +55,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 <div class="education-item">
   <div class="education-logo"><img src="images/tsinghua.png" alt="Tsinghua University"></div>
-  <div class="education-text"><strong>Sep. 2026 – Dec. 2027:</strong> <strong>Ph.D.</strong>, Data Science and Information Technology, <a href="https://www.tsinghua.edu.cn/"><strong style="color:#A31515">Tsinghua University (THU)</strong></a>, Beijing, China.</div>
+  <div class="education-text"><strong>Sep. 2026 – 2027:</strong> <strong>Ph.D.</strong>, Data Science and Information Technology, <a href="https://www.tsinghua.edu.cn/"><strong style="color:#A31515">Tsinghua University (THU)</strong></a>, Beijing, China.</div>
 </div>
 <div class="education-item">
   <div class="education-logo"><img src="images/mit.png" alt="MIT"></div>
@@ -303,6 +304,56 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
+<span class='anchor' id='paper-meow-omni'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">NeurIPS</div>
+      <img src='images/meow-omni.png' alt="Meow-Omni 1" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Meow-Omni 1: A Multimodal Large Language Model for Feline Ethology</div>
+    <div class='paper-authors'>Jucheng Hu†, <strong>Zhangquan Chen</strong>†, Yulin Chen, Chengjie Hong, Liang Zhou, Tairan Wang, Sifei Li, Giulio Zhu, Feng Zhou, Yiheng Zeng, Suorong Yang, Dongzhan Zhou</div>
+    <div class='paper-venue'>(† equal contribution) Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2605.09152"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/smgjch/Meow-Omni-1"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/smgjch/Meow-Omni-1"><i class="fas fa-cube"></i> Model</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/smgjch/Meow-Omni-1-Base"><i class="fas fa-cube"></i> Base Model</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/smgjch/meow-10k"><i class="fas fa-database"></i> Dataset</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/smgjch/MeowBench"><i class="fas fa-vial"></i> Benchmark</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-a-grae'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">NeurIPS</div>
+      <img src='images/a-grae.png' alt="A-GRAE" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Unveiling Implicit Advantage Symmetry: Why GRPO Struggles with Exploration and Difficulty Adaptation</div>
+    <div class='paper-authors'>Zhiqi Yu†, <strong>Zhangquan Chen</strong>†, Mengting Liu, Heye Zhang, Liangqiong Qu</div>
+    <div class='paper-venue'>(† equal contribution) Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://yu7-code.github.io/A-GRAE-web/"><i class="fas fa-home"></i> Project page</a>
+      <span class="link-sep">|</span>
+      <a href="https://arxiv.org/pdf/2602.05548"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/HKU-HealthAI/A-GRAE"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='paper-gtasr'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -420,6 +471,24 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
+<span class='anchor' id='paper-evidence-rl'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">NeurIPS</div>
+      <img src='images/evidence-rl.png' alt="Evidence-RL" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Evidence-RL: Towards Evidence-intensive Visual Reasoning</div>
+    <div class='paper-authors'>Haojie Huang, Xinlei Yu, Chengming Xu, <strong>Zhangquan Chen</strong>, Cheng Yang, Qingdong He, Yu Yang, Jiangning Zhang, Xiaobin Hu</div>
+    <div class='paper-venue'>Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2608.08021"><i class="fas fa-file-pdf"></i> Paper</a>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='paper-omnizoo'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -520,54 +589,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/meow-omni.png' alt="Meow-Omni 1" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Meow-Omni 1: A Multimodal Large Language Model for Feline Ethology</div>
-    <div class='paper-authors'>Jucheng Hu†, <strong>Zhangquan Chen</strong>†, Yulin Chen, Chengjie Hong, Liang Zhou, Tairan Wang, Sifei Li, Giulio Zhu, Feng Zhou, Yiheng Zeng, Suorong Yang, Dongzhan Zhou</div>
-    <div class='paper-venue'>(† equal contribution) arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2605.09152"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/smgjch/Meow-Omni-1"><i class="fab fa-github"></i> Code</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/smgjch/Meow-Omni-1"><i class="fas fa-cube"></i> Model</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/smgjch/Meow-Omni-1-Base"><i class="fas fa-cube"></i> Base Model</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/datasets/smgjch/meow-10k"><i class="fas fa-database"></i> Dataset</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/datasets/smgjch/MeowBench"><i class="fas fa-vial"></i> Benchmark</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/a-grae.png' alt="A-GRAE" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Unveiling Implicit Advantage Symmetry: Why GRPO Struggles with Exploration and Difficulty Adaptation</div>
-    <div class='paper-authors'>Zhiqi Yu†, <strong>Zhangquan Chen</strong>†, Mengting Liu, Heye Zhang, Liangqiong Qu</div>
-    <div class='paper-venue'>(† equal contribution) arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://yu7-code.github.io/A-GRAE-web/"><i class="fas fa-home"></i> Project page</a>
-      <span class="link-sep">|</span>
-      <a href="https://arxiv.org/pdf/2602.05548"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/HKU-HealthAI/A-GRAE"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
 <span class='anchor' id='latent-space'></span>
 
 <div class='paper-box'>
@@ -606,24 +627,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
     <div class='paper-venue'>arXiv 2025</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2505.11895"><i class="fas fa-file-pdf"></i> Paper</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-evidence-rl'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/evidence-rl.png' alt="Evidence-RL" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Evidence-RL: Towards Evidence-intensive Visual Reasoning</div>
-    <div class='paper-authors'>Haojie Huang, Xinlei Yu, Chengming Xu, <strong>Zhangquan Chen</strong>, Cheng Yang, Qingdong He, Yu Yang, Jiangning Zhang, Xiaobin Hu</div>
-    <div class='paper-venue'>arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2608.08021"><i class="fas fa-file-pdf"></i> Paper</a>
     </div>
   </div>
 </div>
@@ -739,7 +742,8 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 - Microsoft Research Asia Rising Star Award (Top 10%)
 
 ### 💰 Scholarship Awards
-- **National Scholarship (2022)**
+- <strong style="color:red">Ph.D. National Scholarship (2026)</strong>
+- **Undergraduate National Scholarship (2022)**
 - Tsinghua University Scholarship (2025)
 - Shanghai Institute of Organic Chemistry, CAS Scholarship (2020)
 - Sun Yat-sen University Outstanding Undergraduate Scholarship (2020, 2021, 2022)
