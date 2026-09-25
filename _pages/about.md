@@ -315,7 +315,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-text'>
     <div class='paper-title'>Meow-Omni 1: A Multimodal Large Language Model for Feline Ethology</div>
     <div class='paper-authors'>Jucheng Hu†, <strong>Zhangquan Chen</strong>†, Yulin Chen, Chengjie Hong, Liang Zhou, Tairan Wang, Sifei Li, Giulio Zhu, Feng Zhou, Yiheng Zeng, Suorong Yang, Dongzhan Zhou</div>
-    <div class='paper-venue'>(† equal contribution) Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026</div>
+    <div class='paper-venue'>(† equal contribution) Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2605.09152"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
@@ -343,7 +343,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-text'>
     <div class='paper-title'>Unveiling Implicit Advantage Symmetry: Why GRPO Struggles with Exploration and Difficulty Adaptation</div>
     <div class='paper-authors'>Zhiqi Yu†, <strong>Zhangquan Chen</strong>†, Mengting Liu, Heye Zhang, Liangqiong Qu</div>
-    <div class='paper-venue'>(† equal contribution) Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026</div>
+    <div class='paper-venue'>(† equal contribution) Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://yu7-code.github.io/A-GRAE-web/"><i class="fas fa-home"></i> Project page</a>
       <span class="link-sep">|</span>
@@ -482,7 +482,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   <div class='paper-box-text'>
     <div class='paper-title'>Evidence-RL: Towards Evidence-intensive Visual Reasoning</div>
     <div class='paper-authors'>Haojie Huang, Xinlei Yu, Chengming Xu, <strong>Zhangquan Chen</strong>, Cheng Yang, Qingdong He, Yu Yang, Jiangning Zhang, Xiaobin Hu</div>
-    <div class='paper-venue'>Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026</div>
+    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2608.08021"><i class="fas fa-file-pdf"></i> Paper</a>
     </div>
