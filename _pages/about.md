@@ -742,7 +742,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 - Microsoft Research Asia Rising Star Award (Top 10%)
 
 ### 💰 Scholarship Awards
-- <strong style="color:red">Ph.D. National Scholarship (2026)</strong>
+- <strong style="color:#A31515">Ph.D. National Scholarship (2026)</strong>
 - **Undergraduate National Scholarship (2022)**
 - Tsinghua University Scholarship (2025)
 - Shanghai Institute of Organic Chemistry, CAS Scholarship (2020)
