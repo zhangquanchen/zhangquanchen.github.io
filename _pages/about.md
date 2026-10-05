@@ -24,7 +24,7 @@ I have been researching large language models since 2022. I previously served as
 
 Since 2024, I have interned at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), [ByteDance](https://www.bytedance.com/zh/) (筋斗云人才计划), [Tencent Hunyuan](https://hy.tencent.com/) (青云人才计划), and [Meituan LongCat](https://longcat.chat/) (北斗人才计划), mainly working on post-training for large language models, especially reinforcement learning.
 
-I have authored 30+ papers, including ~20 publications in CCF-A conferences/journals and ~15 first-author papers.
+I have authored 30+ papers, including 20+ publications in CCF-A conferences/journals and 15+ first-author papers.
 
 I am currently seeking suitable collaboration or job opportunities. Feel free to reach out! ([czq23@mails.tsinghua.edu.cn](mailto:czq23@mails.tsinghua.edu.cn)).
 
@@ -840,7 +840,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='services'></span>
 
 # 💬 Services
-**Reviewer:** ICML (silver reviewer), NeurIPS, AAAI, ECCV and other top-tier conferences/journals in computer vision and machine learning.
+**Reviewer:** ICML (silver reviewer), NeurIPS, ICLR, AAAI, ECCV and other top-tier conferences/journals in computer vision and machine learning.
 
 <span class='anchor' id='visitor-stats'></span>
 
