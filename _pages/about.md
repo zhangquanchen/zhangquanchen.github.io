@@ -589,6 +589,68 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
+<span class='anchor' id='paper-haprl'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/hrprl.png' alt="HaPRL" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>HaPRL: Human-Anchored Process Reinforcement Learning for Visual Search Agent</div>
+    <div class='paper-authors'><strong>Zhangquan Chen</strong>, Yaoxin Niu, Xiang An, Mingze Sun, Zhumei Wang, Chih-Ting Liao, Hongkun Cao, Ruqi Huang</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2609.37190"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/zhangquanchen/HAPRL"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-spatial-opsd'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/spatial-opsd.png' alt="Spatial-OPSD" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Spatial-OPSD: Self-Improving Spatial Reasoning via Label-Free Self-Distillation</div>
+    <div class='paper-authors'>Zhenyu Liu†, <strong>Zhangquan Chen</strong>†, Keyi Chen, Mingze Sun, Xiang An, Haodong Jing, Ruqi Huang</div>
+    <div class='paper-venue'>(† equal contribution) arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2609.37055"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/vermouth599/Spatial-OPSD"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-evivit'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/evivit.png' alt="EviViT" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>EviViT: Evidence-Adaptive Vision Transformers for Fine-Grained Perception</div>
+    <div class='paper-authors'>Yaoxin Niu†, <strong>Zhangquan Chen</strong>†, Yang Zhang, Xiang An, Zhumei Wang, Chih-Ting Liao, Hongkun Cao, Ruqi Huang</div>
+    <div class='paper-venue'>(† equal contribution) arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2609.37123"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/YXNiu/EviViT"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/YXNiu/Human-Search-Traces"><i class="fas fa-database"></i> Dataset</a>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='latent-space'></span>
 
 <div class='paper-box'>
