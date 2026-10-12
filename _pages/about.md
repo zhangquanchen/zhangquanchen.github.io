@@ -762,6 +762,10 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
     <div class='paper-venue'>arXiv 2026</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2610.12419"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/appletea233/OneSearch-VL"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/OneSearch-VL/OneSearch-VL-8B"><i class="fas fa-cube"></i> Model</a>
     </div>
   </div>
 </div>
