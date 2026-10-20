@@ -77,10 +77,16 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 <span class='anchor' id='report-youtu-parsing-omni'></span>
 <div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">Report</div>
+      <img src='images/youtu.jpg' alt="Youtu-Parsing-Omni" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://github.com/TencentCloudADP/youtu-parsing">Youtu-Parsing-Omni: One Encoder, One Schema, Every Modality</a></div>
-    <div class='paper-authors'><strong>Yunhang Shen</strong>+, <strong>Zhangquan Chen</strong>+, Xiaotian Li+, Zhongpeng Cai+, Qing Zhou, Zekai Zhang, Kun Zhang, Zezhong Wu, Jian Hu, Haihan Gao, Heting Gao, Xin Li, Yinsong Liu, Deqian Jiang, Di Yin, Haoyu Cao, Xing Sun, et al.</div>
-    <div class='paper-venue'>(+ equal contribution) Technical report, 2026</div>
+    <div class='paper-authors'>Youtu Lab · Yunhang Shen†, <strong>Zhangquan Chen</strong>†, Xiaotian Li†, Zhongpeng Cai†, Qing Zhou, Zekai Zhang, Kun Zhang, Zezhong Wu, Jian Hu, Haihan Gao, Heting Gao, Xin Li, Yinsong Liu, Deqian Jiang, Di Yin, Haoyu Cao, Xing Sun, et al.</div>
+    <div class='paper-venue'>(† equal contribution) Technical report, 2026</div>
     <div class='paper-links'>
       <a href="https://github.com/TencentCloudADP/youtu-parsing/blob/main/youtu_parsing_omni/paper/Youtu_Parsing_Omni.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
