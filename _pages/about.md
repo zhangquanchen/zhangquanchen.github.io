@@ -32,6 +32,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='news'></span>
 
 # 🔥 News
+- *2026.10*: &nbsp;🎉 Release technical report <a href="/#report-youtu-parsing-omni"><em>Youtu_Parsing_Omni</em></a>.
 - *2026.09*: &nbsp;🎉 4 papers (<a href="/#paper-meow-omni">Meow-Omni 1</a>, <a href="/#paper-a-grae">A-GRAE</a>, <a href="/#paper-evidence-rl">Evidence-RL</a>, <a href="https://openreview.net/forum?id=U8cmaFkAVL">VUM</a>) have been accepted by **NeurIPS 2026**.
 - *2026.08*: &nbsp;🎉 1 paper (<a href="/#paper-stable-mm-r1">Stable-MM-R1</a>) has been accepted by **EMNLP 2026**.
 - *2026.08*: &nbsp;🎉 1 paper (<a href="/#paper-nfr">NFR</a>) has been accepted by **Computer Graphics Forum**, and 1 (<a href="/#paper-omnizoo">OmniZoo</a>) by Chinagraph 2026.
@@ -73,6 +74,22 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='technical-report'></span>
 
 # 📑 Technical Report
+
+<span class='anchor' id='report-youtu-parsing-omni'></span>
+<div class='paper-box'>
+  <div class='paper-box-text'>
+    <div class='paper-title'><a href="https://github.com/TencentCloudADP/youtu-parsing">Youtu-Parsing-Omni: One Encoder, One Schema, Every Modality</a></div>
+    <div class='paper-authors'><strong>Yunhang Shen</strong>+, <strong>Zhangquan Chen</strong>+, Xiaotian Li+, Zhongpeng Cai+, Qing Zhou, Zekai Zhang, Kun Zhang, Zezhong Wu, Jian Hu, Haihan Gao, Heting Gao, Xin Li, Yinsong Liu, Deqian Jiang, Di Yin, Haoyu Cao, Xing Sun, et al.</div>
+    <div class='paper-venue'>(+ equal contribution) Technical report, 2026</div>
+    <div class='paper-links'>
+      <a href="https://github.com/TencentCloudADP/youtu-parsing/blob/main/youtu_parsing_omni/paper/Youtu_Parsing_Omni.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/TencentCloudADP/youtu-parsing/tree/main/youtu_parsing_omni"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/tencent/Youtu-Parsing-Omni"><i class="fas fa-cube"></i> Model</a>
+    </div>
+  </div>
+</div>
 
 <span class='anchor' id='report-llava-ov2'></span>
 <div class='paper-box'>
