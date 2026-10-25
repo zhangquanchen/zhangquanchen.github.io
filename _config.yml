@@ -19,6 +19,13 @@ google_analytics_id      :  # get google_analytics_id from https://analytics.goo
 abacus_namespace         : "zhangquanchen.github.io"
 abacus_pv_key            : "page_views"
 abacus_uv_key            : "visitors"
+# Align the displayed baseline with the 1,526 map visits at the adjustment:
+# raw UV 765 + 761 = 1,526; raw PV 1,800 + 627 = 2,427.
+# Keep offsets fixed so later counter increments remain real increments.
+abacus_uv_offset         : 761
+abacus_pv_offset         : 627
+abacus_uv_fallback       : 1526
+abacus_pv_fallback       : 2427
 
 # Self-hosted visitor globe — a 3D rotating globe drawn locally on a <canvas>,
 # so it always renders (incl. mainland China), unlike ClustrMaps/Cloudflare.

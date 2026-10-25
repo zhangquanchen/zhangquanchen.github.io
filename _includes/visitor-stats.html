@@ -8,11 +8,11 @@
   <div style="margin-bottom: 0.4em; font-size: 0.95em;">
     <span style="margin-right: 1.5em;">
       <i class="fas fa-user" style="margin-right: 0.3em;"></i>
-      Total visitors: <strong id="abacus-uv-value" style="font-variant-numeric: tabular-nums;">…</strong>
+      Total visitors: <strong id="abacus-uv-value" style="font-variant-numeric: tabular-nums;" title="Last available count until live statistics load">{{ site.abacus_uv_fallback | default: 1526 }}</strong>
     </span>
     <span>
       <i class="fas fa-file-alt" style="margin-right: 0.3em;"></i>
-      Page views: <strong id="abacus-pv-value" style="font-variant-numeric: tabular-nums;">…</strong>
+      Page views: <strong id="abacus-pv-value" style="font-variant-numeric: tabular-nums;" title="Last available count until live statistics load">{{ site.abacus_pv_fallback | default: 2427 }}</strong>
     </span>
     <noscript> <em style="color:#888">(JavaScript required to display live counts)</em></noscript>
   </div>
@@ -39,52 +39,68 @@
   var UV_KEY = {{ abacus_uv | jsonify }};
   var API = 'https://abacus.jasoncameron.dev';
   var UV_FLAG = 'visitor-uv:' + NS + ':' + UV_KEY;
-  var rawPageViews = null;
-  var mapCounts = null;
+  var UV_OFFSET = {{ site.abacus_uv_offset | default: 0 | jsonify }};
+  var PV_OFFSET = {{ site.abacus_pv_offset | default: 0 | jsonify }};
 
   function formatNumber(n) { return (n || 0).toLocaleString('en-US'); }
-  function setValue(id, n) { var el = document.getElementById(id); if (el) el.textContent = formatNumber(n); }
-  function setFallback(id) { var el = document.getElementById(id); if (el) el.textContent = '—'; }
-
-  // Use the map's total, including its estimated baseline. The original 373
-  // historical visits were already represented in the page-view counter, so
-  // add only the increase in that baseline, not the entire estimate again.
-  function renderCounts() {
-    if (!mapCounts || !(mapCounts.total > 0)) return;
-    setValue('abacus-uv-value', mapCounts.total);
-    if (rawPageViews !== null) {
-      setValue('abacus-pv-value', rawPageViews + Math.max(0, mapCounts.estimated - 373));
-    }
+  function setValue(id, n, live) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    el.textContent = formatNumber(n);
+    el.title = live ? 'Live count including the adjusted historical baseline' : 'Last available count; live statistics unavailable';
   }
-  document.addEventListener('visitor-globe-counts', function (event) {
-    mapCounts = event.detail;
-    renderCounts();
+  function cacheKey(id) { return 'visitor-count:' + NS + ':' + id + ':' + UV_OFFSET + ':' + PV_OFFSET; }
+  function showCount(id, n) {
+    setValue(id, n, true);
+    try { localStorage.setItem(cacheKey(id), String(n)); } catch (e) {}
+  }
+  ['abacus-uv-value', 'abacus-pv-value'].forEach(function (id) {
+    try {
+      var saved = localStorage.getItem(cacheKey(id));
+      if (saved !== null && isFinite(+saved) && +saved >= 0) setValue(id, +saved, false);
+    } catch (e) {}
   });
+  function readCount(url) {
+    var controller = new AbortController();
+    var timer = setTimeout(function () { controller.abort(); }, 10000);
+    return fetch(url, { cache: 'no-store', signal: controller.signal })
+      .then(function (r) {
+        if (!r.ok) throw new Error('Counter service unavailable');
+        return r.json();
+      })
+      .then(function (d) {
+        if (!d || typeof d.value !== 'number' || !isFinite(d.value) || d.value < 0) {
+          throw new Error('Invalid counter value');
+        }
+        return d.value;
+      })
+      .finally(function () { clearTimeout(timer); });
+  }
 
   // Page views: every load increments the counter
-  fetch(API + '/hit/' + encodeURIComponent(NS) + '/' + encodeURIComponent(PV_KEY))
-    .then(function (r) { return r.json(); })
-    .then(function (d) {
-      if (!d || typeof d.value !== 'number') throw new Error('Invalid page-view count');
-      rawPageViews = d.value;
-      renderCounts();
-    })
-    .catch(function () { setFallback('abacus-pv-value'); });
+  readCount(API + '/hit/' + encodeURIComponent(NS) + '/' + encodeURIComponent(PV_KEY))
+    .then(function (n) { showCount('abacus-pv-value', n + PV_OFFSET); })
+    .catch(function () { /* keep the cached or server-rendered fallback */ });
 
   // Unique visitors: increment only if this browser has never been counted
-  var uvCountedBefore = false;
-  try { uvCountedBefore = !!localStorage.getItem(UV_FLAG); } catch (e) {}
-  var uvUrl = API + (uvCountedBefore ? '/get/' : '/hit/') + encodeURIComponent(NS) + '/' + encodeURIComponent(UV_KEY);
-  fetch(uvUrl)
-    .then(function (r) { return r.json(); })
-    .then(function (d) {
+  function updateVisitors() {
+    var uvCountedBefore = false;
+    try { uvCountedBefore = !!localStorage.getItem(UV_FLAG); } catch (e) {}
+    var uvUrl = API + (uvCountedBefore ? '/get/' : '/hit/') + encodeURIComponent(NS) + '/' + encodeURIComponent(UV_KEY);
+    return readCount(uvUrl).then(function (n) {
       try { localStorage.setItem(UV_FLAG, '1'); } catch (e) {}
-    })
-    .catch(function () { /* the map remains the source of the displayed total */ });
+      showCount('abacus-uv-value', n + UV_OFFSET);
+    });
+  }
+  // Coordinate tabs where Web Locks is supported to avoid two first visits
+  // from the same browser incrementing UV at the same time.
+  var uvRequest = (navigator.locks && navigator.locks.request)
+    ? navigator.locks.request(UV_FLAG, updateVisitors) : updateVisitors();
+  uvRequest.catch(function () { /* leave the fallback and retry on a later load */ });
 })();
 </script>
 
-<script src="{{ site.baseurl }}/assets/visitor-globe/globe.js"></script>
+<script src="{{ site.baseurl }}/assets/visitor-globe/globe.js?v=20261025"></script>
 <script>
 (function () {
   if (!window.VisitorGlobe) return;
@@ -96,9 +112,6 @@
     geo: true,
     countEveryHours: {{ site.visitor_globe_count_hours | default: 12 }},
     recorder: {{ site.visitor_globe_recorder | default: "" | jsonify }},
-    onCountsChange: function (counts) {
-      document.dispatchEvent(new CustomEvent('visitor-globe-counts', { detail: counts }));
-    },
     counter: {
       base: {{ site.abacus_base | default: "https://abacus.jasoncameron.dev" | jsonify }},
       namespace: {{ abacus_ns | jsonify }},
