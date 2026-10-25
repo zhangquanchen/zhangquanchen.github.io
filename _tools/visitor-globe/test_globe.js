@@ -202,5 +202,14 @@ const PAST = {
   assert.strictEqual(r.caption, "4 regions on the map");
   console.log("ok  " + r.name);
 
+  SNAPSHOT.cells["seed:US"] = { ...SNAPSHOT.cells.US, n: 3, est: 1 };
+  r = await run("overlapping estimated and measured country", { geo: null });
+  assert.strictEqual(r.state.visitorCells.length, 4, "overlapping country records share one dot");
+  assert.strictEqual(cellsByLabel(r.state)["United States"], 5,
+    "tooltip count includes both estimated and measured contributions");
+  assert.strictEqual(r.state.visitorCells.reduce((sum, c) => sum + c.count, 0), 79);
+  assert.deepStrictEqual(r.counts.at(-1), { total: 79, estimated: 15 });
+  console.log("ok  " + r.name);
+
   console.log("\nall globe data-path checks passed");
 })().catch((e) => { console.error(e); process.exit(1); });

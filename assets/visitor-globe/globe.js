@@ -487,13 +487,22 @@
 
     function rebuildCells() {
       var arr = [], max = 1, total = 0, estimated = 0, code, c;
+      var displayed = Object.create(null);
       for (code in cells) {
         c = cells[code];
         if (!c || !isFinite(c.lat) || !isFinite(c.lon) || !(c.n > 0)) continue;
-        arr.push({ lat: +c.lat, lon: +c.lon, count: +c.n, label: c.l || "" });
+        // Historical estimates and measured country counts share coordinates.
+        // Draw one combined dot so its tooltip includes both contributions.
+        var position = (+c.lat) + "," + (+c.lon);
+        var dot = displayed[position];
+        if (!dot) {
+          dot = displayed[position] = { lat: +c.lat, lon: +c.lon, count: 0, label: c.l || "" };
+          arr.push(dot);
+        }
+        dot.count += +c.n;
         total += +c.n;
         if (code.indexOf("seed:") === 0) estimated += +c.n;
-        if (c.n > max) max = c.n;
+        if (dot.count > max) max = dot.count;
       }
       state.maxCount = max;
       state.visitorCells = arr;
