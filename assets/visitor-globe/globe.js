@@ -38,6 +38,7 @@
     interactive: true,        // drag to spin
     geo: true,                // resolve + plot the current visitor by IP
     captionId: null,          // element id to write "from City, Country" into
+    onCountsChange: null,     // publish the same totals used by the rendered map
     recorder: null,           // base URL of the project's own recorder, tried first
     counter: null,            // {base, namespace, prefix} — public counter, fallback
     countEveryHours: 12,      // only contribute this browser to the map this often
@@ -485,16 +486,21 @@
     var cells = {};          // code -> {n, lat, lon, l}, the map as rendered
 
     function rebuildCells() {
-      var arr = [], max = 1, code, c;
+      var arr = [], max = 1, total = 0, estimated = 0, code, c;
       for (code in cells) {
         c = cells[code];
         if (!c || !isFinite(c.lat) || !isFinite(c.lon) || !(c.n > 0)) continue;
         arr.push({ lat: +c.lat, lon: +c.lon, count: +c.n, label: c.l || "" });
+        total += +c.n;
+        if (code.indexOf("seed:") === 0) estimated += +c.n;
         if (c.n > max) max = c.n;
       }
       state.maxCount = max;
       state.visitorCells = arr;
       updateCaption();
+      if (typeof cfg.onCountsChange === "function") {
+        cfg.onCountsChange({ total: total, estimated: estimated });
+      }
     }
 
     function updateCaption() {
@@ -537,7 +543,10 @@
       var fresh = now - last >= cfg.countEveryHours * 3600 * 1000;
 
       var key = cellKey(g.lat, g.lon);
-      var known = cells[key] || cells[g.cc];
+      // Update an existing country bucket in place; copying it to a city key
+      // would count that country's whole history twice in the displayed total.
+      if (!cells[key] && cells[g.cc]) key = g.cc;
+      var known = cells[key];
       cells[key] = {
         n: (known ? +known.n || 0 : 0) + (fresh || !known ? 1 : 0),
         lat: known ? known.lat : g.lat,

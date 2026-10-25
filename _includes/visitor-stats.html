@@ -39,15 +39,36 @@
   var UV_KEY = {{ abacus_uv | jsonify }};
   var API = 'https://abacus.jasoncameron.dev';
   var UV_FLAG = 'visitor-uv:' + NS + ':' + UV_KEY;
+  var rawPageViews = null;
+  var mapCounts = null;
 
   function formatNumber(n) { return (n || 0).toLocaleString('en-US'); }
   function setValue(id, n) { var el = document.getElementById(id); if (el) el.textContent = formatNumber(n); }
   function setFallback(id) { var el = document.getElementById(id); if (el) el.textContent = '—'; }
 
+  // Use the map's total, including its estimated baseline. The original 373
+  // historical visits were already represented in the page-view counter, so
+  // add only the increase in that baseline, not the entire estimate again.
+  function renderCounts() {
+    if (!mapCounts || !(mapCounts.total > 0)) return;
+    setValue('abacus-uv-value', mapCounts.total);
+    if (rawPageViews !== null) {
+      setValue('abacus-pv-value', rawPageViews + Math.max(0, mapCounts.estimated - 373));
+    }
+  }
+  document.addEventListener('visitor-globe-counts', function (event) {
+    mapCounts = event.detail;
+    renderCounts();
+  });
+
   // Page views: every load increments the counter
   fetch(API + '/hit/' + encodeURIComponent(NS) + '/' + encodeURIComponent(PV_KEY))
     .then(function (r) { return r.json(); })
-    .then(function (d) { setValue('abacus-pv-value', (d && typeof d.value === 'number') ? d.value : 0); })
+    .then(function (d) {
+      if (!d || typeof d.value !== 'number') throw new Error('Invalid page-view count');
+      rawPageViews = d.value;
+      renderCounts();
+    })
     .catch(function () { setFallback('abacus-pv-value'); });
 
   // Unique visitors: increment only if this browser has never been counted
@@ -58,9 +79,8 @@
     .then(function (r) { return r.json(); })
     .then(function (d) {
       try { localStorage.setItem(UV_FLAG, '1'); } catch (e) {}
-      setValue('abacus-uv-value', (d && typeof d.value === 'number') ? d.value : 0);
     })
-    .catch(function () { setFallback('abacus-uv-value'); });
+    .catch(function () { /* the map remains the source of the displayed total */ });
 })();
 </script>
 
@@ -76,6 +96,9 @@
     geo: true,
     countEveryHours: {{ site.visitor_globe_count_hours | default: 12 }},
     recorder: {{ site.visitor_globe_recorder | default: "" | jsonify }},
+    onCountsChange: function (counts) {
+      document.dispatchEvent(new CustomEvent('visitor-globe-counts', { detail: counts }));
+    },
     counter: {
       base: {{ site.abacus_base | default: "https://abacus.jasoncameron.dev" | jsonify }},
       namespace: {{ abacus_ns | jsonify }},

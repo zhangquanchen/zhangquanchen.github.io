@@ -103,6 +103,7 @@ function makeEnv({ geo, calls, store, recorderUp }) {
 
 function run(name, { geo, store = {}, recorder = RECORDER, recorderUp = true }) {
   const calls = { recorder: [], counter: [] };
+  const counts = [];
   const { win, elements } = makeEnv({ geo, calls, store, recorderUp });
   const sandbox = `(function(window, document, getComputedStyle, localStorage, fetch, requestAnimationFrame){${
     fs.readFileSync(SCRIPT, "utf8")
@@ -117,6 +118,7 @@ function run(name, { geo, store = {}, recorder = RECORDER, recorderUp = true }) 
     snapshotUrl: "/assets/visitor-globe/visitors.json",
     dataUrl: "/assets/visitor-globe/land-dots.json",
     countEveryHours: 12,
+    onCountsChange: (value) => counts.push(value),
     recorder,
     counter: COUNTER
   });
@@ -127,7 +129,7 @@ function run(name, { geo, store = {}, recorder = RECORDER, recorderUp = true }) 
     tick();
   });
   return settle(6).then(() => ({
-    name, state: globe.state, calls, store,
+    name, state: globe.state, calls, store, counts,
     caption: elements["vg-caption"].textContent
   }));
 }
@@ -153,6 +155,19 @@ const PAST = {
   assert.strictEqual(r.state.maxCount, 57, "largest bucket drives dot scaling");
   assert.strictEqual(r.caption,
     "You're visiting from Singapore · 5 regions on the map");
+  console.log("ok  " + r.name);
+
+  assert.deepStrictEqual(r.counts, [
+    { total: 76, estimated: 12 }, { total: 77, estimated: 12 }
+  ], "displayed totals follow the map, including the estimated baseline");
+
+  r = await run("existing country bucket", {
+    geo: { latitude: "40", longitude: "-74", city: "New York",
+           country: "United States", country_code: "US" }
+  });
+  assert.deepStrictEqual(cellsByLabel(r.state), { ...PAST, "United States": 3 },
+    "new visitor updates the country bucket without copying its history");
+  assert.deepStrictEqual(r.counts.at(-1), { total: 77, estimated: 12 });
   console.log("ok  " + r.name);
 
   r = await run("recorder unreachable", { geo: SINGAPORE, recorderUp: false });
