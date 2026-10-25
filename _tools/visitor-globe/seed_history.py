@@ -22,6 +22,10 @@ spreads those 373 over a plausible readership for an English-language academic
 homepage in multimodal-LLM research — heavily China, then the US, then the
 usual research centres. The shape is a guess. It is not measurement.
 
+The estimated baseline was subsequently set to 1,000 at the site owner's
+request, preserving the original proportions with integer rounding. This
+baseline is an estimate, not an additional 627 measured visits.
+
 Every dot it writes is keyed "seed:<CC>" so it can be told apart from real
 data, counted separately in the snapshot's "estimated" field, and removed in
 one step:
@@ -42,17 +46,16 @@ OUT = os.path.join(ROOT, "assets", "visitor-globe", "visitors.json")
 
 SEED_PREFIX = "seed:"
 
-# 379 unique visitors recorded by the counter, minus the 6 the current
-# per-country counter had already placed when the map was rebuilt.
-UNPLACED = 373
+# Owner-selected estimated baseline, scaled from the original 373 distribution.
+UNPLACED = 1000
 
 # Estimated shares, not observations. Adjust freely — the assertion below is
 # the only thing that has to hold.
 DISTRIBUTION = {
-    "CN": 159, "US": 74, "SG": 16, "HK": 13, "GB": 12, "DE": 11, "JP": 10,
-    "KR": 9, "CA": 8, "AU": 7, "IN": 7, "FR": 6, "CH": 5, "NL": 5, "TW": 4,
-    "IL": 3, "SE": 3, "IT": 3, "ES": 2, "RU": 2, "BR": 2, "PL": 2, "IE": 2,
-    "VN": 2, "TH": 1, "AE": 1, "FI": 1, "BE": 1, "AT": 1, "NO": 1,
+    "CN": 426, "US": 198, "SG": 43, "HK": 35, "GB": 32, "DE": 30, "JP": 27,
+    "KR": 24, "CA": 22, "AU": 19, "IN": 19, "FR": 16, "CH": 13, "NL": 13, "TW": 11,
+    "IL": 8, "SE": 8, "IT": 8, "ES": 5, "RU": 5, "BR": 5, "PL": 5, "IE": 5,
+    "VN": 5, "TH": 3, "AE": 3, "FI": 3, "BE": 3, "AT": 3, "NO": 3,
 }
 
 
