@@ -88,7 +88,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
     <div class='paper-authors'>Yunhang Shen†, <strong>Zhangquan Chen</strong>†, Xiaotian Li†, Zhongpeng Cai†, Qing Zhou, Zekai Zhang, Kun Zhang, Zezhong Wu, Jian Hu, Haihan Gao, Heting Gao, Xin Li, Yinsong Liu, Deqian Jiang, Di Yin, Haoyu Cao, Xing Sun, et al.</div>
     <div class='paper-venue'>(† equal contribution) Technical report, 2026</div>
     <div class='paper-links'>
-      <a href="https://github.com/TencentCloudADP/youtu-parsing/blob/main/youtu_parsing_omni/paper/Youtu_Parsing_Omni.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
+      <a href="https://arxiv.org/pdf/2610.39301"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
       <a href="https://github.com/TencentCloudADP/youtu-parsing/tree/main/youtu_parsing_omni"><i class="fab fa-github"></i> Code</a>
       <span class="link-sep">|</span>
@@ -628,6 +628,30 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
       <a href="https://arxiv.org/pdf/2609.37190"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
       <a href="https://github.com/zhangquanchen/HAPRL"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-selfthinker'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/selfthinker.png' alt="SelfThinker" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>SelfThinker: Self-Evolving Reasoning via Reliability-Verified Intrinsic Visual Thoughts</div>
+    <div class='paper-authors'><strong>Zhangquan Chen</strong>, Ruqi Huang</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2610.40115"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/zhangquanchen/SelfThinker"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/jankin123/SelfThinker"><i class="fas fa-database"></i> Dataset</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/jankin123/SelfThinker-7B"><i class="fas fa-cube"></i> Model</a>
     </div>
   </div>
 </div>
