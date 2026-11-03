@@ -857,8 +857,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 </div>
 
-{% include publication-tabs.html %}
-
 <span class='anchor' id='internships'></span>
 
 # 💼 Internships
@@ -884,15 +882,15 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 <span class='anchor' id='honors-and-awards'></span>
 
 # 🎖 Honors and Awards
-### 🏅 Honor Recognitions
-- **Sun Yat-sen University Outstanding Graduate**
-- **Sun Yat-sen University Outstanding Graduation Thesis (Rank 1)**
-- Sun Yat-sen University Outstanding Role Model
-- Sun Yat-sen University Outstanding League Member (2020, 2021)
-- Suzhou Innovation and Entrepreneurship Leading Talent
-- Microsoft Research Asia Rising Star Award (Top 10%)
 
-### 💰 Scholarship Awards
+<div class="publication-tabs" role="tablist" aria-label="Honors and Awards categories">
+  <button type="button" role="tab" id="tab-scholarships" aria-controls="panel-scholarships" aria-selected="true" tabindex="0">Scholarship Awards</button>
+  <button type="button" role="tab" id="tab-competitions" aria-controls="panel-competitions" aria-selected="false" tabindex="-1">Academic Competitions</button>
+  <button type="button" role="tab" id="tab-recognitions" aria-controls="panel-recognitions" aria-selected="false" tabindex="-1">Honor Recognitions</button>
+</div>
+
+<div id="panel-scholarships" class="publication-panel" role="tabpanel" aria-labelledby="tab-scholarships" tabindex="0" markdown="1">
+
 - <strong style="color:#A31515">Ph.D. National Scholarship (2026)</strong>
 - **Undergraduate National Scholarship (2022)**
 - Tsinghua University Scholarship (2025)
@@ -900,7 +898,10 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 - Sun Yat-sen University Outstanding Undergraduate Scholarship (2020, 2021, 2022)
 - Sun Yat-sen University Discipline Competition Scholarship
 
-### 🏆 Academic Competitions
+</div>
+
+<div id="panel-competitions" class="publication-panel" role="tabpanel" aria-labelledby="tab-competitions" tabindex="0" markdown="1">
+
 - **Outstanding Winner (1st globally, Top 0.03%), 7th SW International College Mathematical Modeling Competition (2022)**
 - **First Prize, National College Mathematical Modeling Competition (2020)**
 - Second Prize, 12th National College Mathematics Competition (2020)
@@ -909,7 +910,31 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 - Second Prize, National CYC Cup Mathematical Modeling Competition (2022)
 - Third Prize, Programming Competition (2020)
 
-### ⭐ Talent Programs
+</div>
+
+<div id="panel-recognitions" class="publication-panel" role="tabpanel" aria-labelledby="tab-recognitions" tabindex="0" markdown="1">
+
+- **Sun Yat-sen University Outstanding Graduate**
+- **Sun Yat-sen University Outstanding Graduation Thesis (Rank 1)**
+- Sun Yat-sen University Outstanding Role Model
+- Sun Yat-sen University Outstanding League Member (2020, 2021)
+- Suzhou Innovation and Entrepreneurship Leading Talent
+- Microsoft Research Asia Rising Star Award (Top 10%)
+
+</div>
+
+<span class='anchor' id='professional-academic-activities'></span>
+
+# 🌟 Professional & Academic Activities
+
+<div class="publication-tabs" role="tablist" aria-label="Professional & Academic Activities categories">
+  <button type="button" role="tab" id="tab-talent" aria-controls="panel-talent" aria-selected="true" tabindex="0">Talent Programs</button>
+  <button type="button" role="tab" id="tab-degrees" aria-controls="panel-degrees" aria-selected="false" tabindex="-1">Other Degrees</button>
+  <button type="button" role="tab" id="tab-services" aria-controls="panel-services" aria-selected="false" tabindex="-1">Services</button>
+</div>
+
+<div id="panel-talent" class="publication-panel" role="tabpanel" aria-labelledby="tab-talent" tabindex="0" markdown="1">
+
 - **Tencent Qingyun Top Talent Program (腾讯青云人才计划)**
 - ByteDance Seed Large Model Talent Program (Seed大模型人才计划)
 - ByteDance Jindouyun Top Talent Program (字节筋斗云人才计划)
@@ -917,19 +942,23 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 - Meituan Beidou Top Talent Program（美团北斗人才计划）
 - ModelBest "Ahead Four" Top Talent Program (面壁前进四人才计划)
 
-### 🎓 Other Degrees
+</div>
+
+<div id="panel-degrees" class="publication-panel" role="tabpanel" aria-labelledby="tab-degrees" tabindex="0" markdown="1">
+
 - Minor in Chemistry (Rank 1), Sun Yat-sen University
 
-<!-- - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
+</div>
 
-<!-- # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
+<div id="panel-services" class="publication-panel" role="tabpanel" aria-labelledby="tab-services" tabindex="0" markdown="1">
 
 <span class='anchor' id='services'></span>
 
-# 💬 Services
 **Reviewer:** ICML (silver reviewer), NeurIPS, ICLR, AAAI, ECCV and other top-tier conferences/journals in computer vision and machine learning.
+
+</div>
+
+{% include publication-tabs.html %}
 
 <span class='anchor' id='visitor-stats'></span>
 

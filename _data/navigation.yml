@@ -1,4 +1,4 @@
-# main navigation links - About Me is in masthead; order: News, Education, Technical Report, Publications, Internships, Honors and Awards, Services
+# main navigation links - About Me is in masthead; order: News, Education, Technical Report, Publications, Internships, Honors and Awards, Activities
 main:
   - title: "News"
     url: "/#news"
@@ -18,5 +18,5 @@ main:
   - title: "Honors and Awards"
     url: "/#honors-and-awards"
 
-  - title: "Services"
-    url: "/#services"
+  - title: "Activities"
+    url: "/#professional-academic-activities"

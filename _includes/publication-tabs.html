@@ -74,8 +74,7 @@
 </style>
 <script>
 (function () {
-  var tablist = document.querySelector('.publication-tabs');
-  if (!tablist) return;
+  document.querySelectorAll('.publication-tabs').forEach(function (tablist) {
   var tabs = Array.prototype.slice.call(tablist.querySelectorAll('[role="tab"]'));
   var panels = tabs.map(function (tab) {
     return document.getElementById(tab.getAttribute('aria-controls'));
@@ -104,7 +103,7 @@
     });
   });
 
-  // Reveal the right category when opening a paper from a news or shared link.
+  // Reveal the correct panel for direct links to papers or other section content.
   function revealLinkedPaper() {
     var id;
     try { id = decodeURIComponent(window.location.hash.slice(1)); }
@@ -121,5 +120,6 @@
   selectTab(0, false);
   revealLinkedPaper();
   window.addEventListener('hashchange', revealLinkedPaper);
+  });
 }());
 </script>
