@@ -18,9 +18,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 👋 About Me
-I am currently a PhD student at [Tsinghua University](https://www.tsinghua.edu.cn/), devoted to advancing AGI by enhancing the understanding capabilities of multimodal large language models. My main focus is on reinforced reasoning, spatial intelligence, etc.. Prior to this, I conducted research at [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/) and earned my B.S. in Electronic Engineering from [Sun Yat-sen University](https://www.sysu.edu.cn/).
+I am currently a PhD student at [Tsinghua University](https://www.tsinghua.edu.cn/), devoted to advancing AGI by enhancing the understanding capabilities of multimodal large language models. My research focuses on [**Multimodal Reasoning**](#publications-reasoning) (reinforcement learning), [**AI Agents**](#publications-agents), and [**Visual Representation**](#publications-representation). Prior to this, I conducted research at [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/) and earned my B.S. in Electronic Engineering from [Sun Yat-sen University](https://www.sysu.edu.cn/).
 
-I have been researching large language models since 2022. I previously served as CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](https://shizhe.chat/), a Series A-funded startup, where I led the development of Hibug (an early SOTA coding LLM) and Shizhe (an education-focused MLLM). Related products were later acquired by Xueda Education (a publicly listed company).
+I have been researching large language models since 2022. I previously served as CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E4%B8%80%E5%B9%B3%E6%96%B9%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/65017368), a Series A-funded startup, where I led the development of Hibug (an early SOTA coding LLM) and Shizhe (an education-focused MLLM). Related products were later acquired by Xueda Education (a publicly listed company).
 
 Since 2024, I have interned at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), [ByteDance](https://www.bytedance.com/zh/) (筋斗云人才计划), [Tencent Hunyuan](https://hy.tencent.com/) (青云人才计划), and [Meituan LongCat](https://longcat.chat/) (北斗人才计划), mainly working on post-training for large language models, especially reinforcement learning.
 
@@ -877,7 +877,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 - **Apr 2025 – Aug 2025:** [ByteDance](https://www.bytedance.com/zh/) · Research Intern (筋斗云人才计划) · Multimodal LLM Content Understanding Group
 - **Dec 2024 – Mar 2025:** [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia-zh-cn/) · Research Intern (Rising Star Award) · AI/ML Group
 - **May 2024 – Aug 2024:** [Tencent](https://www.tencent.com/en-us/) · Research Intern · QQ Multimodal LLM Group
-- **2022 – 2024:** [Beijing OneXOne Tech Co., Ltd.](https://shizhe.chat/) · Chief Technology Officer (CTO) and Co-founder
+- **2022 – 2024:** [Beijing OneXOne Tech Co., Ltd.](https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E4%B8%80%E5%B9%B3%E6%96%B9%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/65017368) · Chief Technology Officer (CTO) and Co-founder
 
 <span class='anchor' id='honors-and-awards'></span>
 
@@ -902,7 +902,7 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 <div id="panel-competitions" class="publication-panel" role="tabpanel" aria-labelledby="tab-competitions" tabindex="0" markdown="1">
 
-- **Outstanding Winner (1st globally, Top 0.03%), 7th SW International College Mathematical Modeling Competition (2022)**
+- **Outstanding Winner (<span style="color:#A31515">1st globally</span>, Top 0.03%), 7th SW International College Mathematical Modeling Competition (2022)**
 - **First Prize, National College Mathematical Modeling Competition (2020)**
 - Second Prize, 12th National College Mathematics Competition (2020)
 - Second Prize, Asia-Pacific Mathematical Modeling Competition (2021)
@@ -924,10 +924,11 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 </div>
 
 <span class='anchor' id='professional-academic-activities'></span>
+<span class='anchor' id='experience-and-service'></span>
 
-# 🌟 Professional & Academic Activities
+# 🌟 Experience and Service
 
-<div class="publication-tabs" role="tablist" aria-label="Professional & Academic Activities categories">
+<div class="publication-tabs" role="tablist" aria-label="Experience and Service categories">
   <button type="button" role="tab" id="tab-talent" aria-controls="panel-talent" aria-selected="true" tabindex="0">Talent Programs</button>
   <button type="button" role="tab" id="tab-degrees" aria-controls="panel-degrees" aria-selected="false" tabindex="-1">Other Degrees</button>
   <button type="button" role="tab" id="tab-services" aria-controls="panel-services" aria-selected="false" tabindex="-1">Services</button>
@@ -954,7 +955,8 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 <span class='anchor' id='services'></span>
 
-**Reviewer:** ICML (silver reviewer), NeurIPS, ICLR, AAAI, ECCV and other top-tier conferences/journals in computer vision and machine learning.
+- **Reviewer:** ICML (silver reviewer), NeurIPS, ICLR, AAAI, ECCV and other top-tier conferences/journals in computer vision and machine learning.
+- **Teaching Assistant:** Tsinghua University — Computational Photography (Spring 2026); Digital Image and Video Processing (Fall 2026).
 
 </div>
 
