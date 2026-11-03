@@ -51,6 +51,9 @@
   outline: 2px solid #1675b6;
   outline-offset: 4px;
 }
+.publication-panel {
+  scroll-margin-top: 80px;
+}
 .publication-panel > ul {
   margin: 18px 0 28px;
   padding-left: 1.25em;
@@ -135,6 +138,31 @@
   selectTab(0, false);
   revealLinkedPaper();
   window.addEventListener('hashchange', revealLinkedPaper);
+
+  // The site's smooth-scroll plugin intercepts anchor clicks without changing
+  // the hash. Reveal hidden panels before it can measure or scroll to them.
+  document.addEventListener('click', function (event) {
+    if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    var link = event.target.closest('a[href]');
+    if (!link) return;
+    var href = link.getAttribute('href');
+    var url = new URL(href, window.location.href);
+    if (url.origin !== window.location.origin || url.pathname !== window.location.pathname || url.search !== window.location.search || !url.hash) return;
+    var id;
+    try { id = decodeURIComponent(url.hash.slice(1)); }
+    catch (error) { return; }
+    var target = document.getElementById(id);
+    if (!target) return;
+    var index = panels.indexOf(target.closest('.publication-panel'));
+    if (index === -1) return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    selectTab(index, false);
+    if (window.location.hash !== url.hash) {
+      window.history.pushState(null, '', window.location.origin + window.location.pathname + window.location.search + url.hash);
+    }
+    target.scrollIntoView({ block: 'start' });
+  }, true);
   });
 }());
 </script>

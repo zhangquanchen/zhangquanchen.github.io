@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 👋 About Me
-I am currently a PhD student at [Tsinghua University](https://www.tsinghua.edu.cn/), devoted to advancing AGI by enhancing the understanding capabilities of multimodal large language models. My research focuses on [**Multimodal Reasoning**](#publications-reasoning) (reinforcement learning), [**AI Agents**](#publications-agents), and [**Visual Representation**](#publications-representation). Prior to this, I conducted research at [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/) and earned my B.S. in Electronic Engineering from [Sun Yat-sen University](https://www.sysu.edu.cn/).
+I am currently a PhD student at [Tsinghua University](https://www.tsinghua.edu.cn/), devoted to advancing AGI by enhancing the understanding capabilities of multimodal large language models. My research focuses on [Multimodal Reasoning](#publications-reasoning) (reinforcement learning), [AI Agents](#publications-agents), and [Visual Representation](#publications-representation). Prior to this, I conducted research at [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/) and earned my B.S. in Electronic Engineering from [Sun Yat-sen University](https://www.sysu.edu.cn/).
 
 I have been researching large language models since 2022. I previously served as CTO and Co-founder of [Beijing OneXOne Tech Co., Ltd.](https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E4%B8%80%E5%B9%B3%E6%96%B9%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/65017368), a Series A-funded startup, where I led the development of Hibug (an early SOTA coding LLM) and Shizhe (an education-focused MLLM). Related products were later acquired by Xueda Education (a publicly listed company).
 
@@ -955,8 +955,8 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 <span class='anchor' id='services'></span>
 
-- **Reviewer:** ICML (silver reviewer), NeurIPS, ICLR, AAAI, ECCV and other top-tier conferences/journals in computer vision and machine learning.
-- **Teaching Assistant:** Tsinghua University — Computational Photography (Spring 2026); Digital Image and Video Processing (Fall 2026).
+- **Reviewer:** ICML, NeurIPS, ICLR, AAAI, ECCV and other top-tier conferences/journals in computer vision and machine learning.
+- **Teaching Assistant:** Computational Photography, Tsinghua University (Spring 2026); Digital Image and Video Processing, Tsinghua University (Fall 2026).
 
 </div>
 
