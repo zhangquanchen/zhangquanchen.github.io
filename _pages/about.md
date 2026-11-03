@@ -175,6 +175,8 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 # 📝 Selected Publications 
 <!-- <p style="font-size: 0.9em; color: #666; margin-bottom: 1em;">† Equal contribution</p> -->
+## Multimodal Reasoning
+
 <span class='anchor' id='paper-visrl'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -193,28 +195,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
       <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_VisRL_Intention-Driven_Visual_Perception_via_Reinforced_Reasoning_ICCV_2025_paper.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
       <span class="link-sep">|</span>
       <a href="https://github.com/zhangquanchen/VisRL"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-dv-matcher'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">CVPR</div>
-      <img src='images/dv-matcher.png' alt="DV-Matcher" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>DV-Matcher: Deformation-based Non-Rigid Point Cloud Matching Guided by Pre-trained Visual Features</div>
-    <div class='paper-authors'><strong>Zhangquan Chen</strong>, Puhua Jiang, Ruqi Huang</div>
-    <div class='paper-venue'>Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2025</div>
-    <div class='paper-links'>
-      <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_DV-Matcher_Deformation-based_Non-rigid_Point_Cloud_Matching_Guided_by_Pre-trained_Visual_CVPR_2025_paper.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/rqhuang88/DV-Matcher"><i class="fab fa-github"></i> Code</a>
-      <span class="link-sep">|</span>
-      <a href="https://drive.google.com/drive/folders/1CK9qihI2yyxkuXsxSHqzTRhLdTk8qghn"><i class="fas fa-database"></i> Dataset</a>
     </div>
   </div>
 </div>
@@ -289,6 +269,414 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
+<span class='anchor' id='paper-a-grae'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">NeurIPS</div>
+      <img src='images/a-grae.png' alt="A-GRAE" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Unveiling Implicit Advantage Symmetry: Why GRPO Struggles with Exploration and Difficulty Adaptation</div>
+    <div class='paper-authors'>Zhiqi Yu†, <strong>Zhangquan Chen</strong>†, Mengting Liu, Heye Zhang, Liangqiong Qu</div>
+    <div class='paper-venue'>(† equal contribution) Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://yu7-code.github.io/A-GRAE-web/"><i class="fas fa-home"></i> Project page</a>
+      <span class="link-sep">|</span>
+      <a href="https://arxiv.org/pdf/2602.05548"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/HKU-HealthAI/A-GRAE"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-4dthinker'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/4dthinker.png' alt="4DThinker" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>4DThinker: Thinking with 4D Imagery for Dynamic Spatial Understanding</div>
+    <div class='paper-authors'><strong>Zhangquan Chen</strong>, Manyuan Zhang, Xinlei Yu, Xiang An, Bo Li, Xin Xie, ZiDong Wang, Mingze Sun, Shuang Chen, Hongyu Li, Xiaobin Hu, Ruqi Huang</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2605.05997"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/zhangquanchen/4DThinker"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/jankin123/4DThinker-3B"><i class="fas fa-cube"></i> Model</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/jankin123/4DThinker-Training-Data"><i class="fas fa-database"></i> Dataset</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-selfthinker'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/selfthinker.png' alt="SelfThinker" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>SelfThinker: Self-Evolving Reasoning via Reliability-Verified Intrinsic Visual Thoughts</div>
+    <div class='paper-authors'><strong>Zhangquan Chen</strong>, Ruqi Huang</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2610.40115"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/zhangquanchen/SelfThinker"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/jankin123/SelfThinker"><i class="fas fa-database"></i> Dataset</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/jankin123/SelfThinker-7B"><i class="fas fa-cube"></i> Model</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-spatial-opsd'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/spatial-opsd.png' alt="Spatial-OPSD" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Spatial-OPSD: Self-Improving Spatial Reasoning via Label-Free Self-Distillation</div>
+    <div class='paper-authors'>Zhenyu Liu†, <strong>Zhangquan Chen</strong>†, Keyi Chen, Mingze Sun, Xiang An, Haodong Jing, Ruqi Huang</div>
+    <div class='paper-venue'>(† equal contribution) arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2609.37055"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/vermouth599/Spatial-OPSD"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-spamem'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">ECCV</div>
+      <img src='images/spamem.png' alt="SpaMEM" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception-Memory Integration in Embodied Environments</div>
+    <div class='paper-authors'>Chih-Ting Liao, Xi Xiao, Chunlei Meng, <strong>Zhangquan Chen</strong>, Yitong Qiao, Weilin Zhou, Tianyang Wang, Xu Zheng, Xin Cao</div>
+    <div class='paper-venue'>European Conference on Computer Vision (<strong>ECCV</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2604.22409"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/datasets/mill-ct-liao/SpaMEM"><i class="fas fa-database"></i> Dataset</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-vismem'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">CVPR</div>
+      <img src='images/vismem.png' alt="VisMem" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>VisMem: Latent Vision Memory Unlocks Potential of Vision-Language Models</div>
+    <div class='paper-authors'>Xinlei Yu, Chengming Xu, Guibin Zhang, <strong>Zhangquan Chen</strong>, Yudong Zhang, Yongbo He, Peng-Tao Jiang, Jiangning Zhang, Xiaobin Hu, Shuicheng Yan</div>
+    <div class='paper-venue'>Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2511.11007"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/YU-deep/VisMem"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-evidence-rl'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">NeurIPS</div>
+      <img src='images/evidence-rl.png' alt="Evidence-RL" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Evidence-RL: Towards Evidence-intensive Visual Reasoning</div>
+    <div class='paper-authors'>Haojie Huang, Xinlei Yu, Chengming Xu, <strong>Zhangquan Chen</strong>, Cheng Yang, Qingdong He, Yu Yang, Jiangning Zhang, Xiaobin Hu</div>
+    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2608.08021"><i class="fas fa-file-pdf"></i> Paper</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-childbench'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">AAAI</div>
+      <img src='images/childbench.png' alt="ChildBench" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Easy for Children, Hard for AI: The Limits of Multimodal LLMs in Early Childhood Learning</div>
+    <div class='paper-authors'>Jingping Liu, Xueyan Wu, Hanxuan Chen, Ziyan Liu, <strong>Zhangquan Chen</strong>, Ronghao Chen, Huacan Wang</div>
+    <div class='paper-venue'>AAAI Conference on Artificial Intelligence (<strong>AAAI Oral</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/download/40479/44440"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/Jderder/ChildBench"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-stable-mm-r1'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">EMNLP</div>
+      <img src='images/stablemm.png' alt="Stable-MM-R1" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Stable-MM-R1: Anchoring Multimodal Reasoning Dynamics via Entropy-Guided Stratification</div>
+    <div class='paper-authors'>Yimeng Ye, Shawn Chen, Wenxuan Huang, Manyuan Zhang, Kaituo Feng, <strong>Zhangquan Chen</strong>, Jiayu Chen, Yucheng Zhou, Yicheng Xiao, ZhiYuan Feng, Tianyu Shi</div>
+    <div class='paper-venue'>Conference on Empirical Methods in Natural Language Processing (<strong>EMNLP</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2609.07148"><i class="fas fa-file-pdf"></i> Paper</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-worldmodel'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/mentalmap.png' alt="Do LLMs Build World Models From Text?" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Do LLMs Build World Models From Text? A Multilingual Diagnostic of Spatial Reasoning</div>
+    <div class='paper-authors'>Zhikai Pan, Chih-Ting Liao, Chunrui Liu, Xi Xiao, Yitong Qiao, Chunlei Meng, <strong>Zhangquan Chen</strong>, Xin Cao</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2605.28277"><i class="fas fa-file-pdf"></i> Paper</a>
+    </div>
+  </div>
+</div>
+
+## AI Agents
+
+<span class='anchor' id='paper-haprl'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/hrprl.png' alt="HaPRL" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>HaPRL: Human-Anchored Process Reinforcement Learning for Visual Search Agent</div>
+    <div class='paper-authors'><strong>Zhangquan Chen</strong>, Yaoxin Niu, Xiang An, Mingze Sun, Zhumei Wang, Chih-Ting Liao, Hongkun Cao, Ruqi Huang</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2609.37190"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/zhangquanchen/HAPRL"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-mact'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">CVPR</div>
+      <img src='images/visualdoc.png' alt="MACT" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Visual Document Understanding and Reasoning: A Multi-Agent Collaboration Framework with Agent-Wise Adaptive Test-Time Scaling</div>
+    <div class='paper-authors'>Xinlei Yu, Chengming Xu, <strong>Zhangquan Chen</strong>, Yudong Zhang, Shilin Lu, Cheng Yang, Jiangning Zhang, Shuicheng Yan, Xiaobin Hu</div>
+    <div class='paper-venue'>Computer Vision and Pattern Recognition (<strong>CVPR Highlight</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2508.03404"><i class="fas fa-file-pdf"></i> Paper</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-reasoning-vla'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">ICML</div>
+      <img src='images/reasonvla.png' alt="Reasoning-VLA" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Reasoning-VLA: A Fast and General Vision-Language-Action Reasoning
+    Model for Autonomous Driving</div>
+    <div class='paper-authors'>Dapeng Zhang, Zhenlong Yuan, <strong>Zhangquan Chen</strong>, Chih-Ting Liao, Yinda Chen, Fei Shen, Qingguo Zhou, Tat-Seng Chua</div>
+    <div class='paper-venue'>International Conference on Machine Learning (<strong>ICML</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2511.19912"><i class="fas fa-file-pdf"></i> Paper</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-l2-vmas'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">ICML</div>
+      <img src='images/dualagent.png' alt="L²-VMAS" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Dual Latent Memory for Visual Multi-agent System</div>
+    <div class='paper-authors'>Xinlei Yu, Chengming Xu, <strong>Zhangquan Chen</strong>, Bo Yin, Cheng Yang, Yongbo He, Yihao Hu, Jiangning Zhang, Cheng Tan, Xiaobin Hu, Shuicheng Yan</div>
+    <div class='paper-venue'>International Conference on Machine Learning (<strong>ICML</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2602.00471"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/YU-deep/L2-VMAS"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-vif'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">ICLR</div>
+      <img src='images/vif.png' alt="ViF" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow</div>
+    <div class='paper-authors'>Xinlei Yu, Chengming Xu, Guibin Zhang, Yongbo He, <strong>Zhangquan Chen</strong>, Zhucun Xue, Jiangning Zhang, Yue Liao, Xiaobin Hu, Yu-Gang Jiang, Shuicheng Yan</div>
+    <div class='paper-venue'>International Conference on Learning Representations (<strong>ICLR</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2509.21789"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/YU-deep/ViF"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/evofsm.png' alt="EvoFSM" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines</div>
+    <div class='paper-authors'>Shuo Zhang, Chaofa Yuan, Ryan Guo, Xiaomin Yu, Rui Xu, <strong>Zhangquan Chen</strong>, Zinuo Li, Zhi Yang, Shuhao Guan, Zhenheng Tang, Sen Hu, Liwen Zhang, Ronghao Chen, Huacan Wang</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2601.09465"><i class="fas fa-file-pdf"></i> Paper</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-skillgenbench'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/skillbench.png' alt="SkillGenBench" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>SkillGenBench: Benchmarking Skill Generation Pipelines for LLM Agents</div>
+    <div class='paper-authors'>Yifan Zhou, Zhentao Zhang, Ziming Cheng, Shuo Zhang, Qizhen Lan, <strong>Zhangquan Chen</strong>, Zhi Yang, Qianyu Xu, Ronghao Chen, Huacan Wang, Sen Hu</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2605.18693"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/QuantaAlpha/SkillGenBench"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-onesearch-vl'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/onesearch.png' alt="OneSearch-VL" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video</div>
+    <div class='paper-authors'>Hongyu Li, Manyuan Zhang, Kaituo Feng, Shu Chen, Dian Zheng, Hao Li, Hao Yu, <strong>Zhangquan Chen</strong>, Zoey Guo, Ray Zhang, Shaofei Huang, Tianrui Hui, Linjiang Huang, Si Liu</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2610.12419"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/appletea233/OneSearch-VL"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/OneSearch-VL/OneSearch-VL-8B"><i class="fas fa-cube"></i> Model</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-histprune-gui'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/guinav.png' alt="HistPrune-GUI" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Where and How to Prune: An Empirical Study of Visual Token Pruning for GUI Agent Navigation</div>
+    <div class='paper-authors'>Daiqiang Li, Zihao Pan, Zeyu Zhang, Xuyang Liu, Shijia Xu, Ronghao Chen, Huacan Wang, Honggang Chen, Linfeng Zhang, <strong>Zhangquan Chen</strong>, Haiyun Jiang</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2603.26041"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/Daiqiang-Li/HistPrune-GUI"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/lidaiqiang/HistPrune-GUI/tree/main"><i class="fas fa-cube"></i> Model</a>
+    </div>
+  </div>
+</div>
+
+## Visual Representation
+
+<span class='anchor' id='paper-dv-matcher'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">CVPR</div>
+      <img src='images/dv-matcher.png' alt="DV-Matcher" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>DV-Matcher: Deformation-based Non-Rigid Point Cloud Matching Guided by Pre-trained Visual Features</div>
+    <div class='paper-authors'><strong>Zhangquan Chen</strong>, Puhua Jiang, Ruqi Huang</div>
+    <div class='paper-venue'>Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2025</div>
+    <div class='paper-links'>
+      <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_DV-Matcher_Deformation-based_Non-rigid_Point_Cloud_Matching_Guided_by_Pre-trained_Visual_CVPR_2025_paper.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/rqhuang88/DV-Matcher"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://drive.google.com/drive/folders/1CK9qihI2yyxkuXsxSHqzTRhLdTk8qghn"><i class="fas fa-database"></i> Dataset</a>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='paper-nfr'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -355,327 +743,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
-<span class='anchor' id='paper-a-grae'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">NeurIPS</div>
-      <img src='images/a-grae.png' alt="A-GRAE" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Unveiling Implicit Advantage Symmetry: Why GRPO Struggles with Exploration and Difficulty Adaptation</div>
-    <div class='paper-authors'>Zhiqi Yu†, <strong>Zhangquan Chen</strong>†, Mengting Liu, Heye Zhang, Liangqiong Qu</div>
-    <div class='paper-venue'>(† equal contribution) Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026</div>
-    <div class='paper-links'>
-      <a href="https://yu7-code.github.io/A-GRAE-web/"><i class="fas fa-home"></i> Project page</a>
-      <span class="link-sep">|</span>
-      <a href="https://arxiv.org/pdf/2602.05548"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/HKU-HealthAI/A-GRAE"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-gtasr'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">ICML</div>
-      <img src='images/gtasr.png' alt="GTASR" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Joint Geometric and Trajectory Consistency Learning for One-Step Real-World Super-Resolution</div>
-    <div class='paper-authors'>Chengyan Deng, <strong>Zhangquan Chen</strong>, Li Yu, Kai Zhang, Xue Zhou, Wang Zhang</div>
-    <div class='paper-venue'>International Conference on Machine Learning (<strong>ICML</strong>), 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2602.24240"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/Blazedengcy/GTASR"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-mact'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">CVPR</div>
-      <img src='images/visualdoc.png' alt="MACT" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Visual Document Understanding and Reasoning: A Multi-Agent Collaboration Framework with Agent-Wise Adaptive Test-Time Scaling</div>
-    <div class='paper-authors'>Xinlei Yu, Chengming Xu, <strong>Zhangquan Chen</strong>, Yudong Zhang, Shilin Lu, Cheng Yang, Jiangning Zhang, Shuicheng Yan, Xiaobin Hu</div>
-    <div class='paper-venue'>Computer Vision and Pattern Recognition (<strong>CVPR Highlight</strong>), 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2508.03404"><i class="fas fa-file-pdf"></i> Paper</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-reasoning-vla'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">ICML</div>
-      <img src='images/reasonvla.png' alt="Reasoning-VLA" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Reasoning-VLA: A Fast and General Vision-Language-Action Reasoning 
-    Model for Autonomous Driving</div>
-    <div class='paper-authors'>Dapeng Zhang, Zhenlong Yuan, <strong>Zhangquan Chen</strong>, Chih-Ting Liao, Yinda Chen, Fei Shen, Qingguo Zhou, Tat-Seng Chua</div>
-    <div class='paper-venue'>International Conference on Machine Learning (<strong>ICML</strong>), 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2511.19912"><i class="fas fa-file-pdf"></i> Paper</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-l2-vmas'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">ICML</div>
-      <img src='images/dualagent.png' alt="L²-VMAS" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Dual Latent Memory for Visual Multi-agent System</div>
-    <div class='paper-authors'>Xinlei Yu, Chengming Xu, <strong>Zhangquan Chen</strong>, Bo Yin, Cheng Yang, Yongbo He, Yihao Hu, Jiangning Zhang, Cheng Tan, Xiaobin Hu, Shuicheng Yan</div>
-    <div class='paper-venue'>International Conference on Machine Learning (<strong>ICML</strong>), 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2602.00471"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/YU-deep/L2-VMAS"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-spamem'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">ECCV</div>
-      <img src='images/spamem.png' alt="SpaMEM" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception-Memory Integration in Embodied Environments</div>
-    <div class='paper-authors'>Chih-Ting Liao, Xi Xiao, Chunlei Meng, <strong>Zhangquan Chen</strong>, Yitong Qiao, Weilin Zhou, Tianyang Wang, Xu Zheng, Xin Cao</div>
-    <div class='paper-venue'>European Conference on Computer Vision (<strong>ECCV</strong>), 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2604.22409"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/datasets/mill-ct-liao/SpaMEM"><i class="fas fa-database"></i> Dataset</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-vismem'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">CVPR</div>
-      <img src='images/vismem.png' alt="VisMem" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>VisMem: Latent Vision Memory Unlocks Potential of Vision-Language Models</div>
-    <div class='paper-authors'>Xinlei Yu, Chengming Xu, Guibin Zhang, <strong>Zhangquan Chen</strong>, Yudong Zhang, Yongbo He, Peng-Tao Jiang, Jiangning Zhang, Xiaobin Hu, Shuicheng Yan</div>
-    <div class='paper-venue'>Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2511.11007"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/YU-deep/VisMem"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-evidence-rl'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">NeurIPS</div>
-      <img src='images/evidence-rl.png' alt="Evidence-RL" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Evidence-RL: Towards Evidence-intensive Visual Reasoning</div>
-    <div class='paper-authors'>Haojie Huang, Xinlei Yu, Chengming Xu, <strong>Zhangquan Chen</strong>, Cheng Yang, Qingdong He, Yu Yang, Jiangning Zhang, Xiaobin Hu</div>
-    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2608.08021"><i class="fas fa-file-pdf"></i> Paper</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-omnizoo'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">Chinagraph</div>
-      <img src='images/topology.png' alt="OmniZoo" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Topology-Agnostic Animal Motion Generation from Text Prompt</div>
-    <div class='paper-authors'>Keyi Chen, Mingze Sun, Zhenyu Liu, <strong>Zhangquan Chen</strong>, Ruqi Huang</div>
-    <div class='paper-venue'><strong>Chinagraph</strong>, 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2512.10352"><i class="fas fa-file-pdf"></i> Paper</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-childbench'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">AAAI</div>
-      <img src='images/childbench.png' alt="ChildBench" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Easy for Children, Hard for AI: The Limits of Multimodal LLMs in Early Childhood Learning</div>
-    <div class='paper-authors'>Jingping Liu, Xueyan Wu, Hanxuan Chen, Ziyan Liu, <strong>Zhangquan Chen</strong>, Ronghao Chen, Huacan Wang</div>
-    <div class='paper-venue'>AAAI Conference on Artificial Intelligence (<strong>AAAI Oral</strong>), 2026</div>
-    <div class='paper-links'>
-      <a href="https://ojs.aaai.org/index.php/AAAI/article/download/40479/44440"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/Jderder/ChildBench"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-vif'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">ICLR</div>
-      <img src='images/vif.png' alt="ViF" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow</div>
-    <div class='paper-authors'>Xinlei Yu, Chengming Xu, Guibin Zhang, Yongbo He, <strong>Zhangquan Chen</strong>, Zhucun Xue, Jiangning Zhang, Yue Liao, Xiaobin Hu, Yu-Gang Jiang, Shuicheng Yan</div>
-    <div class='paper-venue'>International Conference on Learning Representations (<strong>ICLR</strong>), 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2509.21789"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/YU-deep/ViF"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-stable-mm-r1'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">EMNLP</div>
-      <img src='images/stablemm.png' alt="Stable-MM-R1" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Stable-MM-R1: Anchoring Multimodal Reasoning Dynamics via Entropy-Guided Stratification</div>
-    <div class='paper-authors'>Yimeng Ye, Shawn Chen, Wenxuan Huang, Manyuan Zhang, Kaituo Feng, <strong>Zhangquan Chen</strong>, Jiayu Chen, Yucheng Zhou, Yicheng Xiao, ZhiYuan Feng, Tianyu Shi</div>
-    <div class='paper-venue'>Conference on Empirical Methods in Natural Language Processing (<strong>EMNLP</strong>), 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2609.07148"><i class="fas fa-file-pdf"></i> Paper</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-4dthinker'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/4dthinker.png' alt="4DThinker" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>4DThinker: Thinking with 4D Imagery for Dynamic Spatial Understanding</div>
-    <div class='paper-authors'><strong>Zhangquan Chen</strong>, Manyuan Zhang, Xinlei Yu, Xiang An, Bo Li, Xin Xie, ZiDong Wang, Mingze Sun, Shuang Chen, Hongyu Li, Xiaobin Hu, Ruqi Huang</div>
-    <div class='paper-venue'>arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2605.05997"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/zhangquanchen/4DThinker"><i class="fab fa-github"></i> Code</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/jankin123/4DThinker-3B"><i class="fas fa-cube"></i> Model</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/datasets/jankin123/4DThinker-Training-Data"><i class="fas fa-database"></i> Dataset</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-haprl'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/hrprl.png' alt="HaPRL" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>HaPRL: Human-Anchored Process Reinforcement Learning for Visual Search Agent</div>
-    <div class='paper-authors'><strong>Zhangquan Chen</strong>, Yaoxin Niu, Xiang An, Mingze Sun, Zhumei Wang, Chih-Ting Liao, Hongkun Cao, Ruqi Huang</div>
-    <div class='paper-venue'>arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2609.37190"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/zhangquanchen/HAPRL"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-selfthinker'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/selfthinker.png' alt="SelfThinker" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>SelfThinker: Self-Evolving Reasoning via Reliability-Verified Intrinsic Visual Thoughts</div>
-    <div class='paper-authors'><strong>Zhangquan Chen</strong>, Ruqi Huang</div>
-    <div class='paper-venue'>arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2610.40115"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/zhangquanchen/SelfThinker"><i class="fab fa-github"></i> Code</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/jankin123/SelfThinker"><i class="fas fa-database"></i> Dataset</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/jankin123/SelfThinker-7B"><i class="fas fa-cube"></i> Model</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-spatial-opsd'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/spatial-opsd.png' alt="Spatial-OPSD" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Spatial-OPSD: Self-Improving Spatial Reasoning via Label-Free Self-Distillation</div>
-    <div class='paper-authors'>Zhenyu Liu†, <strong>Zhangquan Chen</strong>†, Keyi Chen, Mingze Sun, Xiang An, Haodong Jing, Ruqi Huang</div>
-    <div class='paper-venue'>(† equal contribution) arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2609.37055"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/vermouth599/Spatial-OPSD"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
 <span class='anchor' id='paper-evivit'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -723,6 +790,44 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
+<span class='anchor' id='paper-gtasr'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">ICML</div>
+      <img src='images/gtasr.png' alt="GTASR" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Joint Geometric and Trajectory Consistency Learning for One-Step Real-World Super-Resolution</div>
+    <div class='paper-authors'>Chengyan Deng, <strong>Zhangquan Chen</strong>, Li Yu, Kai Zhang, Xue Zhou, Wang Zhang</div>
+    <div class='paper-venue'>International Conference on Machine Learning (<strong>ICML</strong>), 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2602.24240"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/Blazedengcy/GTASR"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='paper-omnizoo'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">Chinagraph</div>
+      <img src='images/topology.png' alt="OmniZoo" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>Topology-Agnostic Animal Motion Generation from Text Prompt</div>
+    <div class='paper-authors'>Keyi Chen, Mingze Sun, Zhenyu Liu, <strong>Zhangquan Chen</strong>, Ruqi Huang</div>
+    <div class='paper-venue'><strong>Chinagraph</strong>, 2026</div>
+    <div class='paper-links'>
+      <a href="https://arxiv.org/pdf/2512.10352"><i class="fas fa-file-pdf"></i> Paper</a>
+    </div>
+  </div>
+</div>
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class='paper-image-wrap'>
@@ -736,105 +841,6 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
     <div class='paper-venue'>arXiv 2025</div>
     <div class='paper-links'>
       <a href="https://arxiv.org/pdf/2505.11895"><i class="fas fa-file-pdf"></i> Paper</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/evofsm.png' alt="EvoFSM" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines</div>
-    <div class='paper-authors'>Shuo Zhang, Chaofa Yuan, Ryan Guo, Xiaomin Yu, Rui Xu, <strong>Zhangquan Chen</strong>, Zinuo Li, Zhi Yang, Shuhao Guan, Zhenheng Tang, Sen Hu, Liwen Zhang, Ronghao Chen, Huacan Wang</div>
-    <div class='paper-venue'>arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2601.09465"><i class="fas fa-file-pdf"></i> Paper</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-skillgenbench'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/skillbench.png' alt="SkillGenBench" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>SkillGenBench: Benchmarking Skill Generation Pipelines for LLM Agents</div>
-    <div class='paper-authors'>Yifan Zhou, Zhentao Zhang, Ziming Cheng, Shuo Zhang, Qizhen Lan, <strong>Zhangquan Chen</strong>, Zhi Yang, Qianyu Xu, Ronghao Chen, Huacan Wang, Sen Hu</div>
-    <div class='paper-venue'>arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2605.18693"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/QuantaAlpha/SkillGenBench"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-worldmodel'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/mentalmap.png' alt="Do LLMs Build World Models From Text?" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Do LLMs Build World Models From Text? A Multilingual Diagnostic of Spatial Reasoning</div>
-    <div class='paper-authors'>Zhikai Pan, Chih-Ting Liao, Chunrui Liu, Xi Xiao, Yitong Qiao, Chunlei Meng, <strong>Zhangquan Chen</strong>, Xin Cao</div>
-    <div class='paper-venue'>arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2605.28277"><i class="fas fa-file-pdf"></i> Paper</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-onesearch-vl'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/onesearch.png' alt="OneSearch-VL" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video</div>
-    <div class='paper-authors'>Hongyu Li, Manyuan Zhang, Kaituo Feng, Shu Chen, Dian Zheng, Hao Li, Hao Yu, <strong>Zhangquan Chen</strong>, Zoey Guo, Ray Zhang, Shaofei Huang, Tianrui Hui, Linjiang Huang, Si Liu</div>
-    <div class='paper-venue'>arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2610.12419"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/appletea233/OneSearch-VL"><i class="fab fa-github"></i> Code</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/OneSearch-VL/OneSearch-VL-8B"><i class="fas fa-cube"></i> Model</a>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='paper-histprune-gui'></span>
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class='paper-image-wrap'>
-      <div class="badge">arXiv</div>
-      <img src='images/guinav.png' alt="HistPrune-GUI" style="width: 160px; max-height: 200px; object-fit: contain;">
-    </div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>Where and How to Prune: An Empirical Study of Visual Token Pruning for GUI Agent Navigation</div>
-    <div class='paper-authors'>Daiqiang Li, Zihao Pan, Zeyu Zhang, Xuyang Liu, Shijia Xu, Ronghao Chen, Huacan Wang, Honggang Chen, Linfeng Zhang, <strong>Zhangquan Chen</strong>, Haiyun Jiang</div>
-    <div class='paper-venue'>arXiv 2026</div>
-    <div class='paper-links'>
-      <a href="https://arxiv.org/pdf/2603.26041"><i class="fas fa-file-pdf"></i> Paper</a>
-      <span class="link-sep">|</span>
-      <a href="https://github.com/Daiqiang-Li/HistPrune-GUI"><i class="fab fa-github"></i> Code</a>
-      <span class="link-sep">|</span>
-      <a href="https://huggingface.co/lidaiqiang/HistPrune-GUI/tree/main"><i class="fas fa-cube"></i> Model</a>
     </div>
   </div>
 </div>
