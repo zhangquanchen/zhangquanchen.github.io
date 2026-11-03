@@ -1,0 +1,85 @@
+<style>
+.publication-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 20px 0 24px;
+}
+.publication-tabs [role="tab"] {
+  padding: 9px 16px;
+  border: 1px solid #d8dee4;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+.publication-tabs [role="tab"]:hover {
+  border-color: #1675b6;
+}
+.publication-tabs [aria-selected="true"] {
+  background: #1675b6;
+  border-color: #1675b6;
+  color: #fff;
+}
+.publication-tabs [role="tab"]:focus-visible,
+.publication-panel:focus-visible {
+  outline: 2px solid #1675b6;
+  outline-offset: 3px;
+}
+.publication-panel[hidden] {
+  display: none !important;
+}
+</style>
+<script>
+(function () {
+  var tablist = document.querySelector('.publication-tabs');
+  if (!tablist) return;
+  var tabs = Array.prototype.slice.call(tablist.querySelectorAll('[role="tab"]'));
+  var panels = tabs.map(function (tab) {
+    return document.getElementById(tab.getAttribute('aria-controls'));
+  });
+
+  function selectTab(index, focus) {
+    tabs.forEach(function (tab, i) {
+      tab.setAttribute('aria-selected', String(i === index));
+      tab.tabIndex = i === index ? 0 : -1;
+      panels[i].hidden = i !== index;
+    });
+    if (focus) tabs[index].focus();
+  }
+
+  tabs.forEach(function (tab, index) {
+    tab.addEventListener('click', function () { selectTab(index, false); });
+    tab.addEventListener('keydown', function (event) {
+      var next;
+      if (event.key === 'ArrowRight') next = (index + 1) % tabs.length;
+      else if (event.key === 'ArrowLeft') next = (index + tabs.length - 1) % tabs.length;
+      else if (event.key === 'Home') next = 0;
+      else if (event.key === 'End') next = tabs.length - 1;
+      else return;
+      event.preventDefault();
+      selectTab(next, true);
+    });
+  });
+
+  // Reveal the right category when opening a paper from a news or shared link.
+  function revealLinkedPaper() {
+    var id;
+    try { id = decodeURIComponent(window.location.hash.slice(1)); }
+    catch (error) { return; }
+    var target = document.getElementById(id);
+    if (!target) return;
+    var panel = target.closest('.publication-panel');
+    var index = panels.indexOf(panel);
+    if (index === -1) return;
+    selectTab(index, false);
+    target.scrollIntoView({ block: 'start' });
+  }
+
+  selectTab(0, false);
+  revealLinkedPaper();
+  window.addEventListener('hashchange', revealLinkedPaper);
+}());
+</script>

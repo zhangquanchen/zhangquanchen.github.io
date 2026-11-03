@@ -175,7 +175,13 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
 
 # 📝 Selected Publications 
 <!-- <p style="font-size: 0.9em; color: #666; margin-bottom: 1em;">† Equal contribution</p> -->
-## Multimodal Reasoning
+<div class="publication-tabs" role="tablist" aria-label="Publication categories">
+  <button type="button" role="tab" id="tab-reasoning" aria-controls="publications-reasoning" aria-selected="true" tabindex="0">Multimodal Reasoning</button>
+  <button type="button" role="tab" id="tab-agents" aria-controls="publications-agents" aria-selected="false" tabindex="-1">AI Agents</button>
+  <button type="button" role="tab" id="tab-representation" aria-controls="publications-representation" aria-selected="false" tabindex="-1">Visual Representation</button>
+</div>
+
+<div id="publications-reasoning" class="publication-panel" role="tabpanel" aria-labelledby="tab-reasoning" tabindex="0">
 
 <span class='anchor' id='paper-visrl'></span>
 <div class='paper-box'>
@@ -473,7 +479,9 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
-## AI Agents
+</div>
+
+<div id="publications-agents" class="publication-panel" role="tabpanel" aria-labelledby="tab-agents" tabindex="0">
 
 <span class='anchor' id='paper-haprl'></span>
 <div class='paper-box'>
@@ -653,7 +661,9 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
-## Visual Representation
+</div>
+
+<div id="publications-representation" class="publication-panel" role="tabpanel" aria-labelledby="tab-representation" tabindex="0">
 
 <span class='anchor' id='paper-dv-matcher'></span>
 <div class='paper-box'>
@@ -844,6 +854,10 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
     </div>
   </div>
 </div>
+
+</div>
+
+{% include publication-tabs.html %}
 
 <span class='anchor' id='internships'></span>
 
