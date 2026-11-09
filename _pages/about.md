@@ -560,6 +560,30 @@ I am currently seeking suitable collaboration or job opportunities. Feel free to
   </div>
 </div>
 
+<span class='anchor' id='paper-cua-master'></span>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class='paper-image-wrap'>
+      <div class="badge">arXiv</div>
+      <img src='images/cuamaster.png' alt="CUA-Master" style="width: 160px; max-height: 200px; object-fit: contain;">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'>CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements</div>
+    <div class='paper-authors'>Xinlei Yu, Gen Li, Ji Zhao, <strong>Zhangquan Chen</strong>, Congcong Wang, Shuai Dong, Zelin Peng, Yuqi Xu, Hongrui Wu, Kaiwen Tuo, Cheng Yang, Kaituo Feng, Yifan Wu, Jiayi Zhang, Dongming Wu, Wenqi Shao, Jiaqi Wang, Xiangyu Yue</div>
+    <div class='paper-venue'>arXiv 2026</div>
+    <div class='paper-links'>
+      <a href="https://xlyu0106.github.io/CUA-Master/"><i class="fas fa-home"></i> Project page</a>
+      <span class="link-sep">|</span>
+      <a href="https://arxiv.org/pdf/2611.03126"><i class="fas fa-file-pdf"></i> Paper</a>
+      <span class="link-sep">|</span>
+      <a href="https://github.com/xlyu0106/CUA-Master"><i class="fab fa-github"></i> Code</a>
+      <span class="link-sep">|</span>
+      <a href="https://huggingface.co/yxl66666/CUAMaster-27B"><i class="fas fa-cube"></i> Model</a>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='paper-vif'></span>
 <div class='paper-box'>
   <div class='paper-box-image'>
