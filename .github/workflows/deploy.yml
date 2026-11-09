@@ -50,3 +50,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+        with:
+          # Allow extra time when GitHub Pages is slow to sync files.
+          timeout: 1200000
