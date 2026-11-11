@@ -23,6 +23,7 @@ distinguishable so any one of them can be audited or dropped on its own:
 
 Run locally with:  python3 _tools/visitor-globe/sync_visitors.py
 """
+import http.client
 import json
 import os
 import re
@@ -45,6 +46,9 @@ PREFIX = os.environ.get("ABACUS_GEO_PREFIX", "geo_")
 
 SEED_PREFIX = "seed:"
 MAX_RETRIES = 4
+COUNTER_TIMEOUT = 10
+MAX_CONSECUTIVE_COUNTER_FAILURES = 5
+SOURCE_ERRORS = (OSError, http.client.HTTPException, ValueError)
 # Pause once this few requests are left in the current window, rather than
 # guessing a fixed delay: the quota is per IP and may be shared with whatever
 # else the runner is doing.
@@ -110,7 +114,7 @@ def get_json(url, timeout=30, pace=True):
                 delay *= 2
                 continue
             raise
-        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
+        except SOURCE_ERRORS as e:
             if attempt == MAX_RETRIES - 1:
                 raise
             print(f"  {e} on {url}, retrying in {delay:.1f}s")
@@ -183,14 +187,32 @@ def read_recorder(cells, previous):
 
 
 def read_counter(cells, countries):
-    """Fold in the public per-country counter used when the recorder is down."""
+    """Merge reachable country counters; leave unreadable ones for the next run."""
     print(f"sweeping {len(countries)} country counters in '{NAMESPACE}'")
-    for code, meta in sorted(countries.items()):
-        data = get_json(f"{API}/get/{NAMESPACE}/{PREFIX}{code}")
-        value = (data or {}).get("value")
-        if isinstance(value, int) and value > 0:
+    skipped = 0
+    consecutive_failures = 0
+    for processed, (code, meta) in enumerate(sorted(countries.items()), start=1):
+        try:
+            data = get_json(f"{API}/get/{NAMESPACE}/{PREFIX}{code}", timeout=COUNTER_TIMEOUT)
+            # A missing counter (404) is normal for countries with no visits.
+            value = 0 if data is None else data.get("value") if isinstance(data, dict) else None
+            if type(value) is not int or value < 0:
+                raise ValueError("invalid counter response")
+        except SOURCE_ERRORS as e:
+            skipped += 1
+            consecutive_failures += 1
+            print(f"  {code}: {e}; keeping any previous count")
+            if consecutive_failures >= MAX_CONSECUTIVE_COUNTER_FAILURES:
+                skipped += len(countries) - processed
+                print(f"  stopping after {consecutive_failures} consecutive counter failures")
+                break
+            continue
+        consecutive_failures = 0
+        if value > 0:
             keep(cells, code, value, meta["lat"], meta["lon"], meta["name"])
             print(f"  {code} {meta['name']}: {value}")
+    if skipped:
+        print(f"::warning::Abacus sync incomplete ({skipped} country counters skipped); preserved previous data")
 
 
 def main():

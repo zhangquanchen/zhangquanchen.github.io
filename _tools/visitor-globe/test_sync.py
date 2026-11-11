@@ -25,7 +25,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SYNC = os.path.join(HERE, "sync_visitors.py")
 
 # What the stubbed recorders will answer with on the next request.
-STATE = {"counters": {}, "cells": None, "recorder_up": True}
+STATE = {"counters": {}, "cells": None, "recorder_up": True,
+         "country_errors": {}, "country_requests": [], "all_countries_down": False}
 
 
 class Stub(BaseHTTPRequestHandler):
@@ -51,6 +52,11 @@ class Stub(BaseHTTPRequestHandler):
             })
         if self.path.startswith("/get/"):
             key = self.path.rsplit("/", 1)[-1]
+            STATE["country_requests"].append(key)
+            if STATE["all_countries_down"]:
+                return self._send(403, {"error": "unavailable"})
+            if key in STATE["country_errors"]:
+                return self._send(STATE["country_errors"][key], {"error": "unavailable"})
             value = STATE["counters"].get(key)
             if value is None:
                 return self._send(404, {"error": "Key not found"})
@@ -156,6 +162,28 @@ def main():
           (open(snap, encoding="utf-8").read() == before,
            "snapshot unchanged" in out),
           (True, True))
+
+    # 7. One country exhausts retries; later countries still get their updates.
+    STATE["country_errors"] = {"geo_CN": 500}
+    STATE["counters"] = {"geo_CN": 10, "geo_US": 4}
+    out = run_sync(snap, RECORDER)
+    check("keeps the failing country's count and updates later countries",
+          (counts(read(snap))["CN"], counts(read(snap))["US"]), (9, 4))
+    check("reports partial sync as a warning", "1 country counters skipped" in out, True)
+    STATE["country_errors"] = {}
+    run_sync(snap, RECORDER)
+    check("recovers the missed count when Abacus answers again", counts(read(snap))["CN"], 10)
+
+    # 8. A source-wide failure must not spin through every country or rewrite history.
+    STATE["country_requests"].clear()
+    STATE["all_countries_down"] = True
+    with open(snap, encoding="utf-8") as f:
+        before = f.read()
+    out = run_sync(snap, RECORDER)
+    with open(snap, encoding="utf-8") as f:
+        check("keeps the previous snapshot when the country source is unavailable", f.read(), before)
+    check("stops after consecutive failures", len(STATE["country_requests"]), 5)
+    check("warns when the sweep is cut short", "Abacus sync incomplete" in out, True)
 
     print("\nall snapshot merge checks passed")
     return 0
